@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+#subconti {
+    border: 0.3rem black solid;
+}
+
+#navlinks {
+    text-decoration: none;
+    color: black !important;
+}
+
+
+#Navigation1,
+#Navigation2,
+#Navigation3,
+#Navigation4 {
+    list-style-type: none;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+}
+
+#mod01 {
+    color: rgb(225, 0, 0);
+}
+
+#title01 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.0rem;
+}
+
+#Navigation1:hover span,
+#Navigation2:hover span,
+#Navigation3:hover span,
+#Navigation4:hover span {
+    color: rgb(225, 0, 0);
+}
+
+#maincont {
+    height: auto;
+    width: auto;
+    background: linear-gradient(45deg, rgb(210, 210, 210), rgb(151, 151, 151), rgb(123, 123, 123), rgb(180, 180, 180));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
