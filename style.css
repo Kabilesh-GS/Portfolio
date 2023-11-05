@@ -1,44 +1,77 @@
 #maincont {
     width: 100%;
     background: linear-gradient(45deg, #d0cfd5, #979797, #6f6f6f, #d2d2d3);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
+    background-color: #6A6B83;
 }
 
-@keyframes color {
-    0% {
-        background-position: 0 50%;
+#maincont02{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    height: 100hv;
+    font-weight: 600;
     }
-
-    50% {
-        background-position: 100% 50%;
+    #textbox{
+        height: 3rem;
+        margin: auto;
+        overflow: hidden;
     }
-
-    100% {
-        background-position: 0 50%;
+    #textbox ul{
+        margin: 0 0.625rem;
+        padding: 0;
+        animation: movetext 7s infinite;
     }
-
+    #textbox ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        list-style: none;
+    }
+@keyframes movetext{
+    15%,
+    25%{
+        transform: translateY(-25%);
+    }
+    40%,
+    50%{
+        transform: translateY(-50%);
+    }
+    60%,
+    80%{
+        transform: translateY(-75%);
+    }
 }
-
 #subconti {
-    border: solid 0.5rem black;
+    border: solid 0.3rem black;
     margin: 1.5rem;
     padding: 2rem;
 }
 
+#subsubconti03{
+    font-weight: 100;
+}
+
 #title01, #title02 {
-    font-family: 'Lexend', sans-serif;
     color: black;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
 }
 
-#logo01 {
-    font-family: 'Lexend', sans-serif;
-    color: black;
-}
-
-#logo02 {
+#title03{
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#title04{
+    font-size: 2rem;
+}
+
+#logo01,
+#logo02 {
     color: black;
+    font-weight: 900;
+    font-family: 'Lexend', sans-serif;
 }
 
 #listelem {
@@ -56,4 +89,14 @@
 
 #About {
     background-color: #BBBEB9;
+}
+
+#subabout{
+    font-size: x-large;
+    color: black;
+}
+
+#quote{
+    font-size: larger;
+    font-style: italic;
 }
