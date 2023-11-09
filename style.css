@@ -100,3 +100,10 @@
     font-size: larger;
     font-style: italic;
 }
+#html1,
+#figma1,
+#css11,
+#bootstrap11,
+#javascript11{
+    width: 10rem;
+}
