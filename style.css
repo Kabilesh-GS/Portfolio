@@ -107,3 +107,17 @@
 #javascript11{
     width: 10rem;
 }
+#figmacontent,
+#htmlcontent,
+#csscontent,
+#bootstrapcontent,
+#jasccontent{
+    background-color: rgb(221, 223, 220);
+}
+#figmalogo,
+#htmllogo,
+#csslogo,
+#bootsrtaplogo,
+#jasclogo{
+    background-color: #c8cbc6;
+}
