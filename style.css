@@ -104,23 +104,30 @@
 #figma1,
 #css11,
 #bootstrap11,
-#javascript11{
+#javascript11,
+#visual-studio-code11,
+#git1
+{
     width: 10rem;
 }
 #figmacontent,
 #htmlcontent,
 #csscontent,
 #bootstrapcontent,
-#jasccontent{
+#jasccontent,
+#vscontent,
+#gitcontent{
     background-color: rgb(221, 223, 220);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
 }
 #figmalogo,
 #htmllogo,
 #csslogo,
 #bootsrtaplogo,
-#jasclogo{
+#jasclogo,
+#vslogo,
+#gitlogo{
     background-color: #c8cbc6;
 }
