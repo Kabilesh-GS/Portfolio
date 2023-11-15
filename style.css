@@ -1,5 +1,5 @@
 #maincont {
-    background: linear-gradient(231deg,#bbbeb9,#6b6b6b,#929292,#cacaca);
+    background: linear-gradient(231deg,#bbbeb9,#7c7c7c,#9c9c9c,#cacaca);
     background-size: 240% 240%;
     animation: gradient-animation 16s ease infinite;
   }
