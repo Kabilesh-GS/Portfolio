@@ -117,6 +117,7 @@
     font-style: italic;
     color: #001524;
 }
+/*skills and tools*/
 #html1,
 #figma1,
 #css11,
@@ -147,4 +148,8 @@
 #vslogo,
 #gitlogo{
     background-color: #9f9f9f;
+}
+/*timeline*/
+#path01{
+    width: 10%;
 }
