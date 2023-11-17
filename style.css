@@ -1,26 +1,57 @@
+/*home*/
 #maincont {
-    background: linear-gradient(231deg,#bbbeb9,#7c7c7c,#9c9c9c,#cacaca);
-    background-size: 240% 240%;
-    animation: gradient-animation 16s ease infinite;
+    background-color: #FFFFFF;
   }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+
+  #subconti {
+    border: solid 0.3rem #001524;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+#logo01{
+    font-family: 'Francois One', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #001524;
+}
+#navb{
+    font-family: 'Lexend', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #001524;
+    border: none;
+    background-color: #FFFFFF;
+}
+#mod02{
+    color: #CC2936;
+}
+#intro{
+    font-size: 3rem;
+    color: #001524;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+}
+#whatido{
+    font-size: 2rem;
+    color: #001524;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+}
+#andiluvit{
+    font-size: 1.3rem;
+    color: #001524;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+}
+/*about*/
 #maincont02{
     display: flex;
     align-items: center;
     font-size: 2rem;
+    
     height: 100hv;
     font-weight: 600;
+    color: #001524;
     }
 #textbox{
     height: 3rem;
@@ -53,63 +84,38 @@
         transform: translateY(-75%);
     }
 }
-#subconti {
-    border: solid 0.3rem black;
-    margin: 1.5rem;
-    padding: 2rem;
-}
 
 #subsubconti03{
     font-weight: 100;
 }
-
-#title01, #title02 {
-    color: black;
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-}
-
 #title03{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    color: #001524;
 }
 
 #title04{
-    font-size: 2rem;
-}
-
-#logo01,
-#logo02 {
-    color: black;
-    font-weight: 900;
     font-family: 'Lexend', sans-serif;
+    font-size: 2rem;
+    color: #001524;
 }
-
-#listelem {
-    text-decoration: none;
-    color: black !important;
-}
-
 #mod01, #mod06, #mod07 {
-    color: rgb(204, 0, 0);
-}
-
-#mod02:hover span, #mod03:hover span, #mod04:hover span, #mod05:hover span {
-    color: rgb(204, 0, 0) !important;
+    color: #CC2936;
 }
 
 #About {
-    background-color: rgb(190, 190, 190);
+    background-color: #B8BAC8;
 }
 
 #subabout{
     font-size: x-large;
-    color: black;
+    color: #001524;
 }
 
 #quote{
     font-size: larger;
     font-style: italic;
+    color: #001524;
 }
 #html1,
 #figma1,
