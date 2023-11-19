@@ -249,3 +249,47 @@ a:hover{
     cursor: pointer;
 }
 /*timeline iteam-2*/
+#iteam2title{
+    font-family: 'Roboto', sans-serif;
+    color: #001524;
+    font-weight: 700;
+    font-size: 2.15rem;
+    top: 34.4rem;
+    left: -20rem;
+    width: max-content;
+}
+#iteam2title:hover{
+    cursor: pointer;
+}
+#iteam02{
+    width: 30rem;
+    height: auto;
+    left: -35rem;
+    top: 30rem;
+    border: solid #15616D 0.3rem;
+    border-radius: 1rem;
+    display: none;
+}
+#iteam2des{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    background-color: #9f9f9f;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+#item2imgcont{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#item2img{
+    width: 100%;
+    border-radius: 1rem;
+    transition: 6 all ease-in;
+}
+#item2imgcont:hover img{
+    transform: scale(1.5);
+}
