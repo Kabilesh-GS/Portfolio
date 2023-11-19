@@ -43,6 +43,28 @@
     font-family: 'Lexend', sans-serif;
     font-weight: 800;
 }
+#elems:hover span{
+    color: #CC2936 !important;
+}
+#natitle{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #001524;
+    font-family: 'Lexend', sans-serif;
+}
+#elems{
+    color: #001524;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: #001524;
+}
+a:hover{
+    color: #001524 !important;
+}
 /*about*/
 #maincont02{
     display: flex;
