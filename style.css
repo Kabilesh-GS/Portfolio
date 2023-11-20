@@ -216,6 +216,19 @@ a:hover{
     top: 50rem;
     left: -0.8rem;
 }
+#button04:hover{
+    border-radius: 20%;
+    transition: border-radius 0.3s;
+}
+#button04{
+    width: 2rem;
+    height: 2rem;
+    background-color: #FF7D00;
+    border: solid #CC2936 0.4rem;
+    border-radius: 100%;
+    top: 70rem;
+    left: -0.8rem;
+}
 /*timeline iteam-1*/
 #iteam01{
     width: 30rem;
@@ -349,5 +362,50 @@ a:hover{
     transition: 6 all ease-in;
 }
 #item3imgcont:hover img{
+    transform: scale(1.5);
+}
+/*timeline iteam-4*/
+#iteam4title{
+    font-family: 'Roboto', sans-serif;
+    color: #001524;
+    font-weight: 700;
+    font-size: 2.15rem;
+    top: 69.55rem;
+    left: -20rem;
+    width: max-content;
+}
+#iteam4title:hover{
+    cursor: pointer;
+}
+#iteam04{
+    width: 30rem;
+    height: auto;
+    left: -35rem;
+    top: 63rem;
+    border: solid #15616D 0.3rem;
+    border-radius: 1rem;
+    display: none;
+}
+#iteam4des{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    background-color: #9f9f9f;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+#item4imgcont{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#item4img{
+    width: 100%;
+    border-radius: 1rem;
+    transition: 6 all ease-in;
+}
+#item4imgcont:hover img{
     transform: scale(1.5);
 }

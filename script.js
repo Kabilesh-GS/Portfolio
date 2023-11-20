@@ -34,3 +34,15 @@ function appear3(){
   }
 
 };
+function appear4(){
+  var x = document.getElementById("iteam4title");
+  var y = document.getElementById("iteam04");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+
+};
