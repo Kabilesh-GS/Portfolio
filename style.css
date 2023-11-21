@@ -31,6 +31,10 @@
     font-family: 'Lexend', sans-serif;
     font-weight: 800;
 }
+#imageofme{
+    width: 14rem;
+    border-radius: 50%;
+}
 #whatido{
     font-size: 2rem;
     color: #001524;
@@ -178,11 +182,12 @@ a:hover{
     background-color: #000000;
 }
 #button01,#button02,#button03,#button04,#button05,#button06{
-    width: 2rem;
-    height: 2rem;
     background-color: #FF7D00;
     border: solid #CC2936 0.4rem;
     border-radius: 100%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    padding: auto;
 }
 #button01:hover,#button02:hover,#button03:hover,#button04:hover,#button05:hover,#button06:hover{
     border-radius: 20%;
@@ -193,23 +198,23 @@ a:hover{
     left: -0.8rem;
 }
 #button02{
-    top: 30rem;
+    top: 22rem;
     left: -0.8rem;
 }
 #button03{
-    top: 50rem;
+    top: 34rem;
     left: -0.8rem;
 }
 #button04{
-    top: 70rem;
+    top: 46rem;
     left: -0.8rem;
 }
 #button05{
-    top: 90rem;
+    top: 58.5rem;
     left: -0.8rem;
 }
 #button06{
-    top: 107rem;
+    top: 72rem;
     left: -0.8rem;
 }
 /*base iteams*/
@@ -217,7 +222,6 @@ a:hover{
     width: 30rem;
     height: auto;
     border: solid #15616D 0.3rem;
-    border-radius: 1rem;
     display: none;
 }
 #iteam1des,#iteam2des,#iteam3des,#iteam4des,#iteam5des,#iteam6des{
@@ -225,8 +229,7 @@ a:hover{
     font-weight: 700;
     font-size: 1.15rem;
     background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
+
 }
 #item1imgcont,#item2imgcont,#item3imgcont,#item4imgcont,#item5imgcont,#item6imgcont{
     width: auto;
@@ -236,7 +239,6 @@ a:hover{
 }
 #item1img,#item2img,#item3img,#item4img,#item5img,#item6img{
     width: 100%;
-    border-radius: 1rem;
     transition: 6 all ease-in;
 }
 #iteam1title,#iteam2title,#iteam3title,#iteam4title,#iteam5title,#iteam6title{
@@ -263,47 +265,46 @@ a:hover{
 }
 /*timeline iteam-2*/
 #iteam2title{
-    top: 29.55rem;
+    top: 22.55rem;
     left: -20rem;
 }
 #iteam02{
     left: -35rem;
-    top: 22rem;
+    top: 14rem;
 }
 /*timeline iteam-3*/
 #iteam3title{
-    top: 49.55rem;
+    top: 33.55rem;
     left: 10.5rem;
 }
 #iteam03{
-    left: 6rem;
-    top: 42rem;
+    left: 5.3rem;
+    top: 26rem;
 }
 /*timeline iteam-4*/
 #iteam4title{
-    top: 69.55rem;
+    top: 45.55rem;
     left: -20rem;
 }
 #iteam04{
     left: -35rem;
-    top: 63rem;
+    top: 39rem;
 }
 /*timeline iteam-5*/
 #iteam5title{
-    top: 89.55rem;
+    top: 58rem;
     left: 10.5rem;
-
 }
 #iteam05{
-    left: 6rem;
-    top: 82rem;
+    left: 5.3rem;
+    top: 50.5rem;
 }
 /*timeline iteam-6*/
 #iteam6title{
-    top: 106.55rem;
-    left: -20rem;
+    top: 71.55rem;
+    left: -27rem;
 }
 #iteam06{
     left: -35rem;
-    top: 100rem;
+    top: 65rem;
 }
