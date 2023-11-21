@@ -46,3 +46,27 @@ function appear4(){
   }
 
 };
+function appear5(){
+  var x = document.getElementById("iteam5title");
+  var y = document.getElementById("iteam05");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+
+};
+function appear6(){
+  var x = document.getElementById("iteam6title");
+  var y = document.getElementById("iteam06");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+
+};
