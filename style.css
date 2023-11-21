@@ -184,49 +184,29 @@ a:hover{
     border: solid #CC2936 0.4rem;
     border-radius: 100%;
 }
+#button01:hover,#button02:hover,#button03:hover,#button04:hover,#button05:hover,#button06:hover{
+    border-radius: 20%;
+    transition: border-radius 0.3s;
+}
 #button01{
     top: 10rem;
     left: -0.8rem;
-}
-#button01:hover{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
-}
-#button02:hover{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
 }
 #button02{
     top: 30rem;
     left: -0.8rem;
 }
-#button03:hover{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
-}
 #button03{
     top: 50rem;
     left: -0.8rem;
-}
-#button04:hover{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
 }
 #button04{
     top: 70rem;
     left: -0.8rem;
 }
-#button05:hover{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
-}
 #button05{
     top: 90rem;
     left: -0.8rem;
-}
-#button06::content{
-    border-radius: 20%;
-    transition: border-radius 0.3s;
 }
 #button06{
     top: 107rem;
@@ -269,7 +249,7 @@ a:hover{
 #item1imgcont:hover img,#item2imgcont:hover img,#item3imgcont:hover img,#item4imgcont:hover img,#item5imgcont:hover img,#item6imgcont:hover img{
     transform: scale(1.5);
 }
-#iteam5title:hover,#iteam2title:hover,#iteam3title:hover,#iteam4title:hover,#iteam5title:hover,#iteam6title:hover{
+#iteam1title:hover,#iteam2title:hover,#iteam3title:hover,#iteam4title:hover,#iteam5title:hover,#iteam6title:hover{
     cursor: pointer;
 }
 /*timeline iteam-1*/
