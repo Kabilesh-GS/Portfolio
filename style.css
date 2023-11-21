@@ -232,17 +232,15 @@ a:hover{
     top: 107rem;
     left: -0.8rem;
 }
-/*timeline iteam-1*/
-#iteam01{
+/*base iteams*/
+#iteam01,#iteam02,#iteam03,#iteam04,#iteam05,#iteam06{
     width: 30rem;
     height: auto;
-    left: 5rem;
-    top: 1rem;
     border: solid #15616D 0.3rem;
     border-radius: 1rem;
     display: none;
 }
-#iteam1des{
+#iteam1des,#iteam2des,#iteam3des,#iteam4des,#iteam5des,#iteam6des{
     font-family: 'Lexend', sans-serif;
     font-weight: 700;
     font-size: 1.15rem;
@@ -250,255 +248,82 @@ a:hover{
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }
-
-#item1imgcont{
+#item1imgcont,#item2imgcont,#item3imgcont,#item4imgcont,#item5imgcont,#item6imgcont{
     width: auto;
     height: auto;
     overflow: hidden;
     margin: 0 auto;
 }
-#item1img{
+#item1img,#item2img,#item3img,#item4img,#item5img,#item6img{
     width: 100%;
     border-radius: 1rem;
     transition: 6 all ease-in;
 }
-#item1imgcont:hover img{
-    transform: scale(1.5);
-}
-#iteam1title{
+#iteam1title,#iteam2title,#iteam3title,#iteam4title,#iteam5title,#iteam6title{
     font-family: 'Roboto', sans-serif;
     color: #001524;
     font-weight: 700;
     font-size: 2.15rem;
-    top: 9.5rem;
-    left: 10rem;
     width: max-content;
 }
-#iteam1title:hover{
+#item1imgcont:hover img,#item2imgcont:hover img,#item3imgcont:hover img,#item4imgcont:hover img,#item5imgcont:hover img,#item6imgcont:hover img{
+    transform: scale(1.5);
+}
+#iteam5title:hover,#iteam2title:hover,#iteam3title:hover,#iteam4title:hover,#iteam5title:hover,#iteam6title:hover{
     cursor: pointer;
+}
+/*timeline iteam-1*/
+#iteam01{
+    left: 5rem;
+    top: 1rem;
+}
+#iteam1title{
+    top: 9.5rem;
+    left: 10rem;
 }
 /*timeline iteam-2*/
 #iteam2title{
-    font-family: 'Roboto', sans-serif;
-    color: #001524;
-    font-weight: 700;
-    font-size: 2.15rem;
     top: 29.55rem;
     left: -20rem;
-    width: max-content;
-}
-#iteam2title:hover{
-    cursor: pointer;
 }
 #iteam02{
-    width: 30rem;
-    height: auto;
     left: -35rem;
     top: 22rem;
-    border: solid #15616D 0.3rem;
-    border-radius: 1rem;
-    display: none;
-}
-#iteam2des{
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-
-#item2imgcont{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#item2img{
-    width: 100%;
-    border-radius: 1rem;
-    transition: 6 all ease-in;
-}
-#item2imgcont:hover img{
-    transform: scale(1.5);
 }
 /*timeline iteam-3*/
 #iteam3title{
-    font-family: 'Roboto', sans-serif;
-    color: #001524;
-    font-weight: 700;
-    font-size: 2.15rem;
     top: 49.55rem;
     left: 10.5rem;
-    width: max-content;
-}
-#iteam3title:hover{
-    cursor: pointer;
 }
 #iteam03{
-    width: 30rem;
-    height: auto;
     left: 6rem;
     top: 42rem;
-    border: solid #15616D 0.3rem;
-    border-radius: 1rem;
-    display: none;
-}
-#iteam3des{
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-
-#item3imgcont{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#item3img{
-    width: 100%;
-    border-radius: 1rem;
-    transition: 6 all ease-in;
-}
-#item3imgcont:hover img{
-    transform: scale(1.5);
 }
 /*timeline iteam-4*/
 #iteam4title{
-    font-family: 'Roboto', sans-serif;
-    color: #001524;
-    font-weight: 700;
-    font-size: 2.15rem;
     top: 69.55rem;
     left: -20rem;
-    width: max-content;
-}
-#iteam4title:hover{
-    cursor: pointer;
 }
 #iteam04{
-    width: 30rem;
-    height: auto;
     left: -35rem;
     top: 63rem;
-    border: solid #15616D 0.3rem;
-    border-radius: 1rem;
-    display: none;
-}
-#iteam4des{
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-
-#item4imgcont{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#item4img{
-    width: 100%;
-    border-radius: 1rem;
-    transition: 6 all ease-in;
-}
-#item4imgcont:hover img{
-    transform: scale(1.5);
 }
 /*timeline iteam-5*/
 #iteam5title{
-    font-family: 'Roboto', sans-serif;
-    color: #001524;
-    font-weight: 700;
-    font-size: 2.15rem;
     top: 89.55rem;
     left: 10.5rem;
-    width: max-content;
-}
-#iteam5title:hover{
-    cursor: pointer;
+
 }
 #iteam05{
-    width: 30rem;
-    height: auto;
     left: 6rem;
     top: 82rem;
-    border: solid #15616D 0.3rem;
-    border-radius: 1rem;
-    display: none;
-}
-#iteam5des{
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-
-#item5imgcont{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#item5img{
-    width: 100%;
-    border-radius: 1rem;
-    transition: 6 all ease-in;
-}
-#item5imgcont:hover img{
-    transform: scale(1.5);
 }
 /*timeline iteam-6*/
 #iteam6title{
-    font-family: 'Roboto', sans-serif;
-    color: #001524;
-    font-weight: 700;
-    font-size: 2.15rem;
     top: 106.55rem;
     left: -20rem;
-    width: max-content;
-}
-#iteam6title:hover{
-    cursor: pointer;
 }
 #iteam06{
-    width: 30rem;
-    height: auto;
     left: -35rem;
     top: 100rem;
-    border: solid #15616D 0.3rem;
-    border-radius: 1rem;
-    display: none;
-}
-#iteam6des{
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    background-color: #9f9f9f;
-    border-bottom-left-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-
-#item6imgcont{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
-}
-#item6img{
-    width: 100%;
-    border-radius: 1rem;
-    transition: 6 all ease-in;
-}
-#item6imgcont:hover img{
-    transform: scale(1.5);
 }
