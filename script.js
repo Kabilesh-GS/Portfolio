@@ -70,3 +70,15 @@ function appear6(){
   }
 
 };
+function appear7(){
+  var x = document.getElementById("iteam7title");
+  var y = document.getElementById("iteam07");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+
+};
