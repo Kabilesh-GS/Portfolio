@@ -1,28 +1,26 @@
-function appear1(){
-    var x = document.getElementById("iteam1title");
-    var y = document.getElementById("iteam01");
-    if (x.style.display === "none") {
-      x.style.display = "inline-block";
-      y.style.display = "none";
-    } else {
-      x.style.display = "none";
-      y.style.display = "inline-block";
-    }
-
-};
-function appear2(){
-    var x = document.getElementById("iteam2title");
-    var y = document.getElementById("iteam02");
-    if (x.style.display === "none") {
-      x.style.display = "inline-block";
-      y.style.display = "none";
-    } else {
-      x.style.display = "none";
-      y.style.display = "inline-block";
-    }
-
-};
-function appear3(){
+function appear1() {
+  var x = document.getElementById("iteam1title");
+  var y = document.getElementById("iteam01");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+}
+function appear2() {
+  var x = document.getElementById("iteam2title");
+  var y = document.getElementById("iteam02");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+}
+function appear3() {
   var x = document.getElementById("iteam3title");
   var y = document.getElementById("iteam03");
   if (x.style.display === "none") {
@@ -32,9 +30,8 @@ function appear3(){
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-};
-function appear4(){
+}
+function appear4() {
   var x = document.getElementById("iteam4title");
   var y = document.getElementById("iteam04");
   if (x.style.display === "none") {
@@ -44,9 +41,8 @@ function appear4(){
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-};
-function appear5(){
+}
+function appear5() {
   var x = document.getElementById("iteam5title");
   var y = document.getElementById("iteam05");
   if (x.style.display === "none") {
@@ -56,9 +52,8 @@ function appear5(){
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-};
-function appear6(){
+}
+function appear6() {
   var x = document.getElementById("iteam6title");
   var y = document.getElementById("iteam06");
   if (x.style.display === "none") {
@@ -68,9 +63,8 @@ function appear6(){
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-};
-function appear7(){
+}
+function appear7() {
   var x = document.getElementById("iteam7title");
   var y = document.getElementById("iteam07");
   if (x.style.display === "none") {
@@ -80,5 +74,4 @@ function appear7(){
     x.style.display = "none";
     y.style.display = "inline-block";
   }
-
-};
+}
