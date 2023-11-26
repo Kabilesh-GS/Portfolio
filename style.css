@@ -6,7 +6,7 @@
 #subconti {
   border: solid 0.3rem #001524;
   margin: 1.5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 #logo01 {
   font-family: "Francois One", sans-serif;
@@ -413,7 +413,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #001524c4;
+  background-color: #001524e3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,7 +441,7 @@ a:hover {
 #fueldescontain {
   width: 100%;
   height: 100%;
-  background-color: #001524c4;
+  background-color: #001524e3;
   position: absolute;
   display: flex;
   opacity: 0;
@@ -1113,4 +1113,21 @@ a:hover {
     width: 100%;
     display: block;
   }
+}
+#topbutton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: none;
+  color: #001524;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 4rem;
+}
+#topbutton:hover {
+  color: #001524ce;
 }
