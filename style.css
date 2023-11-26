@@ -182,7 +182,7 @@ a:hover {
 #button05,
 #button06,
 #button07 {
-  background-color: #ff7d00;
+  background-color: #cc2936;
   border: solid #cc2936 0.4rem;
   border-radius: 100%;
   font-family: "Lexend", sans-serif;
@@ -229,7 +229,7 @@ a:hover {
 #iteam05,
 #iteam06,
 #iteam07 {
-  width: 10rem;
+  width: 30rem;
   height: auto;
   border: solid #15616d 0.3rem;
   display: none;
@@ -697,10 +697,400 @@ a:hover {
   }
 }
 @media only screen and (min-width: 600px) {
+  #naelements {
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  #Frontendskil,
+  #toolsiknow {
+    flex-direction: column;
+    width: auto;
+  }
+  #iteam1title,
+  #iteam2title,
+  #iteam3title,
+  #iteam4title,
+  #iteam5title,
+  #iteam6title,
+  #iteam7title {
+    font-family: "Roboto", sans-serif;
+    color: #001524;
+    font-weight: 700;
+    font-size: 1.55rem;
+    width: max-content;
+  }
+  #item1img,
+  #item2img,
+  #item3img,
+  #item4img,
+  #item5img,
+  #item6img,
+  #item7img {
+    width: 94%;
+    display: block;
+  }
+  #line {
+    width: 0.2rem;
+    height: 50rem;
+  }
+  #button01,
+  #button02,
+  #button03,
+  #button04,
+  #button05,
+  #button06,
+  #button07 {
+    background-color: #cc2936;
+    border: solid #cc2936 0.3rem;
+  }
+  #button01 {
+    top: 4.55rem;
+  }
+  #button02 {
+    top: 12rem;
+  }
+  #button03 {
+    top: 19.55rem;
+  }
+  #button04 {
+    top: 27rem;
+  }
+  #button05 {
+    top: 34.7rem;
+  }
+  #button06 {
+    top: 42rem;
+  }
+  #button07 {
+    top: 49.8rem;
+  }
+  #iteamdes1,
+  #iteamdes2,
+  #iteamdes3,
+  #iteamdes4,
+  #iteamdes5,
+  #iteamdes6,
+  #iteamdes7 {
+    font-size: 0.8rem;
+  }
+  #iteam01,
+  #iteam02,
+  #iteam03,
+  #iteam04,
+  #iteam05,
+  #iteam06,
+  #iteam07 {
+    width: 15rem;
+    height: auto;
+    border: solid #15616d 0.2rem;
+  }
+  /*timeline iteam-1*/
+  #iteam01 {
+    left: 1.5rem;
+    top: 2rem;
+  }
+  #iteam1title {
+    top: 4.6rem;
+    left: 3rem;
+  }
+  /*timeline iteam-2*/
+  #iteam2title {
+    top: 12rem;
+    left: -8rem;
+  }
+  #iteam02 {
+    left: -17.4rem;
+    top: 10rem;
+  }
+  /*timeline iteam-3*/
+  #iteam3title {
+    top: 19.7rem;
+    left: 3.5rem;
+  }
+  #iteam03 {
+    left: 1.5rem;
+    top: 17rem;
+  }
+  /*timeline iteam-4*/
+  #iteam4title {
+    top: 27rem;
+    left: -6rem;
+  }
+  #iteam04 {
+    left: -17.4rem;
+    top: 24rem;
+  }
+  /*timeline iteam-5*/
+  #iteam5title {
+    top: 35rem;
+    left: 3rem;
+  }
+  #iteam05 {
+    left: 1.5rem;
+    top: 32.5rem;
+  }
+  /*timeline iteam-6*/
+  #iteam6title {
+    top: 42rem;
+    left: -13rem;
+  }
+  #iteam06 {
+    left: -17.4rem;
+    top: 39rem;
+  }
+  /*timeline iteam-7*/
+  #iteam7title {
+    top: 50rem;
+    left: 3rem;
+  }
+  #iteam07 {
+    left: 1.5rem;
+    top: 46.4rem;
+  }
 }
 @media only screen and (min-width: 768px) {
+  #naelements {
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  #Frontendskil,
+  #toolsiknow {
+    flex-direction: column;
+    width: auto;
+  }
 }
 @media only screen and (min-width: 992px) {
+  #naelements {
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  #Frontendskil,
+  #toolsiknow {
+    flex-direction: row;
+    width: auto;
+  }
+  #line {
+    width: 0.3rem;
+    height: 72rem;
+  }
+  #button01 {
+    top: 7.55rem;
+  }
+  #button02 {
+    top: 17rem;
+  }
+  #button03 {
+    top: 26.55rem;
+  }
+  #button04 {
+    top: 36rem;
+  }
+  #button05 {
+    top: 45.5rem;
+  }
+  #button06 {
+    top: 55rem;
+  }
+  #button07 {
+    top: 64.8rem;
+  }
+  /*base iteams*/
+  #iteam01,
+  #iteam02,
+  #iteam03,
+  #iteam04,
+  #iteam05,
+  #iteam06,
+  #iteam07 {
+    width: 25rem;
+    height: auto;
+  }
+  #iteamdes1,
+  #iteamdes2,
+  #iteamdes3,
+  #iteamdes4,
+  #iteamdes5,
+  #iteamdes6,
+  #iteamdes7 {
+    font-size: 1.25rem;
+  }
+  #iteam1title,
+  #iteam2title,
+  #iteam3title,
+  #iteam4title,
+  #iteam5title,
+  #iteam6title,
+  #iteam7title {
+    font-size: 2.15rem;
+  }
+  /*timeline iteam-1*/
+  #iteam01 {
+    left: 5rem;
+    top: 2rem;
+  }
+  #iteam1title {
+    top: 7rem;
+    left: 5rem;
+  }
+  /*timeline iteam-2*/
+  #iteam2title {
+    top: 16.55rem;
+    left: -20rem;
+  }
+  #iteam02 {
+    left: -29rem;
+    top: 12rem;
+  }
+  /*timeline iteam-3*/
+  #iteam3title {
+    top: 26.3rem;
+    left: 5rem;
+  }
+  #iteam03 {
+    left: 5.3rem;
+    top: 21rem;
+  }
+  /*timeline iteam-4*/
+  #iteam4title {
+    top: 35.55rem;
+    left: -17rem;
+  }
+  #iteam04 {
+    left: -29rem;
+    top: 31rem;
+  }
+  /*timeline iteam-5*/
+  #iteam5title {
+    top: 45rem;
+    left: 5rem;
+  }
+  #iteam05 {
+    left: 5.3rem;
+    top: 40.5rem;
+  }
+  /*timeline iteam-6*/
+  #iteam6title {
+    top: 54.79rem;
+    left: -24rem;
+  }
+  #iteam06 {
+    left: -29rem;
+    top: 50rem;
+  }
+  /*timeline iteam-7*/
+  #iteam7title {
+    top: 64.6rem;
+    left: 5rem;
+  }
+  #iteam07 {
+    left: 5.3rem;
+    top: 59.4rem;
+  }
 }
 @media only screen and (min-width: 1200px) {
+  #naelements {
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  #Frontendskil,
+  #toolsiknow {
+    flex-direction: row;
+    width: auto;
+  }
+  #iteam01,
+  #iteam02,
+  #iteam03,
+  #iteam04,
+  #iteam05,
+  #iteam06,
+  #iteam07 {
+    width: 30rem;
+    height: auto;
+  }
+  #iteamdes1,
+  #iteamdes2,
+  #iteamdes3,
+  #iteamdes4,
+  #iteamdes5,
+  #iteamdes6,
+  #iteamdes7 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  #iteam1title,
+  #iteam2title,
+  #iteam3title,
+  #iteam4title,
+  #iteam5title,
+  #iteam6title,
+  #iteam7title {
+    font-size: 2.15rem;
+  }
+  /*timeline iteam-1*/
+  #iteam01 {
+    left: 5rem;
+    top: 1rem;
+  }
+  #iteam1title {
+    top: 7rem;
+    left: 7rem;
+  }
+  /*timeline iteam-2*/
+  #iteam2title {
+    top: 16.55rem;
+    left: -16rem;
+  }
+  #iteam02 {
+    left: -35rem;
+    top: 11rem;
+  }
+  /*timeline iteam-3*/
+  #iteam3title {
+    top: 26.3rem;
+    left: 7rem;
+  }
+  #iteam03 {
+    left: 5.3rem;
+    top: 20rem;
+  }
+  /*timeline iteam-4*/
+  #iteam4title {
+    top: 35.55rem;
+    left: -11rem;
+  }
+  #iteam04 {
+    left: -35rem;
+    top: 30rem;
+  }
+  /*timeline iteam-5*/
+  #iteam5title {
+    top: 45rem;
+    left: 7rem;
+  }
+  #iteam05 {
+    left: 5.3rem;
+    top: 39.5rem;
+  }
+  /*timeline iteam-6*/
+  #iteam6title {
+    top: 54.79rem;
+    left: -22rem;
+  }
+  #iteam06 {
+    left: -35rem;
+    top: 49rem;
+  }
+  /*timeline iteam-7*/
+  #iteam7title {
+    top: 64.6rem;
+    left: 7rem;
+  }
+  #iteam07 {
+    left: 5.3rem;
+    top: 58.4rem;
+  }
 }
