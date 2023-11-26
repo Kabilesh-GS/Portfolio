@@ -273,7 +273,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #001524ad;
+  background-color: #001524e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -989,6 +989,16 @@ a:hover {
     left: 5.3rem;
     top: 59.4rem;
   }
+  #item1img,
+  #item2img,
+  #item3img,
+  #item4img,
+  #item5img,
+  #item6img,
+  #item7img {
+    width: 100%;
+    display: block;
+  }
 }
 @media only screen and (min-width: 1200px) {
   #naelements {
@@ -1008,7 +1018,7 @@ a:hover {
   #iteam05,
   #iteam06,
   #iteam07 {
-    width: 30rem;
+    width: 28rem;
     height: auto;
   }
   #iteamdes1,
@@ -1018,7 +1028,7 @@ a:hover {
   #iteamdes5,
   #iteamdes6,
   #iteamdes7 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     text-align: center;
   }
   #iteam1title,
@@ -1092,5 +1102,15 @@ a:hover {
   #iteam07 {
     left: 5.3rem;
     top: 58.4rem;
+  }
+  #item1img,
+  #item2img,
+  #item3img,
+  #item4img,
+  #item5img,
+  #item6img,
+  #item7img {
+    width: 100%;
+    display: block;
   }
 }
