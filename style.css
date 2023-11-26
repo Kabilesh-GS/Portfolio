@@ -151,20 +151,11 @@ a:hover {
 #bootstrap11,
 #javascript11,
 #visual-studio-code11,
-#git1 {
-  width: 10rem;
-}
-#figmacontent,
-#htmlcontent,
-#csscontent,
-#bootstrapcontent,
-#jasccontent,
-#vscontent,
-#gitcontent {
-  background-color: rgb(190, 190, 190);
-  font-family: "Lexend", sans-serif;
-  font-weight: 700;
-  font-size: 1.15rem;
+#git1,
+#c1,
+#python,
+#gimp {
+  width: 8rem;
 }
 #figmalogo,
 #htmllogo,
@@ -174,6 +165,9 @@ a:hover {
 #vslogo,
 #gitlogo {
   background-color: #9f9f9f;
+}
+#titlesub {
+  font-size: 1.5rem;
 }
 /*timeline*/
 #line {
@@ -235,7 +229,7 @@ a:hover {
 #iteam05,
 #iteam06,
 #iteam07 {
-  width: 30rem;
+  width: 10rem;
   height: auto;
   border: solid #15616d 0.3rem;
   display: none;
@@ -510,4 +504,203 @@ a:hover {
   font-weight: 900;
   font-size: 1rem;
   color: #001524;
+}
+/*media quaries*/
+@media only screen and (max-width: 600px) {
+  #naelements {
+    flex-direction: column;
+    gap: 0rem;
+    margin-top: 2rem;
+  }
+  #Frontendskil,
+  #toolsiknow {
+    flex-direction: column;
+    width: auto;
+  }
+  #iteam1title,
+  #iteam2title,
+  #iteam3title,
+  #iteam4title,
+  #iteam5title,
+  #iteam6title,
+  #iteam7title {
+    font-family: "Roboto", sans-serif;
+    color: #001524;
+    font-weight: 700;
+    font-size: 1.15rem;
+    width: max-content;
+  }
+  #item1img,
+  #item2img,
+  #item3img,
+  #item4img,
+  #item5img,
+  #item6img,
+  #item7img {
+    width: 94%;
+    display: block;
+  }
+  #line {
+    width: 0.2rem;
+    height: 50rem;
+  }
+  #button01,
+  #button02,
+  #button03,
+  #button04,
+  #button05,
+  #button06,
+  #button07 {
+    background-color: #cc2936;
+    border: solid #cc2936 0.3rem;
+  }
+  #button01 {
+    top: 4.55rem;
+  }
+  #button02 {
+    top: 11rem;
+  }
+  #button03 {
+    top: 17.55rem;
+  }
+  #button04 {
+    top: 25rem;
+  }
+  #button05 {
+    top: 32.7rem;
+  }
+  #button06 {
+    top: 40rem;
+  }
+  #button07 {
+    top: 47.8rem;
+  }
+  #iteamdes1,
+  #iteamdes2,
+  #iteamdes3,
+  #iteamdes4,
+  #iteamdes5,
+  #iteamdes6,
+  #iteamdes7 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.3rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  #iteam01,
+  #iteam02,
+  #iteam03,
+  #iteam04,
+  #iteam05,
+  #iteam06,
+  #iteam07 {
+    width: 10rem;
+    height: 5rem;
+    border: solid #15616d 0.2rem;
+    display: none;
+    position: relative;
+  }
+  #iteam1descont,
+  #iteam2descont,
+  #iteam3descont,
+  #iteam4descont,
+  #iteam5descont,
+  #iteam6descont,
+  #iteam7descont {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #001524ad;
+    display: block;
+  }
+  /*timeline iteam-1*/
+  #iteam01 {
+    left: 1.5rem;
+    top: 3rem;
+  }
+  #iteam1title {
+    top: 4.8rem;
+    left: 3rem;
+  }
+  /*timeline iteam-2*/
+  #iteam2title {
+    top: 11.4rem;
+    left: -8rem;
+  }
+  #iteam02 {
+    left: -11.4rem;
+    top: 10rem;
+  }
+  /*timeline iteam-3*/
+  #iteam3title {
+    top: 17.8rem;
+    left: 3.5rem;
+  }
+  #iteam03 {
+    left: 1.5rem;
+    top: 16rem;
+  }
+  /*timeline iteam-4*/
+  #iteam4title {
+    top: 25.5rem;
+    left: -6rem;
+  }
+  #iteam04 {
+    left: -11.4rem;
+    top: 24rem;
+  }
+  /*timeline iteam-5*/
+  #iteam5title {
+    top: 33rem;
+    left: 3rem;
+  }
+  #iteam05 {
+    left: 1.5rem;
+    top: 31.5rem;
+  }
+  /*timeline iteam-6*/
+  #iteam6title {
+    top: 40.5rem;
+    left: -11rem;
+  }
+  #iteam06 {
+    left: -11.4rem;
+    top: 39rem;
+  }
+  /*timeline iteam-7*/
+  #iteam7title {
+    top: 48.4rem;
+    left: 3rem;
+  }
+  #iteam07 {
+    left: 1.5rem;
+    top: 46.4rem;
+  }
+  #projectdes {
+    font-size: 1rem;
+  }
+  #fueldescri,
+  #fueldestitle {
+    font-size: 0.5rem;
+  }
+  #oneplusdescri,
+  #opeplusdestitle {
+    font-size: 0.5rem;
+  }
+  #contacticons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
 }
