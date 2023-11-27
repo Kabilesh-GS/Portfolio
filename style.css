@@ -1132,3 +1132,15 @@ a:hover {
 #topbutton:hover {
   color: #001524ce;
 }
+#greetings {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #001524;
+  font-family: "Lexend", sans-serif;
+}
+#contfin {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #001524;
+  font-family: "Lexend", sans-serif;
+}
