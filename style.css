@@ -506,6 +506,12 @@ a:hover {
   font-size: 1rem;
   color: #001524;
 }
+#endde1 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 900;
+  font-size: 0.7rem;
+  color: #001524;
+}
 /*media quaries*/
 @media only screen and (max-width: 600px) {
   #naelements {
