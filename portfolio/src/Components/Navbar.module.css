@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+}
+.fontsize{
+    font-size: 24px;
+}
+.lexend{
+    font-family: "Lexend Tera", sans-serif;
+}
+.justifybtwn{
+    justify-content: space-between;
+}
+.aligncenter{
+    align-items: center;
+}
+.square{
+    width: 40px;
+    height: 40px;
+    background: #ED3D3D;
+}
+.radius{
+    border-radius: 100%;
+}
+.fixed{
+    position: fixed;
+}
+.deco{
+    text-decoration: none;
+    color: black;
+}
+.margin{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+.gap{
+    gap: 40px;
+}
+.marginleft{
+    margin-left: 14px;
+}
+.pointer{
+    cursor: pointer;
+}
