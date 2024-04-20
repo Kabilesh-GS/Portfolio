@@ -6,7 +6,7 @@ function Navbar() {
     const toggle = () => setIsOpen(!isOpen); 
 
   return (
-    <nav className={`${Navstyle.margin} ${Navstyle.flex} ${Navstyle.justifybtwn}`}>
+    <nav style={{gap : isOpen ? '830px' : '0px'}} className={`${Navstyle.margin} ${Navstyle.justifybtwn} ${Navstyle.flex}`}>
         <a onClick={toggle} className={`${Navstyle.pointer} ${Navstyle.flex} ${Navstyle.aligncenter}`}>
             <div className={`${Navstyle.square} ${Navstyle.radius}`}></div>
             <p className={`${Navstyle.fontsize} ${Navstyle.marginleft} ${Navstyle.lexend} ${Navstyle.bold}`}>Kabi</p>
