@@ -6,12 +6,12 @@ function Navbar() {
     const toggle = () => setIsOpen(!isOpen); 
 
   return (
-    <nav style={{gap : isOpen ? '830px' : '0px'}} className={`${Navstyle.margin} ${Navstyle.justifybtwn} ${Navstyle.flex}`}>
-        <a onClick={toggle} className={`${Navstyle.pointer} ${Navstyle.flex} ${Navstyle.aligncenter}`}>
+    <nav style={{justifyContent : isOpen ? 'space-between' : 'center'}} className={`${Navstyle.margin} ${Navstyle.gap3} ${Navstyle.justifybtwn} ${Navstyle.flex}`}>
+        <a onClick={toggle} className={`${Navstyle.pointer} ${Navstyle.flexlogo} ${Navstyle.aligncenter}`}>
             <div className={`${Navstyle.square} ${Navstyle.radius}`}></div>
-            <p className={`${Navstyle.fontsize} ${Navstyle.marginleft} ${Navstyle.lexend} ${Navstyle.bold}`}>Kabi</p>
+            <p className={`${Navstyle.fontsize} ${Navstyle.marginleft} ${Navstyle.lexend} ${Navstyle.bold}`}>KABI</p>
         </a>
-        <ul type='none' className={`${Navstyle.flex} ${Navstyle.gap} ${Navstyle.aligncenter} ${Navstyle.lexend}`}>
+        <ul type='none' className={`${Navstyle.flex} ${Navstyle.fontsize2} ${Navstyle.gap} ${Navstyle.aligncenter} ${Navstyle.lexend}`}>
             <li style={{display : isOpen ? 'block' : 'none'}}>
                 <a href="#About" className={`${Navstyle.deco}`}>About</a>
             </li>

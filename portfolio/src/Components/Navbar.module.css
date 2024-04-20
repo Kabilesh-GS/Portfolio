@@ -30,6 +30,8 @@
 }
 .margin{
     margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .bold{
     font-weight: bold;
@@ -42,4 +44,42 @@
 }
 .pointer{
     cursor: pointer;
+}
+.fontsize2{
+    font-size: 20px;
+}
+.flexlogo{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .flex{
+        flex-direction: column;
+    }
+    .flexlogo{
+        justify-content: center;
+        align-items: center;
+    }
+    .gap3{
+        gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .flex{
+        flex-direction: column;
+    }
+    .flexlogo{
+        justify-content: center;
+        align-items: center;
+    }
+    .gap3{
+        gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .flex{
+        flex-direction: row;
+    }
 }
