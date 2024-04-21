@@ -21,9 +21,6 @@
 .radius{
     border-radius: 100%;
 }
-.fixed{
-    position: fixed;
-}
 .deco{
     text-decoration: none;
     color: black;
