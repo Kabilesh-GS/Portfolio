@@ -13,6 +13,9 @@
 .aligncenter{
     align-items: center;
 }
+.color{
+    color: white;
+}
 .square{
     width: 46px;
     height: 46px;
@@ -23,7 +26,6 @@
 }
 .deco{
     text-decoration: none;
-    color: black;
 }
 .margin{
     margin-top: 15px;

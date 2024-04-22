@@ -1,6 +1,6 @@
 import React from 'react';
 import imgstyle from './Homeimg.module.css';
-import Kabiimg from '../assets/IMG-20231208-WA0013.jpg';
+import Kabiimg from '../assets/IMG_20231213_100016_0393 1 (1).png';
 
 function Homeimage() {
   return (

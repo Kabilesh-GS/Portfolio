@@ -2,22 +2,13 @@
     width: 899px;
     height: 620px;
     background: rgb(241,241,241);
-    background: linear-gradient(90deg, rgba(241,241,241,1) 38%, rgba(219,190,171,1) 100%);
-    animation: gradient 5s infinite;
+    background: linear-gradient(90deg, #2E2E2E 60%, rgba(219,190,171,0.6) 100%);
 }
-@keyframes gradient {
-    0% {
-      background-position: 38% 100%;
-    }
-    50% {
-      background-position: 50% 50%;
-    }
-    100% {
-      background-position: 100% 38%;
-    }
-  }
 .radius{
     border-radius: 25px;
+}
+.color{
+    color: white;
 }
 .flex{
     display: flex;
@@ -38,7 +29,7 @@
     font-weight: 600;
 }
 .font40px{
-    font-size: 40px;
+    font-size: 41px;
 }
 .questrial{
     font-family: "Questrial", sans-serif;
@@ -53,17 +44,17 @@
     line-height: 134.2%;
 }
 .font25px{
-    font-size: 25px;
+    font-size: 30px;
 }
 .button{
     width: 215px;
     height: 63px;
-    background: black;
+    background: #ED3D3D;
     border: none;
     color: white;
     border-radius: 26px;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     margin-bottom: 43px;
 }

@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
+import Header from './Components/Header';
 import Homeimage from './Components/Homeimage';
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
         <Home />
         <Homeimage />
       </div>
+      <Header className='abouttitle' headertitle='ABOUT' />
+      <div></div>
     </>
   )
 
