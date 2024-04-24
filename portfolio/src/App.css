@@ -5,7 +5,3 @@
 body{
     background-color: #191919;
 }
-.home{
-    display: flex;
-    gap: 20px;
-}

@@ -1,17 +1,12 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import Home from './Components/Home';
+import EntireHome from './Components/EntireHome';
 import Header from './Components/Header';
-import Homeimage from './Components/Homeimage';
-
 function App() {
   return(
     <>
       <Navbar />
-      <div className='home'>
-        <Home />
-        <Homeimage />
-      </div>
+      <EntireHome />
       <Header className='abouttitle' headertitle='ABOUT' />
       <div></div>
     </>

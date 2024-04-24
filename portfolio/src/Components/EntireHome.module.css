@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hometextcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hometextcontainersub{
+    display: flex;
+    gap: 20px;
+}

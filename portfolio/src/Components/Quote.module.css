@@ -1,0 +1,15 @@
+.container{
+    width: 435px;
+    height: 307px;
+    background-color: #2E2E2E;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Sansita Swashed", system-ui;
+    color: white;
+    font-size: 26px;
+}
+.quote{
+    margin: 30px;
+    text-align: center; 
+}
