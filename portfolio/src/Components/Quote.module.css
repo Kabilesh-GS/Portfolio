@@ -13,3 +13,26 @@
     margin: 30px;
     text-align: center; 
 }
+@media only screen and (max-width: 600px){
+    .container{
+        width: 330px;
+        height: 197px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        width: 290px;
+        height: 197px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 435px;
+        height: 307px;
+        font-size: 26px;
+    }
+}

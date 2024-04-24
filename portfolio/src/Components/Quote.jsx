@@ -7,6 +7,6 @@ function Quote() {
         <p className={Quotestyle.quote}>Better three hours too soon than a minute too late.</p>
     </div>
   )
-}
+} 
 
 export default Quote

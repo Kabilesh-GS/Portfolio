@@ -39,3 +39,56 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 600px){
+    .contain{
+        width: 330px;
+        height: 197px;
+    }
+    .map{
+        width: 290px;
+        height: 140px;
+        margin-top: 10px;
+    }
+    .fontsize{
+        font-size: 16px;
+    }
+    .margintop20px{
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .contain{
+        width: 290px;
+        height: 197px;
+    }
+    .map{
+        width: 270px;
+        height: 140px;
+        margin-top: 10px;
+    }
+    .fontsize{
+        font-size: 16px;
+    }
+    .margintop20px{
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contain{
+        width: 440px;
+        height: 307px;
+    }
+    .map{
+        width: 400px;
+        height: 210px;
+        margin-top: 20px;
+    }
+    .fontsize{
+        font-size: 26px;
+    }
+    .margintop20px{
+        padding-top: 20px;
+    }
+}
