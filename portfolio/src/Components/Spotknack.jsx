@@ -1,9 +1,9 @@
 import React from 'react';
-import Spotknackimg from '../assets/images.png';
+import Spotknackimg from '../assets/download 1.png';
 
 function Spotknack() {
   return (
-    <div style={{height: '250px', width: '380px',borderRadius: '25px',background: 'white'}}>
+    <div style={{height: '248px', width: '248px',borderRadius: '25px'}}>
         <center><img src={Spotknackimg} alt='Spotknack' /></center>
     </div>
   )

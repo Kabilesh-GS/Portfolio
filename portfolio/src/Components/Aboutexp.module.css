@@ -1,10 +1,14 @@
 .container{
-    background: #2E2E2E;
-    width: 1053px;
-    height: 250px;
+    background: #2e2e2ea9;
+    width: 1190px;
+    height: 248px;
     border-radius: 25px;
     font-family: "Roboto Flex", sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .role{
     font-family: "Rowdies", sans-serif;
@@ -12,7 +16,14 @@
 }
 .time{
     font-size: 20px;
+    font-weight: lighter;
 }
 .des{
     font-size: 24px;
+    line-height: 134.2%;
+    margin-top: 16px;
+}
+.marginleftright{
+    margin-left: 26px;
+    margin-right: 26px;
 }
