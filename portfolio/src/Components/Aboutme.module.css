@@ -1,0 +1,68 @@
+.container{
+    width: auto;
+    max-width: 1454px;
+    height: 321px;
+    background: #2e2e2ea9;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+}
+.heyeveryone{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.paragraph{
+    font-family: "Questrial", sans-serif;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        margin: 0px 21px 0px 21px;
+        gap: 10px;
+    }
+    .paragraph{
+        font-size: 15px;
+    }
+    .heyeveryone{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        margin: 0px 31px 0px 31px;
+    }
+    .paragraph{
+        font-size: 20px;
+    }
+    .heyeveryone{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px){
+    .paragraph{
+        font-size: 25px;
+    }
+    .heyeveryone{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .paragraph{
+        font-size: 25px;
+    }
+    .heyeveryone{
+        font-size: 40px;
+    }
+}

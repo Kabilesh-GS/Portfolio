@@ -1,5 +1,5 @@
 .contain{
-    width: 440px;
+    width: auto;
     height: 307px;
     background-color: #2e2e2ea9;
     border-radius: 25px;
@@ -29,7 +29,7 @@
     font-weight: lighter;
 }
 .map{
-    width: 400px;
+    width: auto;
     height: 210px;
     border-radius: 15px;
     margin-top: 20px;
@@ -41,12 +41,9 @@
 }
 @media only screen and (max-width: 600px){
     .contain{
-        width: 330px;
-        height: 197px;
+        margin: 0px 20px 0px 20px;
     }
     .map{
-        width: 290px;
-        height: 140px;
         margin-top: 10px;
     }
     .fontsize{
@@ -59,12 +56,9 @@
 
 @media only screen and (min-width: 600px){
     .contain{
-        width: 290px;
-        height: 197px;
+        margin: 0px 0px 0px 31px;
     }
     .map{
-        width: 270px;
-        height: 140px;
         margin-top: 10px;
     }
     .fontsize{
@@ -75,20 +69,37 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
     .contain{
-        width: 440px;
-        height: 307px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .contain{
+        height: 170px;
     }
     .map{
-        width: 400px;
-        height: 210px;
+        height: 110px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .map{
         margin-top: 20px;
+        width: 390px;
+        height: 210px;
     }
     .fontsize{
         font-size: 26px;
     }
     .margintop20px{
         padding-top: 20px;
+    }
+    .contain{
+        margin: 0px 0px 0px 0px;
+        width: 440px;
+        height: 307px;
     }
 }

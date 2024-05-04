@@ -1,5 +1,5 @@
 .maincontainer{
-    width: 899px;
+    width: auto;
     height: 292px;
     background: #2e2e2ea9;
 }
@@ -63,8 +63,7 @@
 }
 @media only screen and (max-width: 600px){
     .maincontainer{
-        width: 330px;
-        height: 192px;
+        margin: 0px 20px 0px 20px;
     }
     .font40px{
         font-size: 21px;
@@ -93,8 +92,7 @@
 
 @media only screen and (min-width: 600px){
     .maincontainer{
-        width: 600px;
-        height: 192px;
+        margin: 0px 31px 0px 31px;
     }
     .font40px{
         font-size: 21px;
@@ -121,13 +119,25 @@
     }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 768px) {
     .maincontainer{
-        width: 899px;
-        height: 292px;
+        margin: 0px 0px 0px 0px;
     }
+}
+
+@media only screen and (min-width: 992px){
+    .maincontainer{
+        height: 180px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
     .font40px{
         font-size: 41px;
+    }
+    .maincontainer{
+        margin: 0px 0px 0px 0px;
+        height: 292px;
     }
     .font25px{
         font-size: 30px;

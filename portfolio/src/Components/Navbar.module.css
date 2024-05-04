@@ -16,6 +16,12 @@
 .color{
     color: white;
 }
+.colormain{
+    color: white;
+}
+.color:hover{
+    color: #ED3D3D;
+}
 .square{
     width: 46px;
     height: 46px;

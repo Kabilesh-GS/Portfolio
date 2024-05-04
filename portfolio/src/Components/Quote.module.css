@@ -1,5 +1,6 @@
 .container{
-    width: 435px;
+    width: auto;
+    max-width: 435px;
     height: 307px;
     background-color: #2e2e2ea9;
     border-radius: 25px;
@@ -15,24 +16,36 @@
 }
 @media only screen and (max-width: 600px){
     .container{
-        width: 330px;
-        height: 197px;
         font-size: 17px;
+        margin: 0px 20px 0px 20px;
     }
 }
 
 @media only screen and (min-width: 600px){
     .container{
-        width: 290px;
-        height: 197px;
-        font-size: 17px;
+        margin: 0px 31px 0px 0px;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .container{
+        margin: 0px 0px 0px 0px;
+    }
+    .container{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        height: 230px;
+    }
+}
+
+
 @media only screen and (min-width: 1200px) {
     .container{
-        width: 435px;
-        height: 307px;
         font-size: 26px;
+        height: 307px;
     }
 }

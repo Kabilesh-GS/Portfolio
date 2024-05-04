@@ -1,14 +1,15 @@
 .img{
     object-fit: cover;
-    width: 535px;
-    height: 619px;
+    width: auto;
+    max-width: 535px;
+    height: auto;
+    max-height: 619px;
     border-radius: 25px;
-    margin-top: 22px;
 }
 @media only screen and (max-width: 600px){
     .img{
-        width: 255px;
-        height: 319px;
+        width: 330px;
+        margin-bottom: 20px;
     }
 }
 
@@ -16,5 +17,14 @@
 
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
+    .img{
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .img{
+        width: 530px;
+    }
 }

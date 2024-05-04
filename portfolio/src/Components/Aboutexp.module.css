@@ -1,6 +1,7 @@
 .container{
     background: #2e2e2ea9;
-    width: 1190px;
+    width: auto;
+    max-width: 1190px;
     height: 248px;
     border-radius: 25px;
     font-family: "Roboto Flex", sans-serif;
@@ -26,4 +27,68 @@
 .marginleftright{
     margin-left: 26px;
     margin-right: 26px;
+}
+
+@media only screen and (max-width: 600px){
+    .role{
+        font-size: 26px;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .container{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .role{
+        font-size: 26px;
+    }
+    .des{
+        font-size: 14px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .container{
+        margin-left: 21px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .role{
+        font-size: 26px;
+    }
+    .des{
+        font-size: 16px;
+    }
+    .time{
+        font-size: 13px;
+    }
+    .container{
+        margin-left: 21px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        margin-left: 31px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .role{
+        font-size: 36px;
+    }
+    .des{
+        font-size: 22px;
+    }
+    .time{
+        font-size: 20px;
+    }
 }
