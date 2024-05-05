@@ -82,6 +82,9 @@
 }
 
 @media only screen and (min-width: 1200px){
+    .container{
+        margin-left: 0px;
+    }
     .role{
         font-size: 36px;
     }
