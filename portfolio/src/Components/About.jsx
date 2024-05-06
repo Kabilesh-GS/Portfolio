@@ -18,7 +18,7 @@ function About() {
       </div>
       <div style={{display:'flex',gap: '20px'}}>
         <Techstack title='Tech Stack' image1={HTML} image2={CSS} image3={JS} image4={REACT} image5={BOOT} image6={GIT}/>
-        <Techstack title='Other Skills' image1={FIGMA} image2={PS} />
+        <Techstack title='Other Skills' image1={FIGMA} image3={PS} />
       </div>
     </div>
   )

@@ -14,6 +14,7 @@ function App() {
       <About />
       <Header className='abouttitle' headertitle='EXPERIENCE' />
       <Experience />
+      <Header className='abouttitle' headertitle='PROJECTS' />
     </>
   )
 
