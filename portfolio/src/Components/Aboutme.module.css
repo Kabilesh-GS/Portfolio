@@ -18,6 +18,7 @@
 .paragraph{
     font-family: "Questrial", sans-serif;
     margin-left: 30px;
+    margin-right: 40px;
     font-weight: lighter;
 }
 @media only screen and (max-width: 600px){
