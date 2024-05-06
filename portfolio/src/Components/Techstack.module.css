@@ -4,3 +4,22 @@
   background: #2e2e2ea9;
   border-radius: 25px;
 }
+.Title{
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  margin-top: 22px;
+  margin-left: 32px;
+}
+.imgcontain{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 35px;
+  flex-direction: column;
+}
+.icons img{
+  width: 95px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
