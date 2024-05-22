@@ -7,17 +7,17 @@ import Quote from './Quote';
 
 function EntireHome() {
   return (
-    <div className={Style.home}>
-        <div className={Style.hometextcontainer}>
-          <Home />
-          <div className={Style.hometextcontainersub}>
-            <Location />
-            <Quote />
+      <div className={Style.home}>
+          <div className={Style.hometextcontainer}>
+            <Home />
+            <div className={Style.hometextcontainersub}>
+              <Location />
+              <Quote />
+            </div>
           </div>
-        </div>
-        <Homeimage />
-    </div>
+          <Homeimage />
+      </div>
   )
 }
 
-export default EntireHome
+export default EntireHome;
