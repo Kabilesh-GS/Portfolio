@@ -12,7 +12,7 @@ import PS from '../assets/photoshop.svg';
 
 function About() {
   return (
-    <div style={{display: 'flex', paddingTop: '15px', paddingBottom: '40px',justifyContent: 'center',flexDirection: 'column', gap: '20px',alignItems: 'center',marginTop: '22px'}}>
+    <div style={{display: 'flex', paddingTop: '15px',justifyContent: 'center',flexDirection: 'column', gap: '20px',alignItems: 'center',marginTop: '22px'}}>
       <div>
         <Aboutme />
       </div>

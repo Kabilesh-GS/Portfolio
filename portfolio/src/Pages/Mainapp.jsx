@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar';
 import EntireHome from '../Components/EntireHome';
 import About from '../Components/About';
 import Experience from '../Components/Experience';
+import Footer from '../Components/Footer';
 
 function Mainapp() {
   return (
@@ -14,6 +15,7 @@ function Mainapp() {
             <Route path="about" element={<About />}/>
             <Route path="experience" element={<Experience />}/>
         </Routes>
+        <Footer />
     </BrowserRouter>
   )
 }
