@@ -19,6 +19,7 @@
     font-family: "Questrial", sans-serif;
     margin-left: 30px;
     margin-right: 40px;
+    line-height: 1.25;
     font-weight: lighter;
 }
 @media only screen and (max-width: 600px){
