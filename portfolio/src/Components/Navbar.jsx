@@ -23,7 +23,7 @@ function Navbar() {
                     <Link to="/experience" className={`${Navstyle.deco} ${Navstyle.color}`}>Experience</Link>
                 </li>
                 <li>
-                    <a href="#Projects" className={`${Navstyle.deco} ${Navstyle.color}`}>Projects</a>
+                    <a href="/projects" className={`${Navstyle.deco} ${Navstyle.color}`}>Projects</a>
                 </li>
                 <li>
                     <a href="#Contact" className={`${Navstyle.deco} ${Navstyle.color}`}>Contact</a>

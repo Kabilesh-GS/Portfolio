@@ -1,0 +1,8 @@
+.containupper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 23px;
+}
