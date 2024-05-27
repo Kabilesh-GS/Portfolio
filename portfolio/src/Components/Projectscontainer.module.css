@@ -1,6 +1,25 @@
 .container{
     background-color: #2e2e2ea9;
     width: 720px;
+    overflow: hidden;
     border-radius: 25px;
-    height: 100px;
+    height: 199px;
+    position: relative;
+}
+.styleheading{
+    color: white;
+    font-family: "Roboto Flex", sans-serif;
+    margin: 25px;
+    font-size: 30px;
+    position: relative;
+    font-weight: 500;
+}
+.widthvideo{ 
+    width: 400px;
+    opacity: 0.35;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    object-fit: contain;
+    rotate: 25deg;
 }

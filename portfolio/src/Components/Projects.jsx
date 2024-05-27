@@ -1,12 +1,13 @@
 import React from 'react';
 import Prostyle from './Project.module.css';
+import Oneplusvideo from '../assets/1Plus.mp4'
 import Projectscontainer from './Projectscontainer';
 
 function Projects() {
   return (
     <div className={Prostyle.containupper}>
-        <Projectscontainer />
-        <Projectscontainer />
+        <Projectscontainer contentheading="OnePlus Clone" videosrc={Oneplusvideo}/>
+        <Projectscontainer contentheading="Fuel Calculator"/>
     </div>
   )
 }
