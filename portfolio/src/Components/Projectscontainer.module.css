@@ -15,11 +15,12 @@
     font-weight: 500;
 }
 .widthvideo{ 
-    width: 400px;
+    width: 500px;
     opacity: 0.4;
     position: absolute;
-    top: -25%;
-    right: -5%;
+    top: -40%;
+    right: -15%;
     object-fit: contain;
     rotate: 25deg;
+    border-radius: 20px;
 }
