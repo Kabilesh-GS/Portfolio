@@ -3,10 +3,10 @@ import Footerstyle from './Footer.module.css';
 
 function Footer() {
   return (
-    <div>
+    <footer className={Footerstyle.footerDiv}>
         <p className={Footerstyle.footer}>Made With 💖 By Me!</p>
         <p className={Footerstyle.lastupdated}>Last updated 27-5-2024</p>
-    </div>
+    </footer>
   )
 }
 
