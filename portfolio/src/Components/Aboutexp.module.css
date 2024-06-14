@@ -1,28 +1,44 @@
-.container{
+.containerMain{
+    width: 800px;
     background: #2e2e2ea9;
-    width: auto;
-    max-width: 1190px;
-    height: 248px;
+    height: auto;
     border-radius: 25px;
     font-family: "Roboto Flex", sans-serif;
     color: white;
     display: flex;
+    flex-direction: row;
+    padding: 20px 0px 20px;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-
+}
+.image{
+    width: 350px;
+    opacity: 0.5;
+    position: absolute;
+    top: -10%;
+    right: -4%;
+    object-fit: contain;
+    rotate: 16deg;
+    filter: blur(1px);
 }
 .role{
     font-family: "Rowdies", sans-serif;
     font-size: 36px;
+    width: 500px;
 }
 .time{
     font-size: 20px;
     font-weight: lighter;
+    width: 500px;
 }
 .des{
-    font-size: 24px;
     line-height: 134.2%;
     margin-top: 16px;
+    width: 500px;
 }
 .marginleftright{
     margin-left: 26px;
@@ -89,7 +105,7 @@
         font-size: 36px;
     }
     .des{
-        font-size: 22px;
+        font-size: 20px;
     }
     .time{
         font-size: 20px;

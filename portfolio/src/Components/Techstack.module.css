@@ -1,5 +1,5 @@
 .container{
-  width: 715px;
+  width: 800px;
   height: 361px;
   background: #2e2e2ea9;
   border-radius: 25px;
@@ -20,6 +20,6 @@
 }
 .icons img{
   width: 95px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
