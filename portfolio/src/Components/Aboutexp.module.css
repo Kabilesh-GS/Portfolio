@@ -16,11 +16,11 @@
     flex-direction: column;
 }
 .image{
-    width: 350px;
+    width: 300px;
     opacity: 0.5;
     position: absolute;
-    top: -10%;
-    right: -4%;
+    top: -4%;
+    right: -3%;
     object-fit: contain;
     rotate: 16deg;
     filter: blur(1px);

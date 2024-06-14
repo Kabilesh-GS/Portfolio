@@ -1,6 +1,6 @@
 .container{
     background-color: #2e2e2ea9;
-    width: 720px;
+    width: 800px;
     overflow: hidden;
     border-radius: 25px;
     height: 199px;
@@ -16,10 +16,10 @@
 }
 .widthvideo{ 
     width: 400px;
-    opacity: 0.35;
+    opacity: 0.4;
     position: absolute;
-    top: -10%;
-    right: 0;
+    top: -25%;
+    right: -5%;
     object-fit: contain;
     rotate: 25deg;
 }
