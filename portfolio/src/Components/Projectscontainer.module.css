@@ -47,3 +47,61 @@
     color: #ED3D3D;
     transition: color 0.3s;
 }
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 260px;
+    }
+    .projectDes{
+        width: auto;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .widthvideo{ 
+        width: 200px;
+        top: 30%;
+        right: -18%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        width: 560px;
+    }
+    .projectDes{
+        width: 400px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .widthvideo{ 
+        width: 300px;
+        top: 5%;
+        right: -8%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 800px;
+    }
+    .projectDes{
+        width: 500px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .widthvideo{ 
+        width: 500px;
+        top: -40%;
+        right: -15%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+}
