@@ -9,7 +9,24 @@
     flex-direction: row;
     padding: 20px 0px 20px;
     overflow: hidden;
+    overflow-x: hidden;
     position: relative;
+}
+.container,
+.image{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
 }
 .container{
     display: flex;

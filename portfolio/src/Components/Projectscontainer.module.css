@@ -6,6 +6,7 @@
     border-radius: 25px;
     height: auto;
     position: relative;
+    overflow-x: hidden;
 }
 .styleheading{
     color: white;
@@ -13,6 +14,24 @@
     font-size: 30px;
     position: relative;
     font-weight: 500;
+}
+.widthvideo,
+.styleheading,
+.projectDes,
+.link{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
 }
 .widthvideo{ 
     width: 500px;

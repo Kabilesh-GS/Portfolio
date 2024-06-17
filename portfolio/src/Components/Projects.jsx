@@ -6,6 +6,7 @@ import RockPaperScissor from '../assets/paper.mp4';
 import todo from '../assets/ToDolist.mp4';
 import linktree from '../assets/link.mp4';
 import fuel from '../assets/fuelcost.mp4';
+import BottomBtn from './BottomBtn';
 
 function Projects() {
   return (
@@ -15,6 +16,7 @@ function Projects() {
         <Projectscontainer contentheading='Fuel Calculator' link='https://kabilesh-gs.github.io/Fuel-Cost-Calculator/' content='This project covers key JavaScript Math concepts and conditional statements. I used these concepts to figure out how to calculate the total cost. Conditional statements help in making decisions based on certain conditions.' videosrc={fuel}/>
         <Projectscontainer contentheading='Rock Paper Scissor' link='https://kabilesh-gs.github.io/Rock-Paper-Scissor/' content="A Rock-Paper-Scissors project lets you play against the computer. You choose rock, paper, or scissors, and the computer randomly picks its move. It's a fun way to learn basic JavaScript concepts." videosrc={RockPaperScissor}/>
         <Projectscontainer contentheading='Connect With Me! ( LinkTree Clone )' link='https://connect-with-kabi.netlify.app/' content='My first react app, where I made my own version of linktree to display all of my socials in one place.' videosrc={linktree}/>
+        <BottomBtn leftCont="Experience" rightCont='Contact' leftToLink="/experience" rightToLink="/contact"/>
     </div>
   )
 }

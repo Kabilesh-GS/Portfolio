@@ -5,11 +5,13 @@ import EntireHome from '../Components/EntireHome';
 import About from '../Components/About';
 import Experience from '../Components/Experience';
 import Footer from '../Components/Footer';
+import AnimatedCursor from "react-animated-cursor";
 import Projects from '../Components/Projects';
 
 function Mainapp() {
   return (
     <BrowserRouter>
+        <AnimatedCursor />
         <Navbar />
         <Routes>
             <Route path="/" element={<EntireHome />}/>

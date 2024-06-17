@@ -8,7 +8,24 @@
     padding: 30px 0px 30px 0px;
     flex-direction: column;
     gap: 17px;
+    overflow-x: hidden;
     justify-content: center;
+}
+.heyeveryone,
+.paragraph{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
 }
 .heyeveryone{
     font-family: "Roboto Flex", sans-serif;

@@ -3,12 +3,29 @@
   height: 361px;
   background: #2e2e2ea9;
   border-radius: 25px;
+  overflow-x: hidden;
 }
 .Title{
   color: white;
   font-family: "Roboto Flex", sans-serif;
   margin-top: 22px;
   margin-left: 32px;
+}
+.Title,
+.icons{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .imgcontain{
   display: flex;
