@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 import EntireHome from '../Components/EntireHome';
 import About from '../Components/About';
 import Experience from '../Components/Experience';
-import Footer from '../Components/Footer';
+
 import AnimatedCursor from "react-animated-cursor";
 import Projects from '../Components/Projects';
 import Contact from '../Components/Contact';
@@ -21,7 +21,7 @@ function Mainapp() {
             <Route path="projects" element={<Projects />}/>
             <Route path='contact' element={<Contact />} />
         </Routes>
-        <Footer />
+        
     </BrowserRouter>
   )
 }
