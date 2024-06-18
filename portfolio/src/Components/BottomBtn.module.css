@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 900px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -33,4 +32,25 @@
 .rightarr,
 .leftarr{
   font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+  .container{
+    width: 250px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .container{
+    width: 550px;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .container{
+    width: 900px;
+    flex-direction: row;
+  }
 }
