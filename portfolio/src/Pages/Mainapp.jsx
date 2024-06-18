@@ -7,6 +7,7 @@ import Experience from '../Components/Experience';
 import Footer from '../Components/Footer';
 import AnimatedCursor from "react-animated-cursor";
 import Projects from '../Components/Projects';
+import Contact from '../Components/Contact';
 
 function Mainapp() {
   return (
@@ -18,6 +19,7 @@ function Mainapp() {
             <Route path="about" element={<About />}/>
             <Route path="experience" element={<Experience />}/>
             <Route path="projects" element={<Projects />}/>
+            <Route path='contact' element={<Contact />} />
         </Routes>
         <Footer />
     </BrowserRouter>
