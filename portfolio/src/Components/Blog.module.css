@@ -1,0 +1,8 @@
+.Container{
+  width: 400px;
+  height: auto;
+  font-family: "Roboto Flex", sans-serif;
+  color: white;
+  background-color: #2e2e2ea9;
+  border-radius: 25px;
+}

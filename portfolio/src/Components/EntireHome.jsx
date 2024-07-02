@@ -4,6 +4,7 @@ import Location from './Location';
 import Home from './Home';
 import Homeimage from './Homeimage';
 import Footer from '../Components/Footer';
+import Blog from './Blog';
 
 function EntireHome() {
   return (
@@ -13,6 +14,7 @@ function EntireHome() {
               <Home />
               <div className={Style.hometextcontainersub}>
                 <Location />
+                <Blog />
               </div>
             </div>
             <Homeimage />
