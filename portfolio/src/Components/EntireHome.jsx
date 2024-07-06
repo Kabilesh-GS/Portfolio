@@ -3,7 +3,6 @@ import Style from './EntireHome.module.css';
 import Location from './Location';
 import Home from './Home';
 import Homeimage from './Homeimage';
-import Footer from '../Components/Footer';
 import Blog from './Blog';
 
 function EntireHome() {
@@ -19,7 +18,6 @@ function EntireHome() {
             </div>
             <Homeimage />
         </div>
-        <Footer />
       </>
   )
 }
