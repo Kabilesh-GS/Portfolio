@@ -4,9 +4,14 @@ import image from '../assets/MediumImage.png'
 
 function Blog() {
   return (
-    <div className={`${BlogStyle.Container}`}>
-        <a href='https://medium.com/@kabileshgs/tale-of-2-cities-in-2-days-bengaluru-and-chikkamagaluru-3618794b8bce' target='_blank'><img className={`${BlogStyle.Image}`} style={{width: '390px'}} src={image} /></a>
-    </div>
+    <a href='https://medium.com/@kabileshgs/tale-of-2-cities-in-2-days-bengaluru-and-chikkamagaluru-3618794b8bce' target='_blank'>
+      <div className={`${BlogStyle.Container}`}>
+        <div className={`${BlogStyle.aboutblog}`}>
+          <p>My Recent Blog !</p>
+        </div>
+        <img className={`${BlogStyle.Image}`} style={{width: '390px'}} src={image} />
+      </div>
+    </a>
   )
 }
 
