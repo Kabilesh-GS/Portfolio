@@ -18,14 +18,14 @@
   opacity: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 13px;
 }
 .aboutblog p{
   opacity: 1;
   font-weight: bolder;
   color: white;
-  margin-top: 110px;
 }
 .aboutblog:hover{
-  opacity: 0.6;
+  opacity: 0.8;
 }
