@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innercontainer{
+  width: 800px;
+  height: auto;
+  background-color: #2e2e2ea9;
+  border-radius: 20px;
+}
+.styleimage{
+  width: 200px;
+}
