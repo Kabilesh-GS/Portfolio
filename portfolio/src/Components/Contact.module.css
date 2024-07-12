@@ -26,20 +26,24 @@
   transform: scale(1.05);
 }
 .bordercontain1:hover{
-  border: solid #17475f 5px;
+  border: solid #17475f 6px;
 }
 .bordercontain2:hover{
-  border: solid #7d7d7d 5px;
+  border: solid #7d7d7d 6px;
 }
 .bordercontain3:hover{
-  border: solid #75322c 5px;
+  border: solid #75322c 6px;
 }
 .bordercontain4:hover{
-  border: solid #7d7d7d 5px;
+  border: solid #7d7d7d 6px;
 }
 .bordercontain5:hover{
-  border: solid #5e2c52 5px;
+  border: solid #5e2c52 6px;
 }
 .bordercontain6:hover{
-  border: solid #171717 5px;
+  border: solid #000000 6px;
+}
+.subcontain{
+  display: flex;
+  gap: 20px;
 }
