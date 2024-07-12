@@ -14,7 +14,7 @@ import BottomBtn from './BottomBtn';
 
 function About() {
   return (
-    <div style={{display: 'flex', paddingTop: '15px',justifyContent: 'center',flexDirection: 'column', gap: '20px',alignItems: 'center',marginTop: '22px'}}>
+    <div style={{display: 'flex',justifyContent: 'center',flexDirection: 'column', gap: '20px',alignItems: 'center'}}>
       <div>
         <Aboutme />
       </div>

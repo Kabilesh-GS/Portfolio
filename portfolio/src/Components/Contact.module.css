@@ -1,0 +1,45 @@
+.bordercontain1,
+.bordercontain2,
+.bordercontain3,
+.bordercontain4,
+.bordercontain5,
+.bordercontain6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordercontain1 a,
+.bordercontain2 a,
+.bordercontain3 a,
+.bordercontain4 a,
+.bordercontain5 a,
+.bordercontain6 a{
+  text-decoration: none;
+}
+.bordercontain1:hover,
+.bordercontain2:hover,
+.bordercontain3:hover,
+.bordercontain4:hover,
+.bordercontain5:hover,
+.bordercontain6:hover{
+  border-radius: 25px;
+  transform: scale(1.05);
+}
+.bordercontain1:hover{
+  border: solid #17475f 5px;
+}
+.bordercontain2:hover{
+  border: solid #7d7d7d 5px;
+}
+.bordercontain3:hover{
+  border: solid #75322c 5px;
+}
+.bordercontain4:hover{
+  border: solid #7d7d7d 5px;
+}
+.bordercontain5:hover{
+  border: solid #5e2c52 5px;
+}
+.bordercontain6:hover{
+  border: solid #171717 5px;
+}
