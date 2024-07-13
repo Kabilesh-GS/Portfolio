@@ -13,7 +13,7 @@
 }
 .styleimage{
   width: 140px;
-  opacity: 0.4;
+  opacity: 0.9;
   position: absolute;
   top: -10%;
   filter: blur(1.4px);
