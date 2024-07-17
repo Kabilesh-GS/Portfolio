@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={Footerstyle.footerDiv}>
         <p className={Footerstyle.footer}>Made With 💖 By Me!</p>
-        <p className={Footerstyle.lastupdated}>Last updated 12-07-2024</p>
+        <p className={Footerstyle.lastupdated}>Last updated 17-07-2024</p>
     </footer>
   )
 }
