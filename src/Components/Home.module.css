@@ -80,6 +80,8 @@
 @media only screen and (max-width: 600px){
     .maincontainer{
         margin: 0px 20px 0px 20px;
+        height: auto;
+        padding-bottom: 20px;
     }
     .font40px{
         font-size: 21px;

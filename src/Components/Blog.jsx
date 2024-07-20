@@ -10,7 +10,7 @@ function Blog() {
           <div className={`${BlogStyle.aboutblog}`}>
             <p>My Recent Blog !</p>
           </div>
-          <img className={`${BlogStyle.Image}`} style={{width: '390px'}} src={image} />
+          <img className={`${BlogStyle.Image}`} src={image} />
         </div>
       </div>
     </a>

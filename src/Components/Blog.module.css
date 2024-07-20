@@ -10,6 +10,9 @@
   justify-content: center;
   overflow: hidden;
 }
+.Image{
+  width: 390px;
+}
 .aboutblog{
   background-color: rgb(0, 0, 0);
   position: absolute;
@@ -45,4 +48,29 @@
 }
 .aboutblog:hover{
   opacity: 0.8;
+}
+@media only screen and (max-width: 600px){
+  .Container{
+    width: 300px;
+  }
+  .Image{
+    width: 300px;
+  }
+  .aboutblog{
+    width: 300px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+
+@media only screen and (min-width: 1200px){
+
 }
