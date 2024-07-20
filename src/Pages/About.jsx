@@ -1,6 +1,6 @@
 import React from 'react';
-import Aboutme from './Aboutme';
-import Techstack from './Techstack';
+import Aboutme from '../Components/Aboutme';
+import Techstack from '../Components/Techstack';
 import HTML from '../assets/html.svg'
 import CSS from '../assets/css.svg';
 import JS from '../assets/javascript.svg';
@@ -10,7 +10,7 @@ import BOOT from '../assets/bootstrap.svg';
 import FIGMA from '../assets/figma.svg';
 import POSTMAN from '../assets/postman.svg'
 import PS from '../assets/photoshop.svg';
-import BottomBtn from './BottomBtn';
+import BottomBtn from '../Components/BottomBtn';
 
 function About() {
   return (

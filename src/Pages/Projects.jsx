@@ -1,12 +1,12 @@
 import React from 'react';
 import Prostyle from './Project.module.css';
 import Oneplusvideo from '../assets/1Plus.mp4'
-import Projectscontainer from './Projectscontainer';
+import Projectscontainer from '../Components/Projectscontainer';
 import RockPaperScissor from '../assets/paper.mp4';
 import todo from '../assets/ToDolist.mp4';
 import linktree from '../assets/link.mp4';
 import fuel from '../assets/fuelcost.mp4';
-import BottomBtn from './BottomBtn';
+import BottomBtn from '../Components/BottomBtn';
 
 function Projects() {
   return (

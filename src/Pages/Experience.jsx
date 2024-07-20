@@ -1,7 +1,7 @@
 import React from 'react';
-import Aboutexperience from './Aboutexperience';
+import Aboutexperience from '../Components/Aboutexperience';
 import Expstyle from './Experience.module.css';
-import BottomBtn from './BottomBtn';
+import BottomBtn from '../Components/BottomBtn';
 
 function Experience() {
   return (

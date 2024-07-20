@@ -1,9 +1,9 @@
 import React from 'react';
 import Style from './EntireHome.module.css';
-import Location from './Location';
-import Home from './Home';
-import Homeimage from './Homeimage';
-import Blog from './Blog';
+import Location from '../Components/Location';
+import Home from '../Components/Home';
+import Homeimage from '../Components/Homeimage';
+import Blog from '../Components/Blog';
 
 function EntireHome() {
   return (

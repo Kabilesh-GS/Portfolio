@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
-import EntireHome from '../Components/EntireHome';
-import About from '../Components/About';
-import Experience from '../Components/Experience';
-import Projects from '../Components/Projects';
-import Contact from '../Components/Contact';
+import EntireHome from './EntireHome';
+import About from './About';
+import Experience from './Experience';
+import Projects from './Projects';
+import Contact from './Contact';
 
 function Mainapp() {
   return (

@@ -1,13 +1,13 @@
 import React from 'react';
-import BottomBtn from './BottomBtn';
+import BottomBtn from '../Components/BottomBtn';
 import ContactStyle from './Contact.module.css';
-import ContactDetails from './ContactDetails';
+import ContactDetails from '../Components/ContactDetails';
 import linkedin from '../assets/linkedin.png';
 import gmail from '../assets/gmail.svg';
 import github from '../assets/github.svg';
 import medium from '../assets/medium.svg';
 import x from '../assets/twitter.svg';
-import Footer from './Footer';
+import Footer from '../Components/Footer';
 import instagram from '../assets/instagram.svg';
 
 function Contact() {
