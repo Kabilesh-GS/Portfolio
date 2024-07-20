@@ -6,10 +6,12 @@ function Blog() {
   return (
     <a href='https://medium.com/@kabileshgs/tale-of-2-cities-in-2-days-bengaluru-and-chikkamagaluru-3618794b8bce' target='_blank'>
       <div className={`${BlogStyle.Container}`}>
-        <div className={`${BlogStyle.aboutblog}`}>
-          <p>My Recent Blog !</p>
+        <div  className={`${BlogStyle.homeblog}`}>
+          <div className={`${BlogStyle.aboutblog}`}>
+            <p>My Recent Blog !</p>
+          </div>
+          <img className={`${BlogStyle.Image}`} style={{width: '390px'}} src={image} />
         </div>
-        <img className={`${BlogStyle.Image}`} style={{width: '390px'}} src={image} />
       </div>
     </a>
   )

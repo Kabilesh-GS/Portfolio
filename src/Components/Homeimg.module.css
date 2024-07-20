@@ -6,6 +6,24 @@
     max-height: 619px;
     border-radius: 25px;
 }
+.imagecont{
+    overflow: hidden;
+}
+.img{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+}
 @media only screen and (max-width: 600px){
     .img{
         width: 330px;

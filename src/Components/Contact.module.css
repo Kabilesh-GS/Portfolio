@@ -26,22 +26,22 @@
   transform: scale(1.05);
 }
 .bordercontain1:hover{
-  border: solid #046fa7 6px;
+  box-shadow: 0 0 20px 10px #046ea7b9;
 }
 .bordercontain2:hover{
-  border: solid #eaeaea 6px;
+  box-shadow: 0 0 20px 10px #eaeaeac5 ;
 }
 .bordercontain3:hover{
-  border: solid #d74134 6px;
+  box-shadow: 0 0 20px 10px #d74234c9 ;
 }
 .bordercontain4:hover{
-  border: solid #eaeaea 6px;
+  box-shadow: 0 0 20px 10px #eaeaeac5;
 }
 .bordercontain5:hover{
-  border: solid #a4328a 6px;
+  box-shadow: 0 0 20px 10px #a43289c4;
 }
 .bordercontain6:hover{
-  border: solid #000000 6px;
+  box-shadow: 0 0 20px 10px #000000b8;
 }
 .subcontain{
   display: flex;

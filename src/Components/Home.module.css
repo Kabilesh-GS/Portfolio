@@ -1,6 +1,7 @@
 .maincontainer{
     width: auto;
     height: 292px;
+    overflow: hidden;
     background-color: #262626;
 }
 .radius{
@@ -8,6 +9,21 @@
 }
 .color{
     color: white;
+}
+.homecont{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
 }
 .flex{
     display: flex;

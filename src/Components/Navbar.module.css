@@ -37,6 +37,9 @@
 .margin{
     margin: 15px 40px 30px 40px;
 }
+.margin1{
+    margin: 15px 65px 30px 65px;
+}
 .transform:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
