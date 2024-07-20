@@ -1,24 +1,27 @@
 @media only screen and (max-width: 600px){
-    .footer{
-        position: fixed;
-        bottom: 0;
-    }
+  .footer{
+    position: fixed;
+    bottom: 0;
+  }
 }
 @media only screen and (min-width: 600px){
 
 }
 @media only screen and (min-width: 768px) {
-
+  .footer{
+    position: fixed;
+    bottom: 0;
+}
 }
 @media only screen and (min-width: 992px){
-    .footer{
-        position: fixed;
-        bottom: 0;
-    }
+  .footer{
+      position: fixed;
+      bottom: 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
-    .footer{
-        position: fixed;
-        bottom: 0;
-    }
+  .footer{
+      position: fixed;
+      bottom: 0;
+  }
 }

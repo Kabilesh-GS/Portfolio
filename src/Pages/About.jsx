@@ -11,6 +11,7 @@ import FIGMA from '../assets/figma.svg';
 import POSTMAN from '../assets/postman.svg'
 import PS from '../assets/photoshop.svg';
 import BottomBtn from '../Components/BottomBtn';
+import Aboutstyle from './About.module.css';
 
 function About() {
   return (
@@ -18,11 +19,13 @@ function About() {
       <div>
         <Aboutme />
       </div>
-      <div style={{display:'flex', flexDirection: 'column',gap: '20px'}}>
+      <div style={{display:'flex', flexDirection: 'column',gap: '20px',paddingBottom: '60px'}}>
         <Techstack title='Tech Stack' image1={HTML} image2={CSS} image3={JS} image4={REACT} image5={BOOT} image6={GIT}/>
         <Techstack title='Other Skills' image1={FIGMA} image3={PS} image5={POSTMAN}/>
       </div>
-      <BottomBtn leftCont="Home" rightCont='Experience' leftToLink="/" rightToLink="/experience"/>
+      <div className={Aboutstyle.footer}>
+        <BottomBtn leftCont="Home" rightCont='Experience' leftToLink="/" rightToLink="/experience"/>
+      </div>
     </div>
   )
 }
