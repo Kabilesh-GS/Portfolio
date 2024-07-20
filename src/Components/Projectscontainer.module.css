@@ -69,11 +69,11 @@
 
 @media only screen and (max-width: 600px){
     .container{
-        width: 260px;
+        width: 300px;
     }
     .projectDes{
         width: auto;
-        margin-left: 15px;
+        margin-left: 25px;
         margin-bottom: 15px;
     }
     .widthvideo{ 
