@@ -1,9 +1,12 @@
 .container{
   width: 800px;
-  height: 361px;
+  height: auto;
   background-color: #262626;
   border-radius: 25px;
   overflow-x: hidden;
+}
+.container::-webkit-scrollbar{
+  display: none;
 }
 .Title{
   color: white;
@@ -88,7 +91,7 @@
 @media only screen and (min-width: 992px){
   .container{
     width: 800px;
-    height: 361px;
+    height: auto;
   }
   .icons img{
     width: 95px;

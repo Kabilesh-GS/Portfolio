@@ -12,6 +12,7 @@ import POSTMAN from '../assets/postman.svg'
 import PS from '../assets/photoshop.svg';
 import BottomBtn from '../Components/BottomBtn';
 import Aboutstyle from './About.module.css';
+import JAVA from '../assets/java.svg';
 
 function About() {
   return (
@@ -20,7 +21,7 @@ function About() {
         <Aboutme />
       </div>
       <div style={{display:'flex', flexDirection: 'column',gap: '20px',paddingBottom: '60px'}}>
-        <Techstack title='Tech Stack' image1={HTML} image2={CSS} image3={JS} image4={REACT} image5={BOOT} image6={GIT}/>
+        <Techstack title='Tech Stack' image1={HTML} image2={CSS} image3={JS} image4={REACT} image5={BOOT} image7={GIT} image6={JAVA}/>
         <Techstack title='Other Skills' image1={FIGMA} image3={PS} image5={POSTMAN}/>
       </div>
       <div className={Aboutstyle.footer}>

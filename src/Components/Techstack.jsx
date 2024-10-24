@@ -16,6 +16,9 @@ function Techstack(props) {
           <img src={props.image5} alt={props.alt5} />
           <img src={props.image6} alt={props.alt6} />
         </div>
+        <div className={Tech.icons} style={{marginTop: "20px"}}>
+          <img src={props.image7} alt={props.alt7} />
+        </div>
       </div>
     </div>
   )
