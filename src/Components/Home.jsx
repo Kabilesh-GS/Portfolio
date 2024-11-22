@@ -6,9 +6,9 @@ function Home() {
   return (
     <div className={`${Homestyle.maincontainer} ${Homestyle.radius} ${Homestyle.flex} ${Homestyle.margin}`}>
         <div className={`${Homestyle.margin53px} ${Homestyle.homecont} ${Homestyle.margin43px} ${Homestyle.color}`}>
-            <p className={`${Homestyle.robotoflex} ${Homestyle.semibold} ${Homestyle.font40px}`}>Hey, I’m Kabilesh a passionate<br />Frontend developer.</p>
+            <p className={`${Homestyle.robotoflex} ${Homestyle.semibold} ${Homestyle.font40px}`}>Hey, I’m Kabilesh !</p>
             <div className={`${Homestyle.flex2}`}>
-              <p className={`${Homestyle.questrial} ${Homestyle.margin16px} ${Homestyle.font25px} ${Homestyle.lineheight}`}>I’m currently working as an Intern <br />at Spotknack. </p>
+              <p className={`${Homestyle.questrial} ${Homestyle.margin16px} ${Homestyle.font25px} ${Homestyle.lineheight}`}>Frontend Developer | AI Enthusiast</p>
               <button className={`${Homestyle.button} ${Homestyle.robotoflex}`}><Link style={{textDecoration:'none', color: 'white'}} to='/contact'>Let's Talk !</Link></button>
             </div>
         </div>
