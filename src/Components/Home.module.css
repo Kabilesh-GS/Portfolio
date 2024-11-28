@@ -38,7 +38,8 @@
     margin-top: 22px;
 }
 .margin16px{
-    margin-top: 50px;
+    margin-top: 40px;
+    width: 510px;
 }
 .robotoflex{
     font-family: "Roboto Flex", sans-serif;
@@ -94,6 +95,9 @@
     }
     .margin43px{
         padding-top: 15px;
+    }
+    .margin16px{
+        width: 200px;
     }
     .button{
         width: 98px;
