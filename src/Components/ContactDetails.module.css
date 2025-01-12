@@ -24,6 +24,7 @@
 .username{
   position: relative;
   color: white;
+  font-family: "Teko", serif;
   font-size: 28px;
   top: 30%;
   margin-left: 25px;

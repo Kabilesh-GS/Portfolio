@@ -8,7 +8,7 @@ import linktree from '../assets/link.mp4';
 import fuel from '../assets/fuelcost.mp4';
 import BottomBtn from '../Components/BottomBtn';
 import DayFinder from  '../assets/dayfindert.mp4';
-import Pokemon from  '../assets/Pokemon.mp4';
+import Pokemon from '../assets/Pokemon.mp4';
 
 function Projects() {
   return (
