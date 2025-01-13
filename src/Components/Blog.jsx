@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogStyle from './Blog.module.css';
-import image from '../assets/MediumImage.png'
+import image from '../assets/MediumBlog.png';
 
 function Blog() {
   return (
