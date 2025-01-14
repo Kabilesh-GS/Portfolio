@@ -4,7 +4,7 @@ import image from '../assets/MediumBlog.png';
 
 function Blog() {
   return (
-    <a href='https://medium.com/@kabileshgs/tale-of-2-cities-in-2-days-bengaluru-and-chikkamagaluru-3618794b8bce' target='_blank'>
+    <a href='https://medium.com/@kabileshgs/gods-own-country-a-fun-fueled-kerala-escape-9aeab52c41a4                ' target='_blank'>
       <div className={`${BlogStyle.Container}`}>
         <div  className={`${BlogStyle.homeblog}`}>
           <div className={`${BlogStyle.aboutblog}`}>
