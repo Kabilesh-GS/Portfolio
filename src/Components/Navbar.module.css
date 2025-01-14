@@ -72,8 +72,14 @@
         justify-content: center;
         align-items: center;
     }
+    .fontsize2{
+        font-size: 13px;
+    }
     .gap3{
-        gap: 40px;
+        gap:40px;
+    }
+    .gap{
+        gap: 20px;
     }
 }
 
@@ -88,10 +94,21 @@
     .gap3{
         gap: 40px;
     }
+    .gap{
+        gap: 20px;
+    }
 }
 
 @media only screen and (min-width: 992px){
     .flex{
         flex-direction: row;
+    }
+    .gap{
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .gap{
+        gap: 40px;
     }
 }

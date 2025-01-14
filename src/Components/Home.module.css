@@ -96,6 +96,9 @@
     .margin43px{
         padding-top: 15px;
     }
+    .questrial{
+        margin-top: 10px;
+    }
     .margin16px{
         width: 200px;
     }
@@ -114,13 +117,19 @@
 
 @media only screen and (min-width: 600px){
     .maincontainer{
-        margin: 0px 31px 0px 31px;
+        margin: 0px 0px 0px 0px;
+        width: 550px;
+        margin-top: 20px;
+        height: 170px;
     }
     .font40px{
-        font-size: 21px;
+        font-size: 28px;
+    }
+    .questrial{
+        margin-top: 20px;
     }
     .font25px{
-        font-size: 15px;
+        font-size: 21px;
     }
     .margin53px{
         margin-left: 15px;
@@ -143,13 +152,14 @@
 
 @media only screen and (min-width: 768px) {
     .maincontainer{
-        margin: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
     }
 }
 
 @media only screen and (min-width: 992px){
     .maincontainer{
         height: 180px;
+        width: auto;
     }
 }
 
@@ -170,15 +180,19 @@
     .margin43px{
         padding-top: 43px;
     }
+    .questrial{
+        margin-top: 0px;
+    }
     .button{
         width: 178px;
         height: 53px;
         font-size: 20px;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .flex2{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 55px;
     }
 }
