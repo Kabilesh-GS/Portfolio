@@ -3,6 +3,6 @@ Welcome to my GitHub portfolio repository! This repository contains a collection
 <ul>
   <li>This portfolio is made using React and it's libraries.</li>
   <li>The site is hosted using netlify.</li>
-</ul><br><br>
+</ul><br>
 <a href="https://kabiwebfolio.netlify.app/" target="_blank">Kabi's webfolio</a><br><br>
 Thank you for visiting my portfolio! I'm always open to feedback!!
