@@ -8,7 +8,7 @@ function Blog() {
       <div className={`${BlogStyle.Container}`}>
         <div  className={`${BlogStyle.homeblog}`}>
           <div className={`${BlogStyle.aboutblog}`}>
-            <p>My Recent Blog !</p>
+            <p>Check out my Blog !</p>
           </div>
           <img className={`${BlogStyle.Image}`} src={image} />
         </div>
