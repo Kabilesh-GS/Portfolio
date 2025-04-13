@@ -59,7 +59,9 @@
 .link{
     position: relative;
     margin-left: 25px;
-    font-size: 17px;
+    font-size: 22px;
+    display: flex;
+    gap: 15px;
     margin-bottom: 25px;
 }
 .link a:hover{
