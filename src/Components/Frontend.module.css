@@ -1,0 +1,32 @@
+.container{
+  width: 800px;
+  height: auto;
+  background-color: #262626;
+  border-radius: 25px;
+  overflow-x: hidden;
+}
+.logocont img{
+  width: 80px;
+}
+.logocont,
+.title{
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.title{
+  padding-bottom: 15px;
+  color: wheat;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
