@@ -23,10 +23,10 @@ function Navbar() {
                     <Link to="/experience" className={`${Navstyle.deco} ${Navstyle.transform} ${Navstyle.color}`}>Experience</Link>
                 </li>
                 <li className={`${Navstyle.transform}`}>
-                    <a href="/projects" className={`${Navstyle.deco} ${Navstyle.transform} ${Navstyle.color}`}>Projects</a>
+                    <Link to="/projects" className={`${Navstyle.deco} ${Navstyle.transform} ${Navstyle.color}`}>Projects</Link>
                 </li>
                 <li className={`${Navstyle.transform}`}>
-                    <a href="/contact" className={`${Navstyle.deco} ${Navstyle.transform} ${Navstyle.color}`}>Contact</a>
+                    <Link to="/contact" className={`${Navstyle.deco} ${Navstyle.transform} ${Navstyle.color}`}>Contact</Link>
                 </li>
             </ul>
         </nav>
