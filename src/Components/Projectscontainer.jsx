@@ -3,15 +3,15 @@ import Projectstyle from './Projectscontainer.module.css';
 import { IoLink } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 
-function Projectscontainer(props) {
+function Projectscontainer({videosrc,content,contentheading,link,repolink}) {
   return (
-    <div className={Projectstyle.container}>
-      <video autoPlay={true} muted={true} loop={true} className={Projectstyle.widthvideo} src={props.videosrc}/>
-      <p className={Projectstyle.styleheading}>{props.contentheading}</p>
-      <p className={Projectstyle.projectDes}>{props.content}</p>
+    content && <div className={Projectstyle.container}>
+      <video autoPlay={true} muted={true} loop={true} className={Projectstyle.widthvideo} src={videosrc}/>
+      <p className={Projectstyle.styleheading}>{contentheading}</p>
+      <p className={Projectstyle.projectDes}>{content}</p>
       <p className={Projectstyle.link}>
-        <a target='_blank' href={props.link}><IoLink /></a>
-        <a target='_blank' href={props.repolink}><FaGithub /></a>
+        <a target='_blank' href={link}><IoLink /></a>
+        <a target='_blank' href={repolink}><FaGithub /></a>
       </p>
     </div>
   )

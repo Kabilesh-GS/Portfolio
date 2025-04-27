@@ -29,9 +29,6 @@ function About() {
         <Programming logo1={JAVA} logo2={PYTHON}/>
         <Other logo1={GIT} logo2={POSTMAN} logo3={FIGMA} logo4={PS}/>
       </div>
-      <div className={Aboutstyle.footer}>
-        <BottomBtn leftCont="Home" rightCont='Experience' leftToLink="/" rightToLink="/experience"/>
-      </div>
     </div>
   )
 }

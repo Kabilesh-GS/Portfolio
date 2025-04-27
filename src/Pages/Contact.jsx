@@ -26,9 +26,6 @@ function Contact() {
           <div className={ContactStyle.bordercontain5}><a href='https://www.instagram.com/kabil.1507?igsh=MTNjaGhhdDZscjJwOA==' target='_blank'><ContactDetails username='@kabil.1507' logo={instagram} /></a></div>
           <div className={ContactStyle.bordercontain6}><a href='https://x.com/Kabi0704?s=09' target='_blank'><ContactDetails username='@kabi0704' logo={x} /></a></div>
         </div>
-        <div className={ContactStyle.footer}>
-          <BottomBtn leftCont="Projects" rightCont='Home' leftToLink="/projects" rightToLink="/" />
-        </div>
         <Footer />
       </div>
     </>
