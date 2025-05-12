@@ -1,13 +1,11 @@
-import React from "react";
 import Prostyle from "./Project.module.css";
 import Oneplusvideo from "../assets/1Plus.mp4";
 import Projectscontainer from "../Components/Projectscontainer";
 import RockPaperScissor from "../assets/paper.mp4";
 import linktree from "../assets/link.mp4";
 import fuel from "../assets/fuelcost.mp4";
-import BottomBtn from "../Components/BottomBtn";
-import Pokemon from "../assets/Pokemon.mp4";
 import ChatAI from "../assets/BOTAI.mp4";
+import PokemonVideo from '../assets/PokemonV.mp4'
 
 function Projects() {
   const projectArray = [
@@ -34,6 +32,14 @@ function Projects() {
       content:
         "My first react app, where I made my own version of linktree to display all of my socials in one place.",
       video: linktree ,
+    },
+    {
+      repolink: "https://github.com/Kabilesh-GS/Pokemon-Finder",
+      contentheading: "Pokemon Cards Generator",
+      link: "https://pokemoncrds.netlify.app/",
+      content:
+        "An Project made to get familiarise with APIs (fetching data from it), hooks (useState & useEffect) and Browser-Router package for navigation.",
+      video: PokemonVideo ,
     },
     {
       repolink: "https://github.com/Kabilesh-GS/Rock-Paper-Scissor",
