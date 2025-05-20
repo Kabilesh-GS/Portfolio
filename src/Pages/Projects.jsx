@@ -1,9 +1,6 @@
 import Prostyle from "./Project.module.css";
 import Oneplusvideo from "../assets/1Plus.mp4";
 import Projectscontainer from "../Components/Projectscontainer";
-import RockPaperScissor from "../assets/paper.mp4";
-import linktree from "../assets/link.mp4";
-import fuel from "../assets/fuelcost.mp4";
 import ChatAI from "../assets/BOTAI.mp4";
 import PokemonVideo from '../assets/PokemonV.mp4'
 
@@ -26,36 +23,12 @@ function Projects() {
       video: ChatAI ,
     },
     {
-      repolink: "https://github.com/Kabilesh-GS/Connect-With-Me",
-      contentheading: "Connect With Me! ( LinkTree Clone )",
-      link: "https://connect-with-kabi.netlify.app/",
-      content:
-        "My first react app, where I made my own version of linktree to display all of my socials in one place.",
-      video: linktree ,
-    },
-    {
       repolink: "https://github.com/Kabilesh-GS/Pokemon-Finder",
       contentheading: "Pokemon Cards Generator",
       link: "https://pokemoncrds.netlify.app/",
       content:
         "An Project made to get familiarise with APIs (fetching data from it), hooks (useState & useEffect) and Browser-Router package for navigation.",
       video: PokemonVideo ,
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Rock-Paper-Scissor",
-      contentheading: "Rock Paper Scissor",
-      link: "https://kabilesh-gs.github.io/Rock-Paper-Scissor/",
-      content:
-        "A Rock-Paper-Scissors project lets you play against the computer. You choose rock, paper, or scissors, and the computer randomly picks its move. It's a fun way to learn basic JavaScript concepts.",
-      video: RockPaperScissor,
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Fuel-Cost-Calculator",
-      contentheading: "Fuel Calculator",
-      link: "https://kabilesh-gs.github.io/Fuel-Cost-Calculator/",
-      content:
-        "This project covers key JavaScript Math concepts and conditional statements. I used these concepts to figure out how to calculate the total cost. Conditional statements help in making decisions based on certain conditions.",
-      video: fuel ,
     },
   ];
 
