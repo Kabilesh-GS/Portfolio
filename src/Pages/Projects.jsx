@@ -19,7 +19,7 @@ function Projects() {
       contentheading: "Chat ft.AI",
       link: "https://chat-ft-ai.netlify.app/",
       content:
-        "A Chat-bot created using Gemini 1.5 flash API model. The request handeling is done by axios and formatting the code is done by ReactMarkdown packages.",
+        "A Chat-bot created using Gemini model. The request handeling is done by axios and formatting the code is done by ReactMarkdown packages.",
       video: ChatAI ,
     },
     {
