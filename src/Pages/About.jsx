@@ -17,6 +17,9 @@ import PS from '../assets/photoshop.svg';
 import TAILWIND from '../assets/tailwind-css.svg';
 import JAVA from '../assets/java.svg';
 import PYTHON from '../assets/python.svg';
+import Backend from '../Components/Backend';
+import firebase from '../assets/firebase.svg'
+import Sass from '../assets/sass.svg'
 
 function About() {
   return (
@@ -25,7 +28,8 @@ function About() {
         <Aboutme />
       </div>
       <div style={{display:'flex', flexDirection: 'column',gap: '20px',paddingBottom: '60px'}}>
-        <Frontend logo1={HTML} logo2={CSS} logo3={JS} logo4={REACT} logo5={BOOT} logo6={TAILWIND} />
+        <Frontend logo1={HTML} logo2={Sass} logo3={JS} logo4={REACT} logo5={BOOT} logo6={TAILWIND} />
+        <Backend logo1={firebase}/>
         <Programming logo1={JAVA} logo2={PYTHON}/>
         <Other logo1={GIT} logo2={POSTMAN} logo3={FIGMA} logo4={PS}/>
       </div>
