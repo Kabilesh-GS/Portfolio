@@ -19,7 +19,7 @@ function Projects() {
       contentheading: "OnePlus Clone",
       link: "https://kabilesh-gs.github.io/OnePlus/",
       content:
-        "This is the first project I made using HTML, CSS, Bootstrap and JS. While working on this project I learned many things about frontend and how JS is used in making webpages.",
+        "This is the first project I made using HTML, CSS, Bootstrap and JS. While working on this project I learned many things about frontend and strengthened my basics.",
       video: Oneplusvideo,
       Tech3: JavaScript,
       Tech1: Html,
@@ -31,7 +31,7 @@ function Projects() {
       contentheading: "Chat ft.AI",
       link: "https://chat-ft-ai.netlify.app/",
       content:
-        "A Chat-bot created using Gemini model. The request handeling is done by axios and formatting the code is done by ReactMarkdown packages.",
+        "A Chat-bot created using Gemini model. Request handeling is done by axios and formatting the code is done by ReactMarkdown packages. User authentication is done with the help of firebase and stored in firestore.",
       video: ChatAI ,
       Tech1: React,
       Tech2: Tailwind,
