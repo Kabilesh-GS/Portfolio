@@ -1,136 +1,135 @@
-.container{
-    background-color: #262626;
-    width: 800px;
-    font-family: "Roboto Flex", sans-serif;
-    overflow: hidden;
-    border-radius: 25px;
-    height: auto;
-    position: relative;
-    overflow-x: hidden;
+.container {
+  background-color: #262626;
+  width: 800px;
+  font-family: "Roboto Flex", sans-serif;
+  overflow: hidden;
+  border-radius: 25px;
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
 }
-.TechStack{
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    color: white;
-    gap: 8px;
+.TechStack {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  color: white;
+  gap: 8px;
 }
-.TechStack img{
-    width: 20px;
+.TechStack img {
+  width: 20px;
 }
-.styleheading{
-    color: white;
-    margin: 25px 0px 10px 25px;
-    font-size: 30px;
-    position: relative;
-    font-weight: 500;
+.styleheading {
+  color: white;
+  margin: 25px 0px 10px 25px;
+  font-size: 30px;
+  position: relative;
+  font-weight: 500;
 }
 .widthvideo,
 .styleheading,
 .projectDes,
 .TechStack,
-.link{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
+.link {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 @keyframes slideInRight {
-    from {
-      transform: translate3d(100%, 0, 0);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
-.widthvideo{ 
-    width: 500px;
-    opacity: 0.4;
-    position: absolute;
-    top: -40%;
-    filter: blur(1.4px);
-    right: -15%;
-    object-fit: contain;
-    rotate: 25deg;
-    border-radius: 10px;
+.widthvideo {
+  width: 500px;
+  opacity: 0.4;
+  position: absolute;
+  top: -40%;
+  filter: blur(1.4px);
+  right: -15%;
+  object-fit: contain;
+  rotate: 25deg;
+  border-radius: 10px;
 }
-.projectDes{
-    position: relative;
-    width: 500px;
-    color: white;
-    font-size: 20px;
+.projectDes {
+  position: relative;
+  width: 500px;
+  color: white;
+  font-size: 20px;
 }
-.link a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.553);
+.link a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.553);
 }
-.link{
-    position: relative;
-    font-size: 22px;
-    display: flex;
-    gap: 15px;
-    margin: 13px 25px;
+.link {
+  position: relative;
+  font-size: 22px;
+  display: flex;
+  gap: 15px;
+  margin: 13px 25px;
 }
-.link a:hover{
-    color: #ED3D3D;
-    transition: color 0.3s;
+.link a:hover {
+  color: #ed3d3d;
+  transition: color 0.3s;
 }
 
-@media only screen and (max-width: 600px){
-    .container{
-        width: 300px;
-    }
-    .projectDes{
-        width: auto;
-        margin-left: 25px;
-        margin-bottom: 10px;
-    }
-    .widthvideo{ 
-        width: 200px;
-        top: 30%;
-        right: -18%;
-    }
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+  .projectDes {
+    width: auto;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .widthvideo {
+    width: 200px;
+    top: 30%;
+    right: -18%;
+  }
 }
 
-@media only screen and (min-width: 600px){
-    .container{
-        width: 560px;
-    }
-    .projectDes{
-        width: 400px;
-        margin-left: 25px;
-        margin-bottom: 15px;
-    }
-    .widthvideo{ 
-        width: 300px;
-        top: 5%;
-        right: -8%;
-    }
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 560px;
+  }
+  .projectDes {
+    width: 400px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  .widthvideo {
+    width: 300px;
+    top: 5%;
+    right: -8%;
+  }
 }
 
-@media only screen and (min-width: 768px){
-    .container{
-        width: 650px;
-    }
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 650px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .container{
-        width: 800px;
-    }
-    .projectDes{
-        width: 500px;
-        margin-left: 25px;
-        margin-bottom: 15px;
-    }
-    .widthvideo{ 
-        width: 500px;
-        top: -40%;
-        right: -15%;
-    }
+  .container {
+    width: 800px;
+  }
+  .projectDes {
+    width: 500px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  .widthvideo {
+    width: 500px;
+    top: -40%;
+    right: -15%;
+  }
 }
 
-@media only screen and (min-width: 1200px){
-
+@media only screen and (min-width: 1200px) {
 }

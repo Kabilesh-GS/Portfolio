@@ -1,198 +1,231 @@
-.maincontainer{
-    width: auto;
-    height: 292px;
-    overflow: hidden;
-    background-color: #262626;
+.maincontainer {
+  width: auto;
+  height: 292px;
+  overflow: hidden;
+  background-color: #262626;
 }
-.radius{
-    border-radius: 25px;
+.radius {
+  border-radius: 25px;
 }
-.color{
-    color: white;
+.color {
+  color: white;
 }
-.homecont{
-    animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-fill-mode: both;
+.homecont {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 @keyframes slideInRight {
-    from {
-      transform: translate3d(100%, 0, 0);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
-.flex{
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.margin {
+  margin-top: 22px;
+}
+.margin16px {
+  margin-top: 40px;
+  width: 510px;
+}
+.robotoflex {
+  font-family: "Roboto Flex", sans-serif;
+}
+.semibold {
+  font-weight: 600;
+}
+.font40px {
+  font-size: 41px;
+}
+.questrial {
+  font-family: "Questrial", sans-serif;
+}
+.margin53px {
+  margin-left: 53px;
+}
+.margin43px {
+  padding-top: 43px;
+}
+.lineheight {
+  line-height: 134.2%;
+}
+.font25px {
+  font-size: 30px;
+}
+.button {
+  width: 178px;
+  height: 53px;
+  background: #ed3d3d;
+  border: none;
+  color: white;
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 52px;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .maincontainer {
+    margin: 0px 20px 0px 20px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .font40px {
+    font-size: 21px;
+  }
+  .font25px {
+    font-size: 15px;
+  }
+  .margin53px {
+    margin-left: 15px;
+  }
+  .margin43px {
+    padding-top: 15px;
+  }
+  .questrial {
+    margin-top: 10px;
+  }
+  .margin16px {
+    width: 200px;
+  }
+  .button {
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .flex2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-.flex2{
-    display: flex;
-    justify-content: space-between;
-}
-.margin{
-    margin-top: 22px;
-}
-.margin16px{
-    margin-top: 40px;
-    width: 510px;
-}
-.robotoflex{
-    font-family: "Roboto Flex", sans-serif;
-}
-.semibold{
-    font-weight: 600;
-}
-.font40px{
-    font-size: 41px;
-}
-.questrial{
-    font-family: "Questrial", sans-serif;
-}
-.margin53px{
-    margin-left: 53px;
-}
-.margin43px{
-    padding-top: 43px;
-}
-.lineheight{
-    line-height: 134.2%;
-}
-.font25px{
-    font-size: 30px;
-}
-.button{
-    width: 178px;
-    height: 53px;
-    background: #ED3D3D;
-    border: none;
-    color: white;
-    border-radius: 26px;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    margin-right: 52px;
-    margin-top: 40px;
-}
-@media only screen and (max-width: 600px){
-    .maincontainer{
-        margin: 0px 20px 0px 20px;
-        height: auto;
-        padding-bottom: 20px;
-    }
-    .font40px{
-        font-size: 21px;
-    }
-    .font25px{
-        font-size: 15px;
-    }
-    .margin53px{
-        margin-left: 15px;
-    }
-    .margin43px{
-        padding-top: 15px;
-    }
-    .questrial{
-        margin-top: 10px;
-    }
-    .margin16px{
-        width: 200px;
-    }
-    .button{
-        width: 98px;
-        height: 33px;
-        font-size: 10px;
-        margin-top: 15px;
-    }
-    .flex2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    justify-content: center;
+  }
 }
 
-@media only screen and (min-width: 600px){
-    .maincontainer{
-        margin: 0px 0px 0px 0px;
-        width: 550px;
-        margin-top: 20px;
-        height: 170px;
-    }
-    .font40px{
-        font-size: 28px;
-    }
-    .questrial{
-        margin-top: 20px;
-    }
-    .font25px{
-        font-size: 21px;
-    }
-    .margin53px{
-        margin-left: 15px;
-    }
-    .margin43px{
-        padding-top: 15px;
-    }
-    .button{
-        width: 98px;
-        height: 33px;
-        font-size: 10px;
-        margin-top: 15px;
-    }
-    .flex2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+@media only screen and (min-width: 600px) {
+  .maincontainer {
+    margin: 0px 0px 0px 0px;
+    width: 550px;
+    margin-top: 20px;
+    height: 170px;
+  }
+  .font40px {
+    font-size: 28px;
+  }
+  .questrial {
+    margin-top: 20px;
+  }
+  .font25px {
+    font-size: 21px;
+  }
+  .margin53px {
+    margin-left: 15px;
+  }
+  .margin43px {
+    padding-top: 15px;
+  }
+  .button {
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .maincontainer{
-        margin: 20px 0px 0px 0px;
-    }
+  .maincontainer {
+    margin: 20px 0px 0px 0px;
+  }
 }
 
-@media only screen and (min-width: 992px){
-    .maincontainer{
-        height: 180px;
-        width: auto;
-    }
+@media only screen and (min-width: 992px) {
+  .maincontainer {
+    height: 180px;
+    width: auto;
+  }
 }
 
-@media only screen and (min-width: 1200px){
-    .font40px{
-        font-size: 41px;
-    }
-    .maincontainer{
-        margin: 0px 0px 0px 0px;
-        height: 292px;
-    }
-    .font25px{
-        font-size: 30px;
-    }
-    .margin53px{
-        margin-left: 53px;
-    }
-    .margin43px{
-        padding-top: 43px;
-    }
-    .questrial{
-        margin-top: 0px;
-    }
-    .button{
-        width: 178px;
-        height: 53px;
-        font-size: 20px;
-        margin-top: 0px;
-    }
-    .flex2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 55px;
-    }
+@media only screen and (min-width: 1200px) {
+  .font40px {
+    font-size: 41px;
+  }
+  .maincontainer {
+    margin: 0px 0px 0px 0px;
+    height: 292px;
+  }
+  .font25px {
+    font-size: 30px;
+  }
+  .margin53px {
+    margin-left: 53px;
+  }
+  .margin43px {
+    padding-top: 43px;
+  }
+  .questrial {
+    margin-top: 0px;
+  }
+  .button {
+    width: 178px;
+    height: 53px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 55px;
+  }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave-animation 3s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
