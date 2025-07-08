@@ -22,7 +22,7 @@
 .bordercontain4:hover,
 .bordercontain5:hover,
 .bordercontain6:hover{
-  border-radius: 25px;
+  border-radius: 13px;
   transform: scale(1.05);
 }
 .bordercontain1:hover{

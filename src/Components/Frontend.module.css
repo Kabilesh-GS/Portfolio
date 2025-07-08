@@ -2,7 +2,7 @@
   width: 800px;
   height: auto;
   background-color: #262626;
-  border-radius: 25px;
+  border-radius: 13px;
   overflow-x: hidden;
 }
 .logocont img {
@@ -16,7 +16,7 @@
 }
 .title {
   padding-bottom: 15px;
-  color: wheat;
+  color: white;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
 }

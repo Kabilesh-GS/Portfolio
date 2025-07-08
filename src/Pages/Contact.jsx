@@ -1,5 +1,4 @@
 import React from 'react';
-import BottomBtn from '../Components/BottomBtn';
 import ContactStyle from './Contact.module.css';
 import ContactDetails from '../Components/ContactDetails';
 import linkedin from '../assets/linkedin.png';
