@@ -1,5 +1,4 @@
-import React from 'react'
-import langstyle from './Frontend.module.css'
+import langstyle from './Backend.module.css'
 
 function Backend(props) {
   return (

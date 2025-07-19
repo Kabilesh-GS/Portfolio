@@ -1,4 +1,4 @@
-import langstyle from './Frontend.module.css'
+import langstyle from './Programming.module.css'
 
 export default function Programming(props) {
   return (
