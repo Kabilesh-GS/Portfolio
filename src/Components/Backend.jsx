@@ -6,8 +6,9 @@ function Backend(props) {
       <div style={{display: "flex",justifyContent:"center",alignItems:"center",flexDirection: "column"}}>
         <div style={{display: "flex",gap:"20px",paddingTop:"30px",paddingBottom:"15px"}} className={langstyle.logocont}>
           <img src={props.logo1}/>
+          <img src={props.logo2} />
         </div>
-        <h2 className={langstyle.title}>Backend</h2>
+        <h2 className={langstyle.title}>Database</h2>
       </div>
     </div>
   )

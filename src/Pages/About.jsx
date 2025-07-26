@@ -16,7 +16,8 @@ import PYTHON from '../assets/python.svg';
 import Backend from '../Components/Backend';
 import firebase from '../assets/firebase.svg'
 import Sass from '../assets/sass.svg';
-import AboutStyle from './About.module.css'
+import mysql from '../assets/mysql.svg';
+import AboutStyle from './About.module.css';
 
 function About() {
   return (
@@ -27,7 +28,7 @@ function About() {
       <div style={{display:'flex', flexDirection: 'column',gap: '20px',paddingBottom: '60px'}}>
         <Frontend logo1={HTML} logo2={Sass} logo3={JS} logo4={REACT} logo5={BOOT} logo6={TAILWIND} />
         <div className={AboutStyle.innerContainer}>
-          <Backend logo1={firebase}/>
+          <Backend logo1={firebase} logo2={mysql}/>
           <Programming logo1={JAVA} logo2={PYTHON}/>
         </div>
         <Other logo1={GIT} logo2={POSTMAN} logo3={FIGMA} logo4={PS}/>
