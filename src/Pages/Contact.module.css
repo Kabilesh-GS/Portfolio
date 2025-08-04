@@ -3,7 +3,8 @@
 .bordercontain3,
 .bordercontain4,
 .bordercontain5,
-.bordercontain6{
+.bordercontain6,
+.bordercontain7{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,8 @@
 .bordercontain3 a,
 .bordercontain4 a,
 .bordercontain5 a,
-.bordercontain6 a{
+.bordercontain6 a,
+.bordercontain7 a{
   text-decoration: none;
 }
 .bordercontain1:hover,
@@ -21,7 +23,8 @@
 .bordercontain3:hover,
 .bordercontain4:hover,
 .bordercontain5:hover,
-.bordercontain6:hover{
+.bordercontain6:hover,
+.bordercontain7:hover{
   border-radius: 13px;
   transform: scale(1.05);
 }
@@ -42,6 +45,9 @@
 }
 .bordercontain6:hover{
   box-shadow: 0 0 20px 10px #000000b8;
+}
+.bordercontain7:hover{
+  box-shadow: 0 0 20px 10px #1eb06b;
 }
 .subcontain{
   display: flex;
