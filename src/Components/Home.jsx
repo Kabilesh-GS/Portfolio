@@ -23,7 +23,7 @@ function Home() {
           <p
             className={`${Homestyle.questrial} ${Homestyle.margin16px} ${Homestyle.font25px} ${Homestyle.lineheight}`}
           >
-            An Ever learning Software Developer | Exploring AI |  Student
+            Product Trainee @Whizlabs | React | GenAI | Final Year
           </p>
           <button className={`${Homestyle.button} ${Homestyle.robotoflex}`}>
             <Link
