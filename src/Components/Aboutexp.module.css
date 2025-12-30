@@ -33,11 +33,9 @@
     flex-direction: column;
 }
 .image{
-    width: 300px;
     opacity: 0.5;
     position: absolute;
-    top: -4%;
-    right: -3%;
+    right: -2%;
     object-fit: contain;
     rotate: 16deg;
     filter: blur(1px);
@@ -176,7 +174,7 @@
     }
     .image{
         width: 300px;
-        top: -4%;
+        top: -17%;
     }
     .marginleftright{
         margin-left: 25px;
