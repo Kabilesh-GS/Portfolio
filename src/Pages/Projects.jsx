@@ -1,16 +1,16 @@
 import Prostyle from "./Project.module.css";
 import Oneplusvideo from "../assets/1Plus.mp4";
 import Projectscontainer from "../Components/Projectscontainer";
-import ChatAI from "../assets/BOTAI.mp4";
-import PokemonVideo from '../assets/PokemonV.mp4'
+// import ChatAI from "../assets/BOTAI.mp4";
+// import PokemonVideo from '../assets/PokemonV.mp4'
 import JavaScript from '../assets/javascript.svg'
 import Bootstrap from '../assets/bootstrap.svg'
 import Css from '../assets/css.svg'
 import Html from '../assets/html.svg'
-import React from '../assets/react.svg'
-import Tailwind from '../assets/tailwind-css.svg'
-import Firebase from '../assets/firebase.svg'
-import Sass from '../assets/sass.svg'
+// import React from '../assets/react.svg'
+// import Tailwind from '../assets/tailwind-css.svg'
+// import Firebase from '../assets/firebase.svg'
+// import Sass from '../assets/sass.svg'
 
 function Projects() {
   const projectArray = [
@@ -25,31 +25,7 @@ function Projects() {
       Tech1: Html,
       Tech2: Css,
       Tech4: Bootstrap
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Chat-Bot",
-      contentheading: "Chat ft.AI",
-      link: "https://chat-ft-ai.netlify.app/",
-      content:
-        "A Chat-bot created using Gemini model to mark my entry into AI.This project is more than sending and recieving message, it is my hands on attemt to knowing how conventional AI works and effective prompting.",
-      video: ChatAI ,
-      Tech1: React,
-      Tech2: Tailwind,
-      Tech4: '',
-      Tech3: Firebase
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Pokemon-Finder",
-      contentheading: "Pokemon Cards Generator",
-      link: "https://pokemoncrds.netlify.app/",
-      content:
-        "An Project made to get familiarise with APIs (fetching data from it), hooks (useState & useEffect) and Browser-Router package for navigation.",
-      video: PokemonVideo ,
-      Tech1: React,
-      Tech2: Sass,
-      Tech4: '',
-      Tech3: ''
-    },
+    }
   ];
 
   const projectDis = projectArray.map((e) => {
@@ -69,8 +45,11 @@ function Projects() {
   });
 
   return (
-    <div className={Prostyle.containupper} style={{ paddingBottom: "60px" }}>
-      {projectDis}
+    <div>    
+      <div className={Prostyle.containupper} style={{ paddingBottom: "60px" }}>
+        {projectDis}
+      </div>
+      <p style={{textAlign : "center",color : "white", fontFamily : "monospace"}}>More Projects Incomming...</p>
     </div>
   );
 }
