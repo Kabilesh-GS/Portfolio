@@ -25,31 +25,7 @@ function Projects() {
       Tech1: Html,
       Tech2: Css,
       Tech4: Bootstrap
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Chat-Bot",
-      contentheading: "Chat ft.AI",
-      link: "https://chat-ft-ai.netlify.app/",
-      content:
-        "A Chat-bot created using Gemini model to mark my entry into AI.This project is more than sending and recieving message, it is my hands on attemt to knowing how conventional AI works and effective prompting.",
-      video: ChatAI ,
-      Tech1: React,
-      Tech2: Tailwind,
-      Tech4: '',
-      Tech3: Firebase
-    },
-    {
-      repolink: "https://github.com/Kabilesh-GS/Pokemon-Finder",
-      contentheading: "Pokemon Cards Generator",
-      link: "https://pokemoncrds.netlify.app/",
-      content:
-        "An Project made to get familiarise with APIs (fetching data from it), hooks (useState & useEffect) and Browser-Router package for navigation.",
-      video: PokemonVideo ,
-      Tech1: React,
-      Tech2: Sass,
-      Tech4: '',
-      Tech3: ''
-    },
+    }
   ];
 
   const projectDis = projectArray.map((e) => {
