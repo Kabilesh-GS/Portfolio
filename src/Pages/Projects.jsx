@@ -1,16 +1,16 @@
 import Prostyle from "./Project.module.css";
 import Oneplusvideo from "../assets/1Plus.mp4";
 import Projectscontainer from "../Components/Projectscontainer";
-import ChatAI from "../assets/BOTAI.mp4";
-import PokemonVideo from '../assets/PokemonV.mp4'
+// import ChatAI from "../assets/BOTAI.mp4";
+// import PokemonVideo from '../assets/PokemonV.mp4'
 import JavaScript from '../assets/javascript.svg'
 import Bootstrap from '../assets/bootstrap.svg'
 import Css from '../assets/css.svg'
 import Html from '../assets/html.svg'
-import React from '../assets/react.svg'
-import Tailwind from '../assets/tailwind-css.svg'
-import Firebase from '../assets/firebase.svg'
-import Sass from '../assets/sass.svg'
+// import React from '../assets/react.svg'
+// import Tailwind from '../assets/tailwind-css.svg'
+// import Firebase from '../assets/firebase.svg'
+// import Sass from '../assets/sass.svg'
 
 function Projects() {
   const projectArray = [
@@ -45,8 +45,11 @@ function Projects() {
   });
 
   return (
-    <div className={Prostyle.containupper} style={{ paddingBottom: "60px" }}>
-      {projectDis}
+    <div>    
+      <div className={Prostyle.containupper} style={{ paddingBottom: "60px" }}>
+        {projectDis}
+      </div>
+      <p style={{textAlign : "center",color : "white", fontFamily : "monospace"}}>More Projects Incomming...</p>
     </div>
   );
 }
