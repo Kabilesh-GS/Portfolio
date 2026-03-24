@@ -5,26 +5,28 @@ import Projectscontainer from "../Components/Projectscontainer";
 // import PokemonVideo from '../assets/PokemonV.mp4'
 import JavaScript from '../assets/javascript.svg'
 import Bootstrap from '../assets/bootstrap.svg'
-import Css from '../assets/css.svg'
-import Html from '../assets/html.svg'
-// import React from '../assets/react.svg'
-// import Tailwind from '../assets/tailwind-css.svg'
+// import Css from '../assets/css.svg'
+// import Html from '../assets/html.svg'
+import React from '../assets/react.svg'
+import Tailwind from '../assets/tailwind-css.svg'
+import Nest from '../assets/NestJS.svg'
+import Postgres from '../assets/Postgresql.png'
 // import Firebase from '../assets/firebase.svg'
 // import Sass from '../assets/sass.svg'
 
 function Projects() {
   const projectArray = [
     {
-      repolink: "https://github.com/Kabilesh-GS/OnePlus",
-      contentheading: "OnePlus Clone",
-      link: "https://kabilesh-gs.github.io/OnePlus/",
+      repolink: "https://github.com/Kabilesh-GS/Blog-Up",
+      link : 'https://blogupblogs.netlify.app/',
+      contentheading: "Blog Up",
       content:
-        "This is the first project I made using HTML, CSS, Bootstrap and JS. While working on this project I learned many things about frontend and strengthened my basics.",
+        "A full stack web app built where users can view, upload, add to favourite blogs and also view other user's profile.",
       video: Oneplusvideo,
-      Tech3: JavaScript,
-      Tech1: Html,
-      Tech2: Css,
-      Tech4: Bootstrap
+      Tech4: Tailwind,
+      Tech1: React,
+      Tech2: Nest,
+      Tech3 : Postgres
     }
   ];
 
