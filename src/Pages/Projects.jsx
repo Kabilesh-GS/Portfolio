@@ -3,8 +3,9 @@ import Oneplusvideo from "../assets/1Plus.mp4";
 import Projectscontainer from "../Components/Projectscontainer";
 // import ChatAI from "../assets/BOTAI.mp4";
 // import PokemonVideo from '../assets/PokemonV.mp4'
-import JavaScript from '../assets/javascript.svg'
-import Bootstrap from '../assets/bootstrap.svg'
+// import JavaScript from '../assets/javascript.svg'
+// import Bootstrap from '../assets/bootstrap.svg'
+import BlogUP from '../assets/blogUpBlog.mov'
 // import Css from '../assets/css.svg'
 // import Html from '../assets/html.svg'
 import React from '../assets/react.svg'
@@ -22,7 +23,7 @@ function Projects() {
       contentheading: "Blog Up",
       content:
         "A full stack web app built where users can view, upload, add to favourite blogs and also view other user's profile.",
-      video: Oneplusvideo,
+      video: BlogUP,
       Tech4: Tailwind,
       Tech1: React,
       Tech2: Nest,

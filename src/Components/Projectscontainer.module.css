@@ -48,8 +48,10 @@
   width: 500px;
   opacity: 0.4;
   position: absolute;
-  top: -40%;
+  top: 0%;
   filter: blur(1.4px);
+  margin-top: 2pc;
+  margin-right: 3pc;
   right: -15%;
   object-fit: contain;
   rotate: 25deg;
