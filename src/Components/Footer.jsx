@@ -4,8 +4,8 @@ import Footerstyle from './Footer.module.css';
 function Footer() {
   return (
     <footer className={Footerstyle.footerDiv}>
-        <p className={Footerstyle.footer}>Made With ♥️ By Me!</p>
-        <p className={Footerstyle.lastupdated}>Last updated 25-02-2026</p>
+        <p className={Footerstyle.footer}>♥️</p>
+        <p className={Footerstyle.lastupdated}>Last updated 24-03-2026</p>
     </footer>
   )
 }

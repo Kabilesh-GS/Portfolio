@@ -1,5 +1,4 @@
 .container {
-  width: 390px;
   height: auto;
   background-color: #262626;
   border-radius: 13px;
@@ -7,6 +6,9 @@
 }
 .logocont img {
   width: 80px;
+}
+.logocont img:hover{
+  filter: drop-shadow(3px 3px 0px rgba(233, 9, 9, 0.77));
 }
 .logocont,
 .title {
