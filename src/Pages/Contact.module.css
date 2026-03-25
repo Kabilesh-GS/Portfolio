@@ -28,10 +28,15 @@
   border-radius: 13px;
   transform: scale(1.05);
 }
-.bordercontain1:hover{
-  box-shadow: 0 0 20px 10px #046ea7b9;
+.bordercontain1:hover,
+.bordercontain2:hover,
+.bordercontain3:hover,
+.bordercontain4:hover
+,.bordercontain5:hover
+,.bordercontain6:hover{
+  box-shadow: 4px 4px 0px rgba(233, 9, 9, 0.77);
 }
-.bordercontain2:hover{
+/* .bordercontain2:hover{
   box-shadow: 0 0 20px 10px #eaeaeac5 ;
 }
 .bordercontain3:hover{
@@ -48,7 +53,7 @@
 }
 .bordercontain7:hover{
   box-shadow: 0 0 20px 10px #1eb06b;
-}
+} */
 .subcontain{
   display: flex;
   gap: 20px;
