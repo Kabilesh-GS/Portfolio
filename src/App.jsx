@@ -1,9 +1,13 @@
 import './App.css';
 import Mainapp from './Pages/Mainapp';
 
+let navbarIcon = ['🤯','🤩','😍','😎']
+const navbarLen = navbarIcon.length;
+let random = Math.floor(Math.random() * navbarLen);
+
 function App() {
   return(
-    <Mainapp />
+    <Mainapp navIcon={navbarIcon[random]}/>
   );
 }
 

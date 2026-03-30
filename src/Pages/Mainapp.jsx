@@ -1,13 +1,17 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from '../Components/Navbar/Navbar';
+import Home from './Home/Home';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
-
-function Mainapp() {
+function Mainapp({navIcon}) {
   return (
     <BrowserRouter>
-        <h1 className=''>hello</h1>
+        <Navbar icon={navIcon}/>
         <Routes>
-          <Route path='/health' element={<p>All good</p>}/>
+          <Route path='/' element={<Home />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
     </BrowserRouter>
   )

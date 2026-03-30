@@ -1,0 +1,33 @@
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+
+function Navbar({icon}) {
+  const [hover, setHover] = useState(false);
+  const path = useLocation();
+
+  return (
+    <div className="fixed">
+      <div className={`${hover ? "bottom-12 md:bottom-15" : "-bottom-9"} fixed left-1/2 -translate-x-1/2 flex gap-10 font-[Sora] text-white text-lg transition-all duration-200`} >
+        <Link to="/" className={`${path.pathname == "/" ? "border border-white/50" : ""} absolute md:relative -left-5 text-sm md:text-lg translate-y-10 hover:scale-110 transition-all duration-200 bg-gradient-to-l from-white/25 via-white/10 to-transparent backdrop-blur-md px-4 rounded-full`}>
+          Home
+        </Link>
+        <Link to="/projects" className={`${path.pathname == "/projects" ? "border border-white/50" : ""} translate-y-1 text-sm md:text-lg hover:scale-110 transition-all duration-200 bg-gradient-to-t from-white/25 via-white/10 to-transparent backdrop-blur-md px-4 rounded-full`}>
+          Projects
+        </Link>
+        <Link to="/experience" className={`${path.pathname == "/experience" ? "border border-white/50" : ""} translate-y-1 text-sm md:text-lg hover:scale-110 transition-all duration-200 bg-gradient-to-t from-white/25 via-white/10 to-transparent backdrop-blur-md px-4 rounded-full`}>
+          Experience
+        </Link>
+        <Link to="/contact" className={`${path.pathname == "/contact" ? "border border-white/50" : ""} absolute -right-5 md:relative text-sm md:text-lg translate-y-10 hover:scale-110 transition-all duration-200 bg-gradient-to-r from-white/25 via-white/10 to-transparent backdrop-blur-md px-4 rounded-full`}>
+          Contact
+        </Link>
+      </div>
+      <div className={`${hover ? "bottom-[-0px]" : "bottom-[-25px]"} fixed left-1/2 -translate-x-1/2 transition-all duration-200 cursor-pointer`}>
+        <div onClick={() => (hover ? setHover(false) : setHover(true))} className="text-5xl" >
+          {icon}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
