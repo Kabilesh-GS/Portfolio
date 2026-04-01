@@ -63,12 +63,13 @@ function Home() {
           </div>
 
           <div className="flex">
-            <div className="group bg-white/5 ms-8 mt-5 py-4 backdrop-blur-md border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30 flex justify-center">
-              <img src={BLOG} className="w-[70%]"/>
+            <div className="w-[50%] group bg-white/5 ms-8 mt-5 py-4 backdrop-blur-md border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30 flex justify-center">
+              <a href="https://medium.com/@kabileshgs/gods-own-country-a-fun-fueled-kerala-escape-9aeab52c41a4"><img src={BLOG} className="w-[300px]"/></a>
               <p className="absolute bottom-5 text-black text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">My Recent Blog</p>
             </div>
-            <div className="bg-white/5 mx-8 mt-5 backdrop-blur-md border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30">
-              <img src={BLOG} className="w-[30%]"/>
+            <div className="group w-[50%] bg-white/5 mx-8 mt-5 backdrop-blur-md relative border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30">
+              <div></div>
+              <p className="absolute bottom-5 left-[40%] text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">Timeline</p>
             </div>
           </div>
 
@@ -76,7 +77,7 @@ function Home() {
 
         <div className="group relative mt-5">
           <img className="shadow-sm shadow-black/30 rounded-2xl" src={ME}/>
-          <p className="absolute bottom-5 left-[43%] translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 text-md px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">Yep! That's me</p>
+          <p className="absolute bottom-5 left-[43%] translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 text-md px-3 py-1 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl shadow-sm shadow-black/30">Yep! That's me</p>
         </div>
 
       </div>
