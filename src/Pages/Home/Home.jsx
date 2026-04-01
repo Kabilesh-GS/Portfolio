@@ -4,17 +4,18 @@ import NEST from '../../assets/NestJS.svg'
 import POSTGRES from '../../assets/Postgresql.png'
 import TAILWIND from '../../assets/tailwind-css.svg'
 import ME from '../../assets/kabi 3.png'
+import BLOG from '../../assets/MediumBlog.png'
 
 function Home() {
   return (
-    <div className="text-white">
+    <div className="text-white font-[Sora]">
       <div className="backdrop-blur-xl rounded-2xl mt-8 mx-8 px-15 py-5 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30 flex justify-between items-center">
-        <div className="font-[Sora]">
+        <div className="">
           <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Hey! This is Kabilesh,</h1>
           <p className="text-lg text-white/70 mt-1">And I build things that live on the internet.</p>
         </div>
         <div>
-          <Link to='/contact' className="px-7 font-[Sora] py-3 hover:text-lg transition-all duration-200 rounded-full bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-sm shadow-black/30">Talk with me?</Link>
+          <Link to='/contact' className="px-7 py-3 hover:text-lg transition-all duration-200 rounded-full bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-sm shadow-black/30">Talk with me?</Link>
         </div>
       </div>
       <div className="flex items-start">
@@ -59,6 +60,16 @@ function Home() {
               <p className="absolute bottom-0 translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 text-[10px] px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">Football</p>
             </div>
 
+          </div>
+
+          <div className="flex">
+            <div className="group bg-white/5 ms-8 mt-5 py-4 backdrop-blur-md border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30 flex justify-center">
+              <img src={BLOG} className="w-[70%]"/>
+              <p className="absolute bottom-5 text-black text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">My Recent Blog</p>
+            </div>
+            <div className="bg-white/5 mx-8 mt-5 backdrop-blur-md border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30">
+              <img src={BLOG} className="w-[30%]"/>
+            </div>
           </div>
 
         </div>
