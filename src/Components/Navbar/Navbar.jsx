@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useContext } from "react";
+import { navContext } from "../../Context/NavIconContext";
 
-function Navbar({icon}) {
+function Navbar() {
   const [hover, setHover] = useState(false);
   const path = useLocation();
+
+  const navEmoji = useContext(navContext);
 
   return (
     <div className="fixed z-100">
@@ -23,7 +27,7 @@ function Navbar({icon}) {
       </div>
       <div className={`${hover ? "bottom-[-0px]" : "bottom-[-25px]"} fixed left-1/2 -translate-x-1/2 transition-all duration-200 cursor-pointer`}>
         <div onClick={() => (hover ? setHover(false) : setHover(true))} className="text-5xl" >
-          {icon}
+          {navEmoji.emoji}
         </div>
       </div>
     </div>

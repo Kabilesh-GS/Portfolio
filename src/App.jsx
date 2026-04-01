@@ -1,13 +1,20 @@
 import './App.css';
 import Mainapp from './Pages/Mainapp';
-
-let navbarIcon = ['🤯','🤩','😍','😎']
-const navbarLen = navbarIcon.length;
-let random = Math.floor(Math.random() * navbarLen);
+import { navContext } from './Context/NavIconContext';
 
 function App() {
+
+  let navbarIcon = ['🤯','🤩','😍','😎']
+  const navbarLen = navbarIcon.length;
+  const random = Math.floor(Math.random() * navbarLen);
+  const navEmoji = {
+    emoji : navbarIcon[random]
+  }
+
   return(
-    <Mainapp navIcon={navbarIcon[random]}/>
+    <navContext.Provider value={navEmoji}>
+      <Mainapp/>
+    </navContext.Provider>
   );
 }
 

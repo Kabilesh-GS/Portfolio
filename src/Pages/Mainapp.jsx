@@ -4,10 +4,10 @@ import Home from './Home/Home';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 
-function Mainapp({navIcon}) {
+function Mainapp() {
   return (
     <BrowserRouter>
-        <Navbar icon={navIcon}/>
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/projects' element={<Projects />}/>
