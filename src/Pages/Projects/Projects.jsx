@@ -30,11 +30,11 @@ export default function Projects() {
                 Code
               </a>
               <a target='_blank' href='https://blogupblogs.netlify.app' className='py-1 px-3 hover:scale-[1.10] transition duration-300 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 text-sm cursor-pointer'>
-                Demo
+                Live
               </a>
             </div>
             <div>
-              <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='text-lg py-1 px-2 cursor-pointer rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30'><MdViewInAr /></p>
+              <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='text-lg py-1 px-2 hover:scale-[1.10] transition duration-300 cursor-pointer rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30'><MdViewInAr /></p>
             </div>
           </div>
           <img className='w-80 absolute -z-10 right-0 -top-12 opacity-30 rotate-15' src={BLOGUP}/>
@@ -46,7 +46,7 @@ export default function Projects() {
           <div className='w-[70%] h-[70%] p-6 relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30'>
             <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='absolute font-bold text-right cursor-pointer text-black right-4 py-1 px-2 rounded-full bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30'>X</p>
             <div className='h-[100%]'>
-              <iframe className='bg-white w-[100%] h-[100%]' src='https://blogupblogs.netlify.app'></iframe>
+              <iframe className='bg-white w-full h-full' src='https://blogupblogs.netlify.app'></iframe>
             </div>
           </div>
         </div>

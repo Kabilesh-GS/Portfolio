@@ -9,13 +9,13 @@ import BLOG from '../../assets/MediumBlog.png'
 function Home() {
   return (
     <div className="text-white font-[Sora]">
-      <div className="backdrop-blur-xl rounded-2xl mt-8 mx-8 px-15 py-5 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30 flex justify-between items-center">
+      <div className="rounded-2xl mt-8 mx-8 px-15 py-5 bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 flex justify-between items-center">
         <div className="">
           <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Hey! This is Kabilesh,</h1>
           <p className="text-lg text-white/70 mt-1">And I build things that live on the internet.</p>
         </div>
         <div>
-          <Link to='/contact' className="px-7 py-3 hover:text-lg transition-all duration-200 rounded-full bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-sm shadow-black/30">Talk with me?</Link>
+          <Link to='/contact' className="px-7 py-3 hover:text-lg transition-all duration-200 rounded-full bg-white/5 backdrop-blur-md border border-white/10 shadow-sm shadow-black/30">Talk with me?</Link>
         </div>
       </div>
       <div className="flex items-start">
