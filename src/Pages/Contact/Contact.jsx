@@ -1,5 +1,10 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import INSTAGRAM from '../../assets/instagram.svg'
+import LINKEDIN from '../../assets/linkedin.png'
+import X from '../../assets/twitter.svg'
+import MEDIUM from '../../assets/medium.svg'
+import Social from "../../Components/Contact/Social";
 
 export default function Contact() {
 
@@ -77,8 +82,11 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 py-4 px-10 rounded-2xl mt-8 mx-8">
-
+      <div className="bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 py-4 px-10 rounded-2xl mt-8 mx-8 flex justify-center gap-10">
+        <Social logo={INSTAGRAM} name="Instagram" url="https://www.instagram.com/kabil.1507/"/>
+        <Social logo={LINKEDIN} name="Linked In" url="https://www.linkedin.com/in/kabileshgs/"/>
+        <Social logo={X} name="X" url="https://x.com/Kabi0704"/>
+        <Social logo={MEDIUM} name="Medium" url="https://medium.com/@kabileshgs"/>
       </div>
     </div>
   )
