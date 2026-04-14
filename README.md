@@ -1,23 +1,35 @@
-# 🌐 Kabi's Portfolio
+# 🌐 Kabi — Personal Portfolio
 
-**Hey Everyone!** Welcome to this repository. This is my personal portfolio site built with React to showcase my projects, skills, and experience in web development. Coming from a frontend background, I wanted to create something that reflects me as a developer while keeping it clean, modern, and responsive.
+A clean, responsive personal portfolio site built with **React + Vite** to showcase my projects, skills, and experience as a web developer.
 
----
-
-This portfolio isn’t just a static site – it’s designed to give a smooth browsing experience. Whether you’re a recruiter, collaborator, or just curious, you can explore my work and connect with me easily.
-  
-🔗 [Check it out live!](https://kabiwebfolio.netlify.app)
+🔗 **Live Site → [kabiwebfolio.netlify.app](https://kabiwebfolio.netlify.app)**
 
 ---
 
-## Built with
+## ✨ What's Inside
 
-- React
-- React Router
-- Netlify (Deployment)
+- 👤 **About** — Who I am and what I do
+- 🛠️ **Skills** — Technologies and tools I work with
+- 💼 **Projects** — Highlighted work with links
+- 📬 **Contact** — Easy ways to reach me
 
 ---
 
-## 🤝 Let’s Connect
+## 🛠️ Built With
 
-Thanks for stopping by my repo and checking out my portfolio! Always open to feedback, collaboration, and new opportunities 🚀
+| Tool | Purpose |
+|------|---------|
+| React | UI framework |
+| React Router | Page navigation |
+| CSS | Styling & layout |
+| Vite | Build tool |
+| Netlify | Deployment |
+
+---
+
+## 📬 Let's Connect
+
+If you're a client, recruiter, or fellow developer — feel free to reach out!
+
+- 🌐 [kabiwebfolio.netlify.app](https://kabiwebfolio.netlify.app)
+- 💻 [GitHub](https://github.com/Kabilesh-GS)
