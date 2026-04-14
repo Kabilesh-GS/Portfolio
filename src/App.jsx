@@ -5,7 +5,7 @@ import { FooterContext } from './Context/FooterContext';
 
 function App() {
 
-  let navbarIcon = ['🤯','🤩','😍','😎']
+  let navbarIcon = ['🤯','🤩','😍','😎','☺️','🤫']
   let footerIcon = ['❤️', '♥️' , '🫶' , '💛' , '💜']
   const navbarLen = navbarIcon.length;
   const footerLen = footerIcon.length;

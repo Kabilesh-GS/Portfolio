@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import REACT from '../../assets/react.svg'
 import NEST from '../../assets/NestJS.svg'
@@ -5,8 +6,13 @@ import POSTGRES from '../../assets/Postgresql.png'
 import TAILWIND from '../../assets/tailwind-css.svg'
 import ME from '../../assets/kabi 3.png'
 import BLOG from '../../assets/MediumBlog.png'
+import ChatBot from "../../Components/ChatBot/ChatBot"
+import ME_HI from '../../assets/MeWelcome.png'
 
 function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="text-white font-[Sora]">
       <div className="rounded-2xl mt-8 mx-8 px-15 py-5 bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 flex justify-between items-center">
@@ -67,9 +73,11 @@ function Home() {
               <a href="https://medium.com/@kabileshgs/gods-own-country-a-fun-fueled-kerala-escape-9aeab52c41a4"><img src={BLOG} className="w-[300px]"/></a>
               <p className="absolute bottom-5 text-black text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">My Recent Blog</p>
             </div>
-            <div className="group w-[50%] bg-white/5 mx-8 mt-5 backdrop-blur-md relative border justify-center border-white/10 rounded-2xl shadow-lg shadow-black/30">
-              <div></div>
-              <p className="absolute bottom-5 left-[40%] text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">Timeline</p>
+            <div className="flex justify-center items-center group cursor-pointer w-[50%] bg-white/5 mx-8 mt-5 backdrop-blur-md relative border border-white/10 rounded-2xl shadow-lg shadow-black/30" onClick={() => {isOpen ? setIsOpen(false) : setIsOpen(true)}}>
+              <div>
+                <img src={ME_HI} alt="Me" className="w-[220px]"/>
+              </div>
+              <p className="absolute bottom-5 left-[35%] text-md translate-y-full mt-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-sm shadow-black/30">Chat With Me!</p>
             </div>
           </div>
 
@@ -81,6 +89,9 @@ function Home() {
         </div>
 
       </div>
+      {
+        isOpen && <ChatBot setIsOpen={setIsOpen} />
+      }
     </div>
   )
 }
