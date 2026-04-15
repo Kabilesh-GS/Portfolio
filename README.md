@@ -2,20 +2,20 @@
 
 A clean, responsive personal portfolio site built with **React + Vite** to showcase my projects, skills, and experience as a web developer.
 
-🔗 **Live Site → [kabiwebfolio.netlify.app](https://kabiwebfolio.netlify.app)**
+**Live Site → [kabiwebfolio.netlify.app](https://kabiwebfolio.netlify.app)**
 
 ---
 
-## ✨ What's Inside
+## What's Inside
 
-- 👤 **About** — Who I am and what I do
-- 🛠️ **Skills** — Technologies and tools I work with
-- 💼 **Projects** — Highlighted work with links
-- 📬 **Contact** — Easy ways to reach me
+- **About** — Who I am and what I do
+- **Skills** — Technologies and tools I work with
+- **Projects** — Highlighted work with links
+- **Contact** — Easy ways to reach me
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 | Tool | Purpose |
 |------|---------|
@@ -27,7 +27,7 @@ A clean, responsive personal portfolio site built with **React + Vite** to showc
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 If you're a client, recruiter, or fellow developer — feel free to reach out!
 
