@@ -6,15 +6,6 @@ A clean, responsive personal portfolio site built with **React + Vite** to showc
 
 ---
 
-## What's Inside
-
-- **About** — Who I am and what I do
-- **Skills** — Technologies and tools I work with
-- **Projects** — Highlighted work with links
-- **Contact** — Easy ways to reach me
-
----
-
 ## Built With
 
 | Tool | Purpose |
