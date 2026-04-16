@@ -42,8 +42,8 @@ export default function Contact() {
 
   return (
     <div className="text-white font-[Sora] justify-center ">
-      <div className="bg-white/5 py-4 px-10 rounded-2xl mt-8 mx-8 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 flex hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
-        <div className="w-[50%] flex justify-center my-2">
+      <div className="bg-white/5 py-4 px-10 rounded-2xl mt-8 mx-8 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 flex flex-col md:flex-row hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
+        <div className="md:w-[50%] flex justify-center my-2">
           <div className="flex flex-col justify-between">
             <div>
               <p className="text-3xl">Let’s build something cool 🚀</p>
@@ -58,7 +58,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-[50%] flex justify-center">
+        <div className="md:w-[50%] flex justify-center">
           <form className="flex flex-col gap-5 w-full max-w-md" ref={formRef} onSubmit={sendEmail}>
             <div className="flex flex-col gap-1">
               <label className="text-sm text-white/70">Email</label>

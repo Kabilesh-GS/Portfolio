@@ -37,7 +37,7 @@ export default function Project({title,desc1,desc2,link,gitHub,logo}) {
               <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='text-lg py-1 px-2 hover:scale-[1.10] transition duration-300 cursor-pointer rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30'><MdViewInAr /></p>
             </div>
           </div>
-          <img className='w-80 absolute -z-10 right-0 -top-12 opacity-30 rotate-15' src={logo}/>
+          <img className='w-80 absolute -z-10 md:right-0 -right-20 md:-top-12 opacity-30 rotate-15' src={logo}/>
         </div>
       </div>
 
