@@ -1,22 +1,19 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from '../Components/Navbar';
-import EntireHome from './EntireHome';
-import About from './About';
-import Experience from './Experience';
-import Projects from './Projects';
-import Contact from './Contact';
+import Navbar from '../Components/Navbar/Navbar';
+import Home from './Home/Home';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+import Experience from './Experience/Experience';
 
 function Mainapp() {
   return (
     <BrowserRouter>
-        <Navbar />
+        <Navbar/>
         <Routes>
-            <Route path="/" element={<EntireHome />}/>
-            <Route path="about" element={<About />}/>
-            <Route path="experience" element={<Experience />}/>
-            <Route path="projects" element={<Projects />}/>
-            <Route path='contact' element={<Contact />} />
+          <Route path='/' element={<Home />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='/experience' element={<Experience/>} />
         </Routes>
     </BrowserRouter>
   )
