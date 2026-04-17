@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kabiwebfolio.netlify.app/sitemap.xml
