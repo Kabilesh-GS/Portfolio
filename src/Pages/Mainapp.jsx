@@ -13,7 +13,7 @@ function Mainapp() {
           <Route path='/' element={<Home />}/>
           <Route path='/projects' element={<Projects />}/>
           <Route path='/contact' element={<Contact/>} />
-          <Route path='/experience' element={<Experience/>} />
+          <Route path='/timeline' element={<Experience/>} />
         </Routes>
     </BrowserRouter>
   )

@@ -86,7 +86,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 py-4 px-10 rounded-2xl mt-8 mx-8 flex justify-center gap-10 hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
+      <div className="bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/30 py-4 px-10 rounded-2xl mt-8 mx-8 flex justify-center md:gap-10 gap-5 hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
         <Social logo={INSTAGRAM} name="Personal" url="https://www.instagram.com/kabil.1507/"/>
         <Social logo={INSTAGRAM} name="Art Page" url="https://www.instagram.com/scribblevibess/"/>
         <Social logo={LINKEDIN} name="Linked In" url="https://www.linkedin.com/in/kabileshgs/"/>

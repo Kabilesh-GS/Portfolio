@@ -43,8 +43,8 @@ export default function Project({title,desc1,desc2,link,gitHub,logo}) {
 
       {popup && (
         <div className='fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/40'>
-          <div className='w-[70%] h-[70%] p-6 relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30'>
-            <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='absolute font-bold text-right cursor-pointer text-black right-4 py-1 px-2 rounded-full backdrop-blur-lg shadow-lg shadow-black/30 hover:outline hover:outline-2 hover:outline-red-400'>X</p>
+          <div className='md:w-[70%] w-[90%] h-[70%] md:p-6 p-2 relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30'>
+            <p onClick={() => {popup ? setPopup(false) : setPopup(true)}} className='absolute font-bold text-right cursor-pointer text-black right-4 py-1 px-2 rounded-full backdrop-blur-lg shadow-lg shadow-black/30 hover:outline hover:outline-2'>X</p>
             <div className='h-[100%]'>
               <iframe className='bg-white w-full h-full rounded-xl' src={link}></iframe>
             </div>

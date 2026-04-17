@@ -32,14 +32,11 @@ export default function Experience() {
       <div className="relative w-max h-full flex items-center">
 
         {/* <div className="absolute top-1/2 left-0 w-full h-[2px] bg-white -translate-y-1/2"></div> */}
-        <div>
-
-        </div>
 
         <div className="flex md:ms-40 md:gap-40 gap-10 px-10">
           {data.map((item, i) => (
             <div>
-              <div key={i} className={`w-[400px] shrink-0 bg-white/5 backdrop-blur-md border hover:scale-[1.03] cursor-default transition-all duration-300 border-white/10 shadow-lg shadow-black/30 text-white p-3 rounded-lg ${i % 2 === 0 ? "translate-y-[-110px]" : "translate-y-[150px]"}`}>
+              <div key={i} className={`w-[400px] hover:ring-2 hover:ring-gray-500 shrink-0 bg-white/5 backdrop-blur-md border hover:scale-[1.03] cursor-default transition-all duration-300 border-white/10 shadow-lg shadow-black/30 text-white p-3 rounded-lg ${i % 2 === 0 ? "translate-y-[-110px]" : "translate-y-[150px]"}`}>
                 <img src={item.logo} alt={item.title} className="object-cover rounded-lg" />
                 <p className="font-bold my-2 text-lg">{item.date}</p>
                 <p className="text-justify">{item.desc}</p>

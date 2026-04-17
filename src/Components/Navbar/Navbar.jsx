@@ -18,7 +18,7 @@ function Navbar() {
         <Link to="/projects" className={`${path.pathname == "/projects" ? "border border-white/50" : ""} translate-y-1 text-sm md:text-lg hover:scale-110 transition-all duration-200 bg-white/5 backdrop-blur-md border justify-center border-white/10 shadow-lg shadow-black/30 px-4 rounded-full`}>
           Projects
         </Link>
-        <Link to="/experience" className={`${path.pathname == "/experience" ? "border border-white/50" : ""} translate-y-1 text-sm md:text-lg hover:scale-110 transition-all duration-200 bg-white/5 backdrop-blur-md border justify-center border-white/10 shadow-lg shadow-black/30 px-4 rounded-full`}>
+        <Link to="/timeline" className={`${path.pathname == "/experience" ? "border border-white/50" : ""} translate-y-1 text-sm md:text-lg hover:scale-110 transition-all duration-200 bg-white/5 backdrop-blur-md border justify-center border-white/10 shadow-lg shadow-black/30 px-4 rounded-full`}>
           Timeline
         </Link>
         <Link to="/contact" className={`${path.pathname == "/contact" ? "border border-white/50" : ""} absolute -right-5 md:relative text-sm md:text-lg translate-y-10 hover:scale-110 transition-all duration-200 bg-white/5 backdrop-blur-md border justify-center border-white/10 shadow-lg shadow-black/30 px-4 rounded-full`}>
