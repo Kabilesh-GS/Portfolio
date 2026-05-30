@@ -14,7 +14,7 @@ export default function Project({title,desc1,desc2,link,gitHub,logo}) {
   return (
     <div className="text-white font-[Sora]">
       <div>
-        <div className="flex flex-col mt-8 mx-8 px-15 py-5 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg shadow-black/30 relative overflow-hidden hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
+        <div className="flex flex-col mt-8 mx-8 px-15 py-5 bg-white/2 backdrop-blur-md border border-white/7 rounded-2xl shadow-lg shadow-black/30 relative overflow-hidden hover:shadow-2xl hover:shadow-black/40 hover:scale-[1.01] transition-all duration-300">
           <h1 className="text-4xl font-bold">{title}</h1>
           <p className="text-sm mt-2">{desc1}</p>
           <p className="text-sm mt-2 text-white/70">{desc2}</p>
