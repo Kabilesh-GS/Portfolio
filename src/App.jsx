@@ -1,12 +1,15 @@
 import './App.css';
 import Mainapp from './Pages/Mainapp';
+import LoadingScreen from './Components/LoadingScreen/LoadingScreen';
 import { navContext } from './Context/NavIconContext';
 import { FooterContext } from './Context/FooterContext';
+import { LoadingContext } from './Context/LoadingContext';
 
 function App() {
 
   let navbarIcon = ['🤯','🤩','😍','😎','☺️','🤫']
   let footerIcon = ['❤️', '♥️' , '🫶' , '💛' , '💜']
+  let loadingText = ['Hold tight', 'Loading awesomeness', 'Just a moment', 'Almost there', 'Preparing magic, Buckle up!']
   const navbarLen = navbarIcon.length;
   const footerLen = footerIcon.length;
   const random1 = Math.floor(Math.random() * navbarLen);
@@ -18,11 +21,17 @@ function App() {
   const footerEmoji = {
     emoji : footerIcon[random2]
   }
+  const loading = {
+    text : loadingText[Math.floor(Math.random() * loadingText.length)]
+  }
 
   return(
     <FooterContext.Provider value={footerEmoji}>
       <navContext.Provider value={navEmoji}>
-        <Mainapp/>
+        <LoadingContext.Provider value={loading}>
+          <LoadingScreen />
+          <Mainapp/>
+        </LoadingContext.Provider>
       </navContext.Provider>
     </FooterContext.Provider>
   );
