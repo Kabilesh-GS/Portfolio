@@ -32,7 +32,7 @@ export default function Citadel() {
               <h3 className="heading-deco text-xl leading-snug">{b.title}</h3>
               <p className="mt-2 flex-1 text-sm text-parchment-dim">{b.excerpt}</p>
               <span className="mt-4 flex items-center gap-1.5 text-xs uppercase tracking-widest text-gold transition-colors group-hover:text-gold-bright">
-                Read the scroll <FiExternalLink />
+                Read the scroll
               </span>
             </div>
           </a>
@@ -40,14 +40,7 @@ export default function Citadel() {
       </div>
 
       <div className="mt-12 text-center">
-        <a
-          href={PROFILE_URL}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-2 rounded-full border border-gold/50 px-7 py-3 text-sm uppercase tracking-widest text-gold transition-all hover:border-gold hover:bg-gold/10 heading-cinzel"
-        >
-          Visit the full archive on Medium <FiExternalLink />
-        </a>
+        <a href={PROFILE_URL} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-7 py-3 text-sm uppercase tracking-widest text-gold transition-all hover:border-gold hover:bg-gold/10 heading-cinzel"> Visit the full archive on Medium</a>
       </div>
     </RealmPage>
   );
