@@ -19,12 +19,7 @@ export default function Crypts() {
       {/* the winding road of history */}
       <div className="relative z-10 mt-4 w-full overflow-x-auto pb-12">
         <div className="relative flex h-[600px] w-max min-w-full items-center">
-          <svg
-            className="pointer-events-none absolute top-0 left-0 h-full w-full"
-            viewBox="0 0 2000 600"
-            preserveAspectRatio="none"
-            filter="url(#cryptGlow)"
-          >
+          <svg className="pointer-events-none absolute top-0 left-0 h-full w-full" viewBox="0 0 2000 600" preserveAspectRatio="none" filter="url(#cryptGlow)">
             <defs>
               <style>{`
                 @keyframes cryptShift {
@@ -50,27 +45,16 @@ export default function Crypts() {
                 </feMerge>
               </filter>
             </defs>
-            <path
-              d="M 0,360 C 420,140 640,520 1080,320 C 1520,120 1320,520 2000,260"
-              stroke="url(#cryptGrad)"
-              strokeWidth="3.5"
-              fill="none"
-              strokeLinecap="round"
-            />
+            <path d="M 0,360 C 420,140 640,520 1080,320 C 1520,120 1320,520 2000,260" stroke="url(#cryptGrad)" strokeWidth="3.5" fill="none" strokeLinecap="round"/>
           </svg>
 
           <div className="flex gap-20 px-14 md:ms-24 md:gap-36">
             {TIMELINE.map((item, i) => (
-              <div
-                key={i}
-                className={`gilded gilded-corners lift w-[330px] shrink-0 p-4 ${
-                  i % 2 === 0 ? "-translate-y-28" : "translate-y-28"
-                }`}
-              >
+              <div key={i} className={`gilded lift w-[330px] shrink-0 p-4 ${ i % 2 === 0 ? "-translate-y-28" : "translate-y-28" }`}>
                 <div className="overflow-hidden rounded">
                   <img src={item.logo} alt={item.title} className="h-40 w-full rounded object-cover" />
                 </div>
-                <p className="heading-cinzel mt-3 text-xs uppercase tracking-[0.2em] text-gold/70">
+                <p className="heading-cinzel mt-3 text-[10px] uppercase tracking-[0.2em] text-gold/70">
                   {item.date}
                 </p>
                 <h3 className="heading-deco mt-1 text-xl">{item.title}</h3>

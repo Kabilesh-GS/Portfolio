@@ -37,12 +37,12 @@ export default function Ravenry() {
     >
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {/* the invitation */}
-        <div className="gilded gilded-corners flex flex-col justify-between p-7">
+        <div className="flex flex-col justify-between p-7">
           <div>
             <p className="text-5xl">🐦‍⬛</p>
             <h3 className="heading-deco mt-4 text-3xl">Let us treat.</h3>
             <p className="mt-3 text-parchment-dim">
-              I am always open to new alliances — opportunities, collaborations, or simply
+              I am always open to new alliances, opportunities or simply
               a word of greeting. The raven flies swiftly.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Ravenry() {
         </div>
 
         {/* the scroll */}
-        <form ref={formRef} onSubmit={sendEmail} className="gilded gilded-corners flex flex-col gap-5 p-7">
+        <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-5 p-7">
           <div className="flex flex-col gap-1.5">
             <label className="heading-cinzel text-xs uppercase tracking-widest text-gold/70">
               Your Raven's Mark (email)
@@ -85,11 +85,7 @@ export default function Ravenry() {
               className="resize-none rounded-md border border-gold/25 bg-ink/60 px-4 py-2.5 text-parchment placeholder:text-parchment-dim/50 transition-all focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
             />
           </div>
-          <button
-            type="submit"
-            disabled={loading}
-            className="mt-1 rounded-full border border-gold bg-linear-to-b from-gold-bright to-gold-dim px-6 py-3 text-sm font-semibold uppercase tracking-widest text-ink shadow-[0_0_22px_rgba(201,162,39,0.35)] transition-all hover:scale-[1.02] disabled:opacity-50 heading-cinzel"
-          >
+          <button type="submit" disabled={loading} className="mt-1 rounded-full border border-gold bg-linear-to-b from-gold-bright to-gold-dim px-6 py-3 text-sm font-semibold uppercase tracking-widest text-ink shadow-[0_0_22px_rgba(201,162,39,0.35)] transition-all hover:scale-[1.02] disabled:opacity-50 heading-cinzel">
             {loading ? "Loosing the raven..." : "Loose the Raven 🪶"}
           </button>
           {success === true && (
@@ -117,12 +113,9 @@ export default function Ravenry() {
               href={s.url}
               target="_blank"
               rel="noreferrer"
-              className="gilded gilded-corners lift flex w-36 flex-col items-center gap-2 p-4 text-center"
+              className="lift flex w-36 flex-col items-center gap-2 p-4 text-center"
             >
               <img src={s.icon} alt={s.name} className="h-10 w-10 object-contain" />
-              <span className="heading-cinzel text-xs uppercase tracking-widest text-gold-bright">
-                {s.name}
-              </span>
               <span className="text-[0.7rem] text-parchment-dim">{s.house}</span>
             </a>
           ))}

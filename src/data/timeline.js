@@ -8,7 +8,7 @@ export const TIMELINE = [
   {
     date: "October 18, 2022",
     year: "2022",
-    title: "The House Rises — KPRIET",
+    title: "The House Rises",
     desc: "Began my B.Tech in Information Technology at KPR Institute of Engineering and Technology, where I took up the craft of full-stack development and started building real-world applications.",
     logo: KPRIET,
   },
@@ -22,7 +22,7 @@ export const TIMELINE = [
   {
     date: "April 11, 2026",
     year: "2026",
-    title: "Knighted — B.Tech Complete",
+    title: "Knighted",
     desc: "Completed my B.Tech in Information Technology at KPRIET, with strong fundamentals in software development and hands-on experience shipping full-stack applications.",
     logo: KPRIET,
   },
