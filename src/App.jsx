@@ -26,14 +26,7 @@ function App() {
   }
 
   return(
-    <FooterContext.Provider value={footerEmoji}>
-      <navContext.Provider value={navEmoji}>
-        <LoadingContext.Provider value={loading}>
-          <LoadingScreen />
-          <Mainapp/>
-        </LoadingContext.Provider>
-      </navContext.Provider>
-    </FooterContext.Provider>
+    <>hi</>
   );
 }
 
