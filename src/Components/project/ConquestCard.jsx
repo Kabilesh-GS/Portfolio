@@ -1,0 +1,137 @@
+import { useRef, useState } from "react";
+import { FiCode, FiExternalLink, FiEye, FiX } from "react-icons/fi";
+
+/**
+ * A conquest forged at Dragonstone. Plays its demo reel on hover, lists the
+ * steel it was forged with, and opens a live preview in a scrying glass.
+ */
+export default function ConquestCard({ project }) {
+  const videoRef = useRef(null);
+  const [preview, setPreview] = useState(false);
+
+  const play = () => {
+    if (videoRef.current) videoRef.current.play().catch(() => {});
+  };
+  const stop = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
+  };
+
+  return (
+    <>
+      <article
+        onMouseEnter={play}
+        onMouseLeave={stop}
+        className="gilded gilded-corners lift group flex flex-col overflow-hidden"
+      >
+        {/* demo reel / banner */}
+        <div className="relative h-48 w-full overflow-hidden border-b border-gold/20 bg-ink">
+          {project.video ? (
+            <video
+              ref={videoRef}
+              src={project.video}
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              className="h-full w-full object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-100"
+            />
+          ) : (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="h-full w-full object-cover opacity-85 transition-transform duration-500 group-hover:scale-105"
+            />
+          )}
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-ink via-transparent to-transparent" />
+        </div>
+
+        <div className="flex flex-1 flex-col p-5">
+          <h3 className="heading-deco text-2xl">{project.title}</h3>
+          <p className="mt-2 text-sm text-parchment">{project.blurb}</p>
+          <p className="mt-2 text-xs leading-relaxed text-parchment-dim">{project.detail}</p>
+
+          {/* steel it was forged with */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {project.tags.map((t) => (
+              <span
+                key={t}
+                className="rounded-full border border-gold/30 bg-gold/5 px-2.5 py-0.5 text-[0.65rem] uppercase tracking-wider text-gold/90"
+              >
+                {t}
+              </span>
+            ))}
+          </div>
+
+          {/* actions */}
+          <div className="mt-5 flex items-center justify-between border-t border-gold/15 pt-4">
+            <div className="flex gap-2">
+              {project.code && (
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-1.5 rounded-full border border-gold/40 px-3 py-1.5 text-xs text-parchment transition-all hover:border-gold hover:text-gold-bright"
+                >
+                  <FiCode /> Forge
+                </a>
+              )}
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-1.5 rounded-full border border-gold/40 px-3 py-1.5 text-xs text-parchment transition-all hover:border-gold hover:text-gold-bright"
+                >
+                  <FiExternalLink /> Visit
+                </a>
+              )}
+            </div>
+            {project.live && (
+              <button
+                onClick={() => setPreview(true)}
+                title="Scry the realm"
+                className="flex items-center gap-1.5 rounded-full border border-gold/40 px-3 py-1.5 text-xs text-gold transition-all hover:scale-105 hover:border-gold hover:bg-gold/10"
+              >
+                <FiEye /> Scry
+              </button>
+            )}
+            {!project.live && !project.code && (
+              <span className="text-[0.65rem] uppercase tracking-wider text-parchment-dim/60">
+                Sealed in the vault
+              </span>
+            )}
+          </div>
+        </div>
+      </article>
+
+      {/* scrying glass — live preview */}
+      {preview && project.live && (
+        <div
+          className="fixed inset-0 z-[60] flex items-center justify-center bg-ink/80 p-4 backdrop-blur-sm"
+          onClick={() => setPreview(false)}
+        >
+          <div
+            className="gilded relative h-[80%] w-full max-w-5xl p-3"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setPreview(false)}
+              className="absolute -top-3 -right-3 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-gold bg-ink text-gold transition-all hover:scale-110 hover:text-ember-bright"
+              aria-label="Close"
+            >
+              <FiX />
+            </button>
+            <iframe
+              title={`${project.title} preview`}
+              src={project.live}
+              className="h-full w-full rounded bg-white"
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}

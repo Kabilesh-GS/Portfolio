@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 .env
+
+GOT_PORTFOLIO_PLAN.md
