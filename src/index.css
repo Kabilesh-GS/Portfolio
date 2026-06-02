@@ -93,7 +93,7 @@
   }
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(var(--color-gold-dim), var(--color-gold));
-    border-radius: 6px;
+    border-radius: 0px;
     border: 2px solid var(--color-ink-soft);
   }
   ::-webkit-scrollbar-thumb:hover {
