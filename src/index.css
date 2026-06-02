@@ -19,6 +19,8 @@
   --font-cinzel: "Cinzel", serif;
   --font-deco: "Cinzel Decorative", "Cinzel", serif;
   --font-garamond: "EB Garamond", "Cinzel", serif;
+  --font-script: "IM Fell English", "EB Garamond", serif;
+  --font-script-deco: "Tangerine", "IM Fell English", cursive;
 
   /* ---- motion tokens (usable as animate-*) ---- */
   --animate-ember-rise: ember-rise 9s linear infinite;
@@ -77,8 +79,8 @@
   }
 
   ::selection {
-    background: var(--color-gold);
-    color: var(--color-ink);
+    background: #3a3a3a;
+    color: #ffffff;
   }
 
   /* gold-on-ink scrollbar */
@@ -121,6 +123,18 @@
 .heading-cinzel {
   font-family: var(--font-cinzel);
   letter-spacing: 0.12em;
+}
+
+/* handwritten manuscript hand */
+.font-script {
+  font-family: var(--font-script);
+  font-style: italic;
+}
+
+/* ornate quill calligraphy — use large */
+.font-script-deco {
+  font-family: var(--font-script-deco);
+  letter-spacing: 0.01em;
 }
 
 /* gilded glass frame for cards / panels */

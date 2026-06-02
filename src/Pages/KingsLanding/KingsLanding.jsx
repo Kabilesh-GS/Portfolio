@@ -32,7 +32,7 @@ export default function KingsLanding() {
       </div>
 
       <Link to="/explore" className="relative z-10 mt-16 animate-[float_4s_ease-in-out_infinite] text-center text-parchment-dim/60">
-        <p className="text-xs uppercase tracking-[0.3em]">The known world awaits</p>
+        <p className="text-xs uppercase tracking-[0.3em]">Explore Westeros</p>
         <p className="mt-1 text-2xl">⌄</p>
       </Link>
     </main>
