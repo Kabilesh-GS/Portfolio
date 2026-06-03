@@ -1,9 +1,4 @@
 import BLOGUP from "../assets/BlogUp.png";
-import DAYFINDER from "../assets/dayfindert.mp4";
-import FUELCOST from "../assets/fuelcost.mp4";
-import POKEMON from "../assets/Pokemon.mp4";
-import TODO from "../assets/ToDolist.mp4";
-import BOTAI from "../assets/BOTAI.mp4";
 
 /**
  * The conquests forged at Dragonstone.
@@ -21,5 +16,15 @@ export const PROJECTS = [
     tags: ["React", "NestJS", "PostgreSQL", "Tailwind"],
     live: "https://blogupp.netlify.app/",
     code: "https://github.com/Kabilesh-GS/Blog-Up",
+  },
+  {
+    id: "cronEmail",
+    title: "Email Cron Job",
+    blurb: "A scheduled email service to send tasks and their status remainder email from notion.",
+    detail: "User authentication, profile management, and a favorites system, with a clean UI and a structured backend built on modern web technologies.",
+    image: BLOGUP,
+    tags: ["Express", "Notion"],
+    live: "https://blogupp.netlify.app/",
+    code: "https://github.com/Kabilesh-GS/Email-Automation-CRON",
   },
 ];

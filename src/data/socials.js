@@ -1,7 +1,7 @@
-import INSTAGRAM from "../assets/instagram.svg";
+import INSTAGRAM from "../assets/instagram.png";
 import LINKEDIN from "../assets/linkedin.png";
-import X from "../assets/twitter.svg";
-import MEDIUM from "../assets/medium.svg";
+import X from "../assets/x.png";
+import MEDIUM from "../assets/medium.png";
 
 /**
  * Allied houses — where to find Kabilesh across the realms.

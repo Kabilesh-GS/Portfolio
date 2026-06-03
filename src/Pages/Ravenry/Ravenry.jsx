@@ -31,9 +31,9 @@ export default function Ravenry() {
   };
 
   return (
-    <RealmPage kicker="The Ravenry" title="Send a Raven" embers={18}>
+    <RealmPage kicker="The Ravenry" title="Send a Raven" embers={25}>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        {/* the invitation */}
+
         <div className="flex flex-col justify-between p-7">
           <div>
             <img src={SIGIL} alt="Sigil" className="w-16 h-16" />
@@ -56,7 +56,6 @@ export default function Ravenry() {
           </div>
         </div>
 
-        {/* the scroll */}
         <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-5 p-7">
           <div className="flex flex-col gap-1">
             <label className="heading-cinzel text-xs leading-none text-gold/80">
@@ -82,7 +81,6 @@ export default function Ravenry() {
         </form>
       </div>
 
-      {/* allied houses */}
       <div className="mt-10">
         <div className="mb-6 flex items-center justify-center gap-4">
           <div className="gold-rule w-16" />
@@ -94,7 +92,7 @@ export default function Ravenry() {
         <div className="flex flex-wrap items-stretch justify-center gap-4">
           {SOCIALS.map((s) => (
             <a key={s.house} href={s.url} target="_blank" rel="noreferrer" className="lift flex w-36 flex-col items-center gap-2 p-4 text-center">
-              <img src={s.icon} alt={s.name} className="h-10 w-10 object-contain" />
+              <img src={s.icon} alt={s.name} className="h-17 w-17 object-contain" />
               <span className="text-[0.7rem] text-parchment-dim">{s.house}</span>
             </a>
           ))}
