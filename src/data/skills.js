@@ -27,7 +27,6 @@ export const SKILL_VAULTS = [
     note: "Languages",
     items: [
       { name: "JavaScript", icon: JS },
-      { name: "Java", icon: JAVA },
       { name: "Python", icon: PYTHON },
       { name: "HTML", icon: HTML },
       { name: "CSS", icon: CSS },
@@ -51,7 +50,6 @@ export const SKILL_VAULTS = [
       { name: "PostgreSQL", icon: POSTGRES },
       { name: "MySQL", icon: MYSQL },
       { name: "Prisma", icon: PRISMA },
-      { name: "Firebase", icon: FIREBASE },
     ],
   },
   {

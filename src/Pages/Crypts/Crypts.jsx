@@ -64,10 +64,6 @@ export default function Crypts() {
           </div>
         </div>
       </div>
-
-      <p className="relative z-10 -mt-4 text-center text-xs uppercase tracking-[0.3em] text-parchment-dim/60">
-        ← scroll through the ages →
-      </p>
     </main>
   );
 }
