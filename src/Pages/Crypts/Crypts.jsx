@@ -50,7 +50,7 @@ export default function Crypts() {
 
           <div className="flex gap-20 px-14 md:ms-24 md:gap-36">
             {TIMELINE.map((item, i) => (
-              <div key={i} className={`gilded lift w-[330px] shrink-0 p-4 ${ i % 2 === 0 ? "-translate-y-28" : "translate-y-28" }`}>
+              <div key={i} className={`border border-gold/40 lift w-[330px] shrink-0 p-4 ${ i % 2 === 0 ? "-translate-y-28" : "translate-y-28" }`}>
                 <div className="overflow-hidden rounded">
                   <img src={item.logo} alt={item.title} className="h-40 w-full rounded object-cover" />
                 </div>

@@ -3,14 +3,10 @@ import { SKILL_VAULTS } from "../../data/skills";
 
 export default function Ironbank() {
   return (
-    <RealmPage
-      kicker="The Iron Bank of Braavos"
-      title="The Vaults of Skill"
-      embers={16}
-    >
+    <RealmPage kicker="The Iron Bank of Braavos" title="The Vaults of Skill" embers={16}>
       <div className="flex flex-col gap-8">
         {SKILL_VAULTS.map((vault) => (
-          <section key={vault.coffer} className="gilded p-6 md:p-8">
+          <section key={vault.coffer} className="border border-gold/40 p-6 md:p-8">
             <div className="flex flex-wrap items-baseline justify-between gap-2 mb-5">
               <h3 className="heading-deco text-xl">{vault.coffer}</h3>
               <span className="heading-cinzel text-xs uppercase tracking-[0.25em] text-gold/60">
