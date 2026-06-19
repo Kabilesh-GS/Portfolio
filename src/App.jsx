@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ScrollToTop from "./Components/common/ScrollToTop";
 import KingsLanding from "./Pages/KingsLanding/KingsLanding";
 import Explore from "./Pages/Explore/Explore";
 import Dragonstone from "./Pages/Dragonstone/Dragonstone";
@@ -12,7 +11,6 @@ import Ironbank from "./Pages/Ironbank/Ironbank";
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<KingsLanding />} />
         <Route path="/explore" element={<Explore />} />
