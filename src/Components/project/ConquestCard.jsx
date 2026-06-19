@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { FiCode, FiExternalLink, FiEye, FiX } from "react-icons/fi";
+import BG from '../../assets/grainy BG.jpg'
 
 export default function ConquestCard({ project }) {
   const videoRef = useRef(null);
@@ -16,8 +17,8 @@ export default function ConquestCard({ project }) {
   };
 
   return (
-    <>
-      <article className="border border-gold/40 lift group flex flex-col overflow-hidden">
+    <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} >
+      <article className="border border-gold/40 lift group flex flex-col overflow-hidden rounded-[0.5rem]" >
         <div className="relative h-48 w-full overflow-hidden border-b border-gold/20 bg-ink">
           <img src={project.image} alt={project.title} className="h-full w-full object-cover opacity-85 transition-transform duration-500 group-hover:scale-105"/>
           <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-ink via-transparent to-transparent" />
@@ -67,6 +68,6 @@ export default function ConquestCard({ project }) {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

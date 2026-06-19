@@ -1,9 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { GoogleGenAI } from "@google/genai";
 import { FiSend } from "react-icons/fi";
-import INTRO from "../../assets/meOverall.png";
-import THINK from "../../assets/thinking.png";
-import SPEAK from "../../assets/speaking.png";
+import INTRO from "../../assets/kabi 6.png";
+import BG from '../../assets/grainy BG.jpg'
 
 const PERSONA =
   "You are the Three-Eyed Raven of House Kabyros, speaking on behalf of Kabilesh GS — a " +
@@ -74,17 +73,13 @@ export default function ThreeEyedRaven() {
       <div className="flex-1 space-y-4 overflow-y-auto p-5">
         {messages.length === 0 && (
           <div className="flex flex-col items-center gap-5 pt-6 text-center">
-            <img src={INTRO} alt="The Oracle" className="w-44 opacity-80 animate-[float_7s_ease-in-out_infinite]" />
+            <img src={INTRO} alt="The Oracle" className="w-44 rounded-full opacity-80 animate-[float_7s_ease-in-out_infinite]" />
             <p className="text-parchment-dim">
               The raven sees all of House Kabyros. Ask, and the vision will answer.
             </p>
             <div className="flex flex-wrap justify-center gap-2">
               {SUGGESTIONS.map((s) => (
-                <button
-                  key={s}
-                  onClick={() => send(s)}
-                  className="rounded-full border border-frost/30 bg-frost/5 px-3 py-1.5 text-xs text-frost transition-all hover:border-frost hover:bg-frost/10"
-                >
+                <button key={s} onClick={() => send(s)} className="rounded-full border border-frost/30 bg-frost/5 px-3 py-1.5 text-xs text-frost transition-all hover:border-frost hover:bg-frost/10">
                   {s}
                 </button>
               ))}
@@ -94,14 +89,14 @@ export default function ThreeEyedRaven() {
 
         {messages.map((m, i) =>
           m.role === "user" ? (
-            <div key={i} className="flex justify-end">
-              <p className="max-w-[80%] rounded-2xl rounded-tr-sm border border-gold/30 bg-gold/10 px-4 py-2 text-sm text-parchment">
+            <div key={i} className="flex justify-end" >
+              <p className="max-w-[80%] rounded-2xl rounded-tr-sm border border-gold/30 bg-gold/10 px-4 py-2 text-sm text-parchment" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})`}}>
                 {m.text}
               </p>
             </div>
           ) : (
             <div key={i} className="flex items-start gap-3">
-              <img src={SPEAK} alt="" className="mt-1 h-10 w-10 shrink-0 object-contain" />
+              <img src={INTRO} alt="" className="rounded-full mt-1 h-10 w-10 shrink-0 object-contain" />
               <p className="max-w-[80%] whitespace-pre-wrap rounded-2xl rounded-tl-sm border border-frost/25 bg-ink-soft/80 px-4 py-2 text-sm text-parchment-dim">
                 {m.text}
               </p>
@@ -111,7 +106,6 @@ export default function ThreeEyedRaven() {
 
         {thinking && (
           <div className="flex items-center gap-3">
-            <img src={THINK} alt="" className="h-12 w-12 object-contain animate-[flicker_2s_ease-in-out_infinite]" />
             <span className="text-sm text-frost/70">the raven peers through time…</span>
           </div>
         )}
@@ -120,19 +114,8 @@ export default function ThreeEyedRaven() {
 
       {/* input */}
       <div className="flex items-center gap-3 border-t border-frost/20 bg-ink-soft/70 p-3">
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && send()}
-          placeholder="Ask the raven…"
-          className="w-full rounded-full border border-frost/25 bg-ink/60 px-4 py-2.5 text-parchment placeholder:text-parchment-dim/50 focus:border-frost focus:outline-none focus:ring-2 focus:ring-frost/30"
-        />
-        <button
-          onClick={() => send()}
-          disabled={thinking}
-          aria-label="Send"
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-frost bg-frost/15 text-frost transition-all hover:scale-105 hover:bg-frost/25 disabled:opacity-50"
-        >
+        <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && send()} placeholder="Ask the raven…" className="w-full rounded-full border border-frost/25 bg-ink/60 px-4 py-2.5 text-parchment placeholder:text-parchment-dim/50 focus:border-frost focus:outline-none focus:ring-2 focus:ring-frost/30"/>
+        <button onClick={() => send()} disabled={thinking} aria-label="Send" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-frost bg-frost/15 text-frost transition-all hover:scale-105 hover:bg-frost/25 disabled:opacity-50">
           <FiSend />
         </button>
       </div>
