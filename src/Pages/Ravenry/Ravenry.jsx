@@ -4,6 +4,7 @@ import { FiMapPin, FiMail } from "react-icons/fi";
 import RealmPage from "../../Components/layout/RealmPage";
 import { SOCIALS, CONTACT } from "../../data/socials";
 import SIGIL from "../../assets/sigil.png";
+import BG from '../../assets/grainy BG.jpg'
 
 export default function Ravenry() {
   const formRef = useRef();
@@ -32,7 +33,7 @@ export default function Ravenry() {
 
   return (
     <RealmPage kicker="The Ravenry" title="Send a Raven" embers={25}>
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-1 rounded-[0.5rem] gap-6 bg-cover bg-center bg-no-repeat lg:grid-cols-2"  style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(${BG})` }}>
 
         <div className="flex flex-col justify-between p-7">
           <div>

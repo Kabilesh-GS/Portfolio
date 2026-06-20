@@ -23,7 +23,7 @@ export default function KingsLanding() {
         <p className="heading-cinzel mt-4 text-base uppercase tracking-[0.3em] text-parchment md:text-xl text-glow"> Forged by Battles and Bugs</p>
 
         <p className="mt-7 max-w-xl text-sm leading-relaxed text-parchment-dim md:text-base">
-          I am <span className="text-gold">Kabilesh Sundar</span>, a full-stack craftsman and builder of marvels that breathe upon the great ether. Traverse this realm to gaze upon the works I have forged.
+          I <span className="text-gold">Kabilesh Sundar</span>, a full-stack craftsman who forges creations that breathe upon the great ether, and now tames the sentient constructs of Artificial Intelligence.
         </p>
 
         <div className="mt-9 flex flex-col items-center gap-4 sm:flex-row">

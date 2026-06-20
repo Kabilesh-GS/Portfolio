@@ -7,7 +7,7 @@ export default function Ironbank() {
     <RealmPage kicker="The Iron Bank of Braavos" title="The Vaults of Skill" embers={16}>
       <div className="flex flex-col gap-8">
         {SKILL_VAULTS.map((vault) => (
-          <section key={vault.coffer} className="border rounded-[0.5rem] border-gold/40 p-6 md:p-8 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} >
+          <section key={vault.coffer} className="border rounded-[0.5rem] border-gold/40 p-6 md:p-8 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(${BG})` }} >
             <div className="flex flex-wrap items-baseline justify-between gap-2 mb-5">
               <h3 className="heading-deco text-xl">{vault.coffer}</h3>
               <span className="heading-cinzel text-xs uppercase tracking-[0.25em] text-gold/60">
