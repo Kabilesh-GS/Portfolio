@@ -10,10 +10,7 @@ export default function Explore() {
       <EmberField count={24} className="opacity-60" />
 
       <div className="relative z-10 mx-auto max-w-6xl">
-        <SectionTitle
-          kicker="Explore"
-          title="The Known Realm"
-        />
+        <SectionTitle kicker="Explore" title="The Known Realm"/>
 
         {/* desktop: the interactive map */}
         <div className="mt-10 hidden md:block">
@@ -25,7 +22,7 @@ export default function Explore() {
           {LOCATIONS.map((loc) => {
             const Icon = loc.icon;
             return (
-              <Link key={loc.id} to={loc.route} className="gilded gilded-corners lift flex items-center gap-2 p-2">
+              <Link key={loc.id} to={loc.route} className="gilded lift flex items-center gap-2 p-2">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold/50 bg-ink-soft text-2xl text-gold">
                   <Icon />
                 </span>

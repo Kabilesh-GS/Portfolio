@@ -14,7 +14,7 @@ export default function Ironbank() {
                 {vault.note}
               </span>
             </div>
-            <div className="flex items-center gap-10 overflow-x-auto  justify-center">
+            <div className="flex flex-wrap items-center gap-10 justify-center">
               {vault.items.map((item) => (
                 <div key={item.name} className="group flex flex-col items-center gap-1.5">
                   <div className="flex h-16 w-16 items-center justify-center rounded-xl p-1 transition-all duration-300">

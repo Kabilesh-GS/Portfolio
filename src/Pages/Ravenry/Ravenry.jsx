@@ -77,7 +77,7 @@ export default function Ravenry() {
             <p className="font-script text-center text-base text-green-400">The raven has flown. 🕊️</p>
           )}
           {success === false && (
-            <p className="font-script text-center text-base text-red-400">The raven faltered. Try once more. ❌</p>
+            <p className="font-script text-center text-base text-red-400">The raven faltered. Try once more.</p>
           )}
         </form>
       </div>

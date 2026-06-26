@@ -19,7 +19,7 @@ export default function Crypts() {
       {/* the winding road of history */}
       <div className="relative z-10 mt-4 w-full overflow-x-auto pb-12">
         <div className="relative flex h-[600px] w-max min-w-full items-center">
-          <svg className="pointer-events-none absolute top-0 left-0 h-full w-full" viewBox="0 0 2000 600" preserveAspectRatio="none" filter="url(#cryptGlow)">
+          <svg className="hidden md:block pointer-events-none absolute top-0 left-0 h-full w-full" viewBox="0 0 2000 600" preserveAspectRatio="none" filter="url(#cryptGlow)">
             <defs>
               <style>{`
                 @keyframes cryptShift {
