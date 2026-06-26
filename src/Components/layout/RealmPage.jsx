@@ -8,7 +8,7 @@ import SectionTitle from "../common/SectionTitle";
  */
 export default function RealmPage({ kicker, title, embers = 20, children }) {
   return (
-    <main className="relative min-h-screen overflow-hidden px-5 pt-20 pb-10">
+    <main className="relative min-h-screen overflow-hidden px-5 pt-10 pb-10">
       <ReturnToMap />
       <EmberField count={embers} className="opacity-60" />
 

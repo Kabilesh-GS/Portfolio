@@ -92,7 +92,7 @@ export default function Ravenry() {
         </div>
         <div className="flex flex-wrap items-stretch justify-center gap-4">
           {SOCIALS.map((s) => (
-            <a key={s.house} href={s.url} target="_blank" rel="noreferrer" className="lift flex w-36 flex-col items-center gap-2 p-4 text-center">
+            <a key={s.house} href={s.url} target="_blank" rel="noreferrer" className="flex w-36 hover:scale-110 transition-all duration-300 flex-col items-center gap-2 p-4 text-center">
               <img src={s.icon} alt={s.name} className="h-17 w-17 object-contain" />
               <span className="text-[0.7rem] text-parchment-dim">{s.house}</span>
             </a>

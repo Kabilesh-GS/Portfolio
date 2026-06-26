@@ -6,7 +6,7 @@ import SIGIL from "../../assets/sigil.png";
 
 export default function KingsLanding() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 py-20">
+    <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 py-10">
 
       <div className="pointer-events-none absolute inset-0 z-0">
         <img src={SCREEN} alt="" className="h-full w-full object-cover opacity-75" />

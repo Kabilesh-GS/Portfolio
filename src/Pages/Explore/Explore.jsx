@@ -6,7 +6,7 @@ import { LOCATIONS } from "../../data/locations";
 
 export default function Explore() {
   return (
-    <main className="relative min-h-screen overflow-hidden px-5 pt-16 pb-10">
+    <main className="relative min-h-screen overflow-hidden px-5 pt-10 pb-10">
       <EmberField count={24} className="opacity-60" />
 
       <div className="relative z-10 mx-auto max-w-6xl">
