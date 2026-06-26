@@ -16,15 +16,5 @@ export const PROJECTS = [
     tags: ["React", "NestJS", "PostgreSQL", "Tailwind"],
     live: "https://blogupp.netlify.app/",
     code: "https://github.com/Kabilesh-GS/Blog-Up",
-  },
-  {
-    id: "cronEmail",
-    title: "Email Cron Job",
-    blurb: "A scheduled email service to send tasks and their status remainder email from notion.",
-    detail: "User authentication, profile management, and a favorites system, with a clean UI and a structured backend built on modern web technologies.",
-    image: BLOGUP,
-    tags: ["Express", "Notion"],
-    live: "https://blogupp.netlify.app/",
-    code: "https://github.com/Kabilesh-GS/Email-Automation-CRON",
-  },
+  }
 ];

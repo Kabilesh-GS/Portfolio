@@ -17,21 +17,17 @@ export default function ConquestCard({ project }) {
   };
 
   return (
-    <div style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} >
-      <article className="border border-gold/40 lift group flex flex-col overflow-hidden rounded-[0.5rem]" >
-        <div className="relative h-48 w-full overflow-hidden border-b border-gold/20 bg-ink">
-          <img src={project.image} alt={project.title} className="h-full w-full object-cover opacity-85 transition-transform duration-500 group-hover:scale-105"/>
-          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-ink via-transparent to-transparent" />
-        </div>
+    <div>
+      <article style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} className="border border-gold/40 lift group flex flex-col overflow-hidden rounded-[0.5rem]" >
 
-        <div className="flex flex-1 flex-col p-5">
+        <div className="flex flex-1 flex-col px-5 py-4">
           <h3 className="heading-deco text-2xl">{project.title}</h3>
           <p className="mt-2 text-sm text-parchment">{project.blurb}</p>
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-2 flex flex-wrap gap-2">
           </div>
 
-          <div className="mt-5 flex items-center justify-between border-t border-gold/15 pt-4">
+          <div className="mt-2 flex items-center justify-between border-t border-gold/15 pt-2">
             <div className="flex gap-2">
               {project.code && (
                 <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 rounded-sm px-3 py-1.5 text-xs text-parchment transition-all hover:border-gold hover:text-gold-bright" >

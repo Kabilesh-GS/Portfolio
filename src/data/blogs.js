@@ -19,11 +19,19 @@ export const BLOGS = [
     tag: "Travel",
   },
   {
-    id: "website-that-i-inspire",
-    title: "Websites That I Inspire!",
-    excerpt: "Exploring the world of web development and the inspiration behind my personal website.",
+    id: "building-better-days-chronicle-of-a-new-habit",
+    title: "Building Better Days : Chronicle of a New Habit!",
+    excerpt: "A personal journey of self-improvement and the challenges of building a new habit.",
     //image: KERALA,
-    url: "https://medium.com/@kabileshgs/uncovering-inspirations-websites-that-move-me-15079c4d577d",
+    url: "https://medium.com/@kabileshgs/building-better-days-chronicle-of-a-new-habit-390a19300b22",
     tag: "Info",
+  },
+  {
+    id : "a-memorable-trip-to-thrissur",
+    title: "A Memorable Trip to Thrissur",
+    excerpt: "A delightful journey to Thrissur, exploring its rich culture and vibrant festivals.",
+    //image: KERALA,
+    url: "https://medium.com/@kabileshgs/a-memorable-trip-to-thrissur-c52ced7ca9cc",
+    tag: "Travel",
   }
 ];
