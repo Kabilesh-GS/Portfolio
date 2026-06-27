@@ -4,7 +4,7 @@ import BG from '../../assets/grainy BG.jpg'
 
 export default function Ironbank() {
   return (
-    <RealmPage kicker="The Iron Bank of Braavos" title="The Vaults of Skill" embers={16}>
+    <RealmPage kicker="Casterly Rock" title="The Vaults of Skill" embers={16}>
       <div className="flex flex-col gap-8">
         {SKILL_VAULTS.map((vault) => (
           <section key={vault.coffer} className="border rounded-[0.5rem] border-gold/40 p-6 md:p-8 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(${BG})` }} >

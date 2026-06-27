@@ -1,9 +1,5 @@
 import { GiCastle, GiSpikedDragonHead, GiSpellBook, GiTombstone, GiQuillInk, GiBrickWall, GiTwoCoins } from "react-icons/gi";
 
-/**
- * The seven holdings of the realm. Each is a node on the Westeros map (x/y are
- * percentages of the map canvas) and a route. King's Landing is also the home (/).
- */
 export const LOCATIONS = [
   {
     id: "kings-landing",
@@ -12,8 +8,8 @@ export const LOCATIONS = [
     route: "/",
     blurb: "The seat of House Kabyros : where the tale begins.",
     icon: GiCastle,
-    x: 60,
-    y: 60,
+    x: 58,
+    y: 64,
   },
   {
     id: "dragonstone",
@@ -23,7 +19,7 @@ export const LOCATIONS = [
     blurb: "Where works are forged in dragonfire : the projects.",
     icon: GiSpikedDragonHead,
     x: 77,
-    y: 47,
+    y: 60,
   },
   {
     id: "citadel",
@@ -32,8 +28,8 @@ export const LOCATIONS = [
     route: "/citadel",
     blurb: "Halls of the maesters : chronicles and writings.",
     icon: GiSpellBook,
-    x: 31,
-    y: 85,
+    x: 25,
+    y: 80,
   },
   {
     id: "crypts",
@@ -43,17 +39,7 @@ export const LOCATIONS = [
     blurb: "Where the history of the house is kept in stone.",
     icon: GiTombstone,
     x: 45,
-    y: 17,
-  },
-  {
-    id: "ravenry",
-    name: "Ravenry",
-    section: "Contact",
-    route: "/ravenry",
-    blurb: "Send a raven and treat with House Kabyros.",
-    icon: GiQuillInk,
-    x: 40,
-    y: 63,
+    y: 25,
   },
   {
     id: "beyond-the-wall",
@@ -66,16 +52,15 @@ export const LOCATIONS = [
     y: 7,
   },
   {
-    id: "ironbank",
-    name: "The Iron Bank",
+    id: "casterly-rock",
+    name: "Casterly Rock",
     section: "Skills",
-    route: "/ironbank",
-    blurb: "The vaults of Braavos : every skill, an asset.",
+    route: "/casterly-rock",
+    blurb: "The gold mines of the Rock : every skill, an asset.",
     icon: GiTwoCoins,
-    x: 90,
-    y: 35,
+    x: 20,
+    y: 60,
   },
 ];
 
-// everything except home, for the map's travel list and grids
 export const DESTINATIONS = LOCATIONS.filter((l) => l.route !== "/");

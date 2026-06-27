@@ -19,7 +19,7 @@ function App() {
         <Route path="/crypts" element={<Crypts />} />
         <Route path="/ravenry" element={<Ravenry />} />
         <Route path="/beyond-the-wall" element={<BeyondTheWall />} />
-        <Route path="/ironbank" element={<Ironbank />} />
+        <Route path="/casterly-rock" element={<Ironbank />} />
         <Route path="*" element={<KingsLanding />} />
       </Routes>
     </BrowserRouter>
