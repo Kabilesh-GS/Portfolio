@@ -1,39 +1,28 @@
-import './App.css';
-import Mainapp from './Pages/Mainapp';
-import LoadingScreen from './Components/LoadingScreen/LoadingScreen';
-import { navContext } from './Context/NavIconContext';
-import { FooterContext } from './Context/FooterContext';
-import { LoadingContext } from './Context/LoadingContext';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import KingsLanding from "./Pages/KingsLanding/KingsLanding";
+import Explore from "./Pages/Explore/Explore";
+import Dragonstone from "./Pages/Dragonstone/Dragonstone";
+import Citadel from "./Pages/Citadel/Citadel";
+import Crypts from "./Pages/Crypts/Crypts";
+import Ravenry from "./Pages/Ravenry/Ravenry";
+import BeyondTheWall from "./Pages/BeyondTheWall/BeyondTheWall";
+import Ironbank from "./Pages/Ironbank/Ironbank";
 
 function App() {
-
-  let navbarIcon = ['🤯','🤩','😍','😎','☺️','🤫']
-  let footerIcon = ['❤️', '♥️' , '🫶' , '💛' , '💜']
-  let loadingText = ['Hold tight', 'Loading awesomeness', 'Just a moment', 'Almost there', 'Preparing magic, Buckle up!']
-  const navbarLen = navbarIcon.length;
-  const footerLen = footerIcon.length;
-  const random1 = Math.floor(Math.random() * navbarLen);
-  const random2 = Math.floor(Math.random() * footerLen);
-
-  const navEmoji = {
-    emoji : navbarIcon[random1]
-  }
-  const footerEmoji = {
-    emoji : footerIcon[random2]
-  }
-  const loading = {
-    text : loadingText[Math.floor(Math.random() * loadingText.length)]
-  }
-
-  return(
-    <FooterContext.Provider value={footerEmoji}>
-      <navContext.Provider value={navEmoji}>
-        <LoadingContext.Provider value={loading}>
-          <LoadingScreen />
-          <Mainapp/>
-        </LoadingContext.Provider>
-      </navContext.Provider>
-    </FooterContext.Provider>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<KingsLanding />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/dragonstone" element={<Dragonstone />} />
+        <Route path="/citadel" element={<Citadel />} />
+        <Route path="/crypts" element={<Crypts />} />
+        <Route path="/ravenry" element={<Ravenry />} />
+        <Route path="/beyond-the-wall" element={<BeyondTheWall />} />
+        <Route path="/casterly-rock" element={<Ironbank />} />
+        <Route path="*" element={<KingsLanding />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

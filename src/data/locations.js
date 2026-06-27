@@ -1,0 +1,66 @@
+import { GiCastle, GiSpikedDragonHead, GiSpellBook, GiTombstone, GiQuillInk, GiBrickWall, GiTwoCoins } from "react-icons/gi";
+
+export const LOCATIONS = [
+  {
+    id: "kings-landing",
+    name: "King's Landing",
+    section: "The Throne",
+    route: "/",
+    blurb: "The seat of House Kabyros : where the tale begins.",
+    icon: GiCastle,
+    x: 58,
+    y: 64,
+  },
+  {
+    id: "dragonstone",
+    name: "Dragonstone",
+    section: "Projects",
+    route: "/dragonstone",
+    blurb: "Where works are forged in dragonfire : the projects.",
+    icon: GiSpikedDragonHead,
+    x: 77,
+    y: 60,
+  },
+  {
+    id: "citadel",
+    name: "The Citadel",
+    section: "Writings",
+    route: "/citadel",
+    blurb: "Halls of the maesters : chronicles and writings.",
+    icon: GiSpellBook,
+    x: 25,
+    y: 80,
+  },
+  {
+    id: "crypts",
+    name: "The Crypts of Winterfell",
+    section: "Timeline",
+    route: "/crypts",
+    blurb: "Where the history of the house is kept in stone.",
+    icon: GiTombstone,
+    x: 45,
+    y: 25,
+  },
+  {
+    id: "beyond-the-wall",
+    name: "Beyond the Wall",
+    section: "The Oracle",
+    route: "/beyond-the-wall",
+    blurb: "Counsel the Three eyed Raven : ask anything.",
+    icon: GiBrickWall,
+    x: 50,
+    y: 7,
+  },
+  {
+    id: "casterly-rock",
+    name: "Casterly Rock",
+    section: "Skills",
+    route: "/casterly-rock",
+    blurb: "The gold mines of the Rock : every skill, an asset.",
+    icon: GiTwoCoins,
+    x: 20,
+    y: 60,
+  },
+];
+
+export const DESTINATIONS = LOCATIONS.filter((l) => l.route !== "/");
