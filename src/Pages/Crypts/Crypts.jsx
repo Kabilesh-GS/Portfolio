@@ -52,7 +52,7 @@ export default function Crypts() {
             {TIMELINE.map((item, i) => (
               <div key={i} className={`border border-gold/40 rounded-[0.5rem] backdrop-blur-sm lift w-[330px] shrink-0 p-4 ${ i % 2 === 0 ? "-translate-y-28" : "translate-y-28" }`}>
                 <div className="overflow-hidden rounded">
-                  <img src={item.logo} alt={item.title} className="h-40 w-full rounded object-cover" />
+                  <img src={item.logo} alt={item.title} className="rounded object-cover" />
                 </div>
                 <p className="heading-cinzel mt-3 text-[10px] uppercase tracking-[0.2em] text-gold/70">
                   {item.date}
