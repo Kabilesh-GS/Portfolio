@@ -12,7 +12,7 @@ A clean, responsive personal portfolio site built with **React + Vite** to showc
 |------|---------|
 | React | UI framework |
 | React Router | Page navigation |
-| CSS | Styling & layout |
+| Tailwind | Styling & layout |
 | Vite | Build tool |
 | Netlify | Deployment |
 
