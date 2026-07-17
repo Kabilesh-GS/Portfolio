@@ -18,7 +18,7 @@ export default function KingsLanding() {
       <div className="relative z-10 flex flex-col items-center text-center">
 
         <p className="heading-cinzel mt-6 text-xs uppercase tracking-[0.45em] text-gold/70 md:text-sm">The Realm of</p>
-        <h1 className="heading-deco mt-2 text-5xl font-black leading-none md:text-8xl">House Kabyros</h1>
+        <h1 className="heading-deco mt-2 text-5xl font-black leading-none md:text-8xl heading-shimmer">House Kabyros</h1>
         <div className="gold-rule mt-5 w-56 md:w-80" />
         <p className="heading-cinzel mt-4 text-base uppercase tracking-[0.3em] text-parchment md:text-xl text-glow"> Forged by Battles and Bugs</p>
 

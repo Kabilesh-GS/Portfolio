@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { FiCode, FiExternalLink, FiEye, FiX } from "react-icons/fi";
 import BG from '../../assets/grainy BG.jpg'
+import SIGIL from '../../assets/sigil.png'
 
 export default function ConquestCard({ project }) {
   const videoRef = useRef(null);
@@ -18,9 +19,11 @@ export default function ConquestCard({ project }) {
 
   return (
     <div>
-      <article style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} className="border border-gold/40 lift group flex flex-col overflow-hidden rounded-[0.5rem]" >
+      <article style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(${BG})` }} className="chest-lid relative border border-gold/40 lift group flex flex-col overflow-hidden rounded-[0.5rem]" >
+        {/* faint house sigil watermark filling the empty space */}
+        <img src={SIGIL} alt="" aria-hidden="true" className="pointer-events-none absolute -right-8 -bottom-8 w-48 opacity-[0.05] select-none" />
 
-        <div className="flex flex-1 flex-col px-5 py-4">
+        <div className="relative z-10 flex flex-1 flex-col px-5 py-4">
           <h3 className="heading-deco text-2xl">{project.title}</h3>
           <p className="mt-2 text-sm text-parchment">{project.blurb}</p>
 

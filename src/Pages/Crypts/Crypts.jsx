@@ -13,6 +13,7 @@ export default function Crypts() {
         <SectionTitle
           kicker="The Crypts of Winterfell"
           title="The House History"
+          titleClassName="heading-shimmer"
         />
       </div>
 

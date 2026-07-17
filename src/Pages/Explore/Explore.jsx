@@ -10,7 +10,7 @@ export default function Explore() {
       <EmberField count={24} className="opacity-60" />
 
       <div className="relative z-10 mx-auto max-w-6xl">
-        <SectionTitle kicker="Explore" title="The Known Realm"/>
+        <SectionTitle kicker="Explore" title="The Known Realm" titleClassName="heading-shimmer"/>
 
         {/* desktop: the interactive map */}
         <div className="mt-10 hidden md:block">

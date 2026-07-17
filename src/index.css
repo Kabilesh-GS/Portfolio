@@ -125,6 +125,48 @@
   letter-spacing: 0.12em;
 }
 
+/* engraved gold heading with a slow metallic shimmer sweeping across it.
+   Defined after .heading-deco so its background wins when both are present. */
+.heading-shimmer {
+  font-family: var(--font-deco);
+  letter-spacing: 0.04em;
+  background: linear-gradient(
+    100deg,
+    var(--color-gold-dim) 0%,
+    #f4e3a1 20%,
+    var(--color-gold-bright) 38%,
+    #fff6d0 50%,
+    var(--color-gold-bright) 62%,
+    #f4e3a1 80%,
+    var(--color-gold-dim) 100%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  animation: shimmer-sweep 6s linear infinite;
+}
+
+/* torchlight reveal: skill icons sit as muted gold, warm to full colour on hover */
+.torch-icon {
+  filter: grayscale(1) sepia(1) saturate(0.6) brightness(0.9);
+  transition: filter 0.45s ease;
+}
+.group:hover .torch-icon {
+  filter: none;
+}
+
+/* banded chest-lid frame: double gold band + dark inner band + inner glow */
+.chest-lid {
+  box-shadow:
+    inset 0 0 0 1px rgba(201, 162, 39, 0.55),
+    inset 0 0 0 5px rgba(11, 10, 8, 0.65),
+    inset 0 0 0 6px rgba(201, 162, 39, 0.28),
+    inset 0 0 34px rgba(0, 0, 0, 0.6),
+    0 0 22px rgba(201, 162, 39, 0.08);
+}
+
 /* handwritten manuscript hand */
 .font-script {
   font-family: var(--font-script);
@@ -258,6 +300,11 @@
 
 @keyframes slow-spin {
   to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer-sweep {
+  0%   { background-position: 200% center; }
+  100% { background-position: -200% center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
