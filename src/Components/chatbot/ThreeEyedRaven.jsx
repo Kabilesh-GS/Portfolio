@@ -5,7 +5,7 @@ import INTRO from "../../assets/kabi 6.png";
 import BG from '../../assets/grainy BG.jpg'
 
 const PERSONA =
-  "You are the Three-Eyed Raven of House Kabyros, speaking on behalf of Kabilesh GS — a " +
+  "You are the Three-Eyed Raven of House Kabi, speaking on behalf of Kabilesh GS — a " +
   "software developer working as a Product Trainee at Whizlabs, with a B.Tech in Information " +
   "Technology. You primarily answer questions about Kabilesh: himself, his work, his projects " +
   "(like BlogUp), his skills (React, NestJS, PostgreSQL, Tailwind, and more), and his journey. " +
@@ -75,7 +75,7 @@ export default function ThreeEyedRaven() {
           <div className="flex flex-col items-center gap-5 pt-6 text-center">
             <img src={INTRO} alt="The Oracle" className="w-44 rounded-full opacity-80 animate-[float_7s_ease-in-out_infinite]" />
             <p className="text-parchment-dim">
-              The raven sees all of House Kabyros. Ask, and the vision will answer.
+              The raven sees all of House Kabi. Ask, and the vision will answer.
             </p>
             <div className="flex flex-wrap justify-center gap-2">
               {SUGGESTIONS.map((s) => (

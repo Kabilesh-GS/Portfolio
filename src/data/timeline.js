@@ -1,9 +1,6 @@
 import KPRIET from "../assets/KPRIET.jpg";
 import WHIZ from "../assets/whizabs.png";
 
-/**
- * The history of House Kabyros, kept in the Crypts.
- */
 export const TIMELINE = [
   {
     date: "December 15, 2025",

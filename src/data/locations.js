@@ -6,7 +6,7 @@ export const LOCATIONS = [
     name: "King's Landing",
     section: "The Throne",
     route: "/",
-    blurb: "The seat of House Kabyros : where the tale begins.",
+    blurb: "The seat of House Kabi : where the tale begins.",
     icon: GiCastle,
     x: 58,
     y: 64,
